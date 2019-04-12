@@ -1,0 +1,455 @@
+% !TEX encoding = UTF-8
+% !TEX program = pdflatex
+% !TEX spellcheck = it_IT
+
+\documentclass[a4paper, 11pt]{article}
+
+% sintassi
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\DeclareUnicodeCharacter{00A0}{~}
+\usepackage{fullpage}
+%\usepackage[cochineal]{newtxmath}
+%\usepackage{crimson,verbatim}
+\usepackage{textcomp}
+\usepackage{color,soul,hyperref,mwe}
+
+% matematica e chimica
+
+\usepackage{siunitx,amsmath,bm,chemfig}
+\newcommand{\ud}{\mathop{}\!\mathrm{d}}
+\sisetup{detect-all,math-rm = \ensuremath}
+%\usepackage{arev}
+\usepackage[charter]{mathdesign}
+
+
+\setatomsep{2em}
+
+\newcommand\setpolymerdelim[2]{\def\delimleft{#1}\def\delimright{#2}} 
+\def\makebraces[#1,#2]#3#4#5{% 
+\edef\delimhalfdim{\the\dimexpr(#1+#2)/2}% 
+\edef\delimvshift{\the\dimexpr(#1-#2)/2}% 
+\chemmove{% 
+\node[at=(#4),yshift=(\delimvshift)] {$\left\delimleft\vrule height\delimhalfdim depth\delimhalfdim 
+width0pt\right.$};% 
+\node[at=(#5),yshift=(\delimvshift)] 
+{$\left.\vrule height\delimhalfdim depth\delimhalfdim 
+width0pt\right\delimright_{\rlap{$\scriptstyle#3$}}$};}} 
+\setpolymerdelim()
+
+% tabelle e grafica
+\usepackage{booktabs,graphicx,graphbox,subfig,caption,pdfpages}
+\captionsetup{font=small,
+	format=hang,
+	justification=centering,
+	singlelinecheck=true,
+	labelfont={sf,bf}	
+}
+\usepackage{float}
+\floatstyle{plaintop}
+\restylefloat{table}
+\usepackage{multirow}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[LE,RO]{\textsl{\rightmark}}
+\fancyhead[LO,RE]{\nouppercase{\leftmark}}
+\fancyfoot[C]{\thepage}
+\usepackage[margin=1in,headsep=.3in]{geometry}
+\usepackage[suftesi]{frontespizio}
+\usepackage{xparse}
+\setlength\parindent{0pt}
+
+\newenvironment{chapterabstract}{%
+  \par\nobreak\noindent
+  \textbf{\textit{Abstract}\hrulefill}\nobreak
+  %\small
+  \noindent\ignorespaces
+}{%
+  \par\nobreak\normalsize
+  \vskip-\ht\strutbox\noindent
+  \textbf{\hrulefill}%
+}
+\makeatletter
+\NewDocumentCommand\headerspdf{ O {pages=-} m }{% [options for include pdf]{filename.pdf}
+  \includepdf[%
+    #1,
+    pagecommand={\thispagestyle{fancy}},
+    scale=1,
+    ]{#2}}
+\NewDocumentCommand\secpdf{somO{1}m}{% [short title]{section title}[page specification]{filename.pdf} --- possibly starred
+  \clearpage
+  \thispagestyle{fancy}%
+  \includepdf[%
+    pages=#4,
+    pagecommand={%
+      \IfBooleanTF{#1}{%
+        \section*{#3}}{%
+        \IfNoValueTF{#2}{%
+          \section{#3}}{%
+          \section[#2]{#3}}}},
+    scale=.65,
+    ]%
+    {#5}}
+\makeatother
+
+\begin{document}
+
+\begin{chapterabstract}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu consequat dolor. Cras ultricies lorem sed erat imperdiet, venenatis varius nisl facilisis. Proin a ipsum semper, pretium dui eget, auctor nulla. Vestibulum blandit lorem aliquet justo consequat, sodales semper eros tincidunt. Mauris congue ex eu sodales laoreet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed nisl dui, vestibulum eu blandit eget, finibus eget urna. Fusce in dictum mi. Nullam vehicula orci dolor, nec euismod eros imperdiet at. Duis vitae vulputate risus, et facilisis ante. 
+
+\end{chapterabstract} 
+
+\section{Introduction}
+
+The aim of this laboratory session is to study rheological properties of different polymeric materials, together with thermal evolution of stiffness (Vicat), measurement of hardness (Shore A and D) and flammability (limit oxygen index, LOI). 
+
+\subsection {Materials}
+
+A wide selection of polymeric materials has been studied, particularly for hardness measurements, including either thermoplastics and thermosets, semicrystalline and amorphous polymers. In Figure \ref{fig:rubber} samples for hardness measurement are displayed. 
+\begin{figure}[h!]
+	\centering
+	{\includegraphics[scale=0.3]{rubber}}
+	\captionsetup{justification=centering}
+	\caption{Samples for hardness measurements.}
+	\label{fig:rubber}
+\end{figure}
+\newpage
+Polypropylene has been deeply studied in its rheological properties, highlighting common properties like activation energy of viscous flow and die swelling. In Figure \ref{fig:melt} extrudates of polypropylene from melt flow index analysis are displayed. 
+\begin{figure}[h!]
+	\centering
+	{\includegraphics[scale=0.2]{melt}}
+	\captionsetup{justification=centering}
+	\caption{Extrudates of polypropylene from melt flow index analysis.}
+	\label{fig:melt}
+\end{figure}\\
+Vicat analysis has been done on ready made samples of polycarbonate (PC), acrylonitrile-butadiene-styrene copolymer (ABS) and polypropylene (PP). In Figure \ref{fig:chem} chemical formulas of these polymers are reported. 
+\begin{figure}[h!]
+	\centering
+	\subfloat[][]
+	{\includegraphics[align=c,scale=0.07]{abs}} \quad 
+	\subfloat[][]
+	{\includegraphics[align=c,scale=0.9]{pc}} \quad
+	\subfloat[][]
+	{\includegraphics[align=c,scale=0.08]{pp}}  
+	\captionsetup{justification=centering}
+	\caption{Chemical formulas of (a) ABS (three constituents), (b) PC and (c) PP.}
+	\label{fig:chem}
+\end{figure}\\
+LOI measurements have been one on samples of polyethylene (PE), PP, PC and ABS. In Figure \ref{fig:LOI} samples after the experimental activity are displayed. 
+\begin{figure}[h!]
+	\centering
+	{\includegraphics[scale=0.2]{LOI}}
+	\captionsetup{justification=centering}
+	\caption{From left to right: PE, PC, PP and ABS samples after the experimental activity.}
+	\label{fig:LOI}
+\end{figure}\\
+
+\section{Materials and methods}
+
+\subsection{Materials}
+
+Different polymeric samples have been provided by University of Trento to get Vicat analysis: PC, ABS and PP. A long list of samples have been tested in Shore analysis, as reported in Table \ref{tab:polymers}, where TP = termoplastic, TS = thermoset and E = elastomer.
+
+\begin{table}[htp]
+	\centering
+	$
+	\begin{array}{ccc}
+	\toprule
+	\textbf{number} & \textbf{sample} & \textbf{type} \\
+	\midrule
+	1,24 & \text{PP + GF} & \text{TP}\\
+	2 & \text{POM} & \text{TP}\\
+	3 & \text{PA 11} & \text{TP}\\
+	4 & \text{PE} & \text{TP}\\
+	5 & \text{PVC} & \text{TP}\\
+	6 & \text{PMMA + BaSO} & \text{TP}\\
+	7 & \text{PBT} & \text{TP}\\
+	8,9 & \text{EPDM} & \text{E}\\
+    10 & \text{PC} & \text{TP}\\
+	11 & \text{PMMA} & \text{TP}\\
+	12 & \text{generic rubber} & \text{E}\\
+	13 & \text{PA 6} & \text{TP}\\
+	14,18,20,25,27 & \text{PU} & \text{TS}\\
+	15 & \text{Polysilicone} & \text{E}\\
+	16 & \text{ABS} & \text{TP}\\
+	17 & \text{PSA} & \text{TP}\\
+	19 & \text{PP} & \text{TP}\\
+	21 & \text{PTFE} & \text{TP}\\
+	22 & \text{COC} & \text{TP}\\
+	23 & \text{PA} & \text{TP}\\
+	26 & \text{PET} & \text{TP}\\
+	\bottomrule
+	\end{array}
+	$
+	\caption{Materials used in Shore analyses.}
+	\label{tab:polymers}
+\end{table}
+Three different polypropylene samples have been provided by different companies in order to carry out melt flow index analyses: PPH 7089 (typical melt flow index at 230°C/2.16 kg = 12), Moplen HP 500 N (typical melt flow index at 230°C/2.16 kg = 12) and Borealis (typical melt flow index at 230°C/2.16 kg = 12). For limit oxygen index analyses tested samples are PE, PP, PC and ABS plastics provided by University of Trento. 
+
+\subsection{Sample preparation}
+
+Samples have been prepared in function of the specific experimental activities. Vicat samples were ready made in the right geometry for the analysis. Shore samples were ready made too, ready for the analysis as provided. Melt flow index samples are polymer granules as provided, that have been fed into the insturment for the analysis without any further processing of them. 
+
+\subsubsection{Manual drawing for x-ray diffraction (XRD) and mechanical testing}
+
+An amount of granules for melt flow index analysis has been used in order to manually draw fibers of polypropylene. The polymeric melt flowing out of the instrument has been stretched manually, imposing a moderate strength, with the purpose of obtaining fibers, that will be used for x-ray diffraction analyses and mechanical tensile testings.  
+
+\section{Experimental activity}
+
+\subsection{Vicat analysis (VST)}
+
+The test has been carried out in two configurations, with instrument Vicat Tester MP/3:
+
+\begin{itemize}
+
+\item $120^\circ$C/h, 10 N;
+
+\item $120^\circ$C/h, 50 N.
+
+\end{itemize}
+Polymers analyzed are: PC, ABS and PP. Samples dimensions are $1\times1$ cm and the thickness has to be higher than the maximum penetration depth. Vicat temperarature is the temperature at which the penetration is about 1 mm: $T_\text{vicat}^\text{10}$ is obtained with a load of 10 N while $T_\text{vicat}^\text{50}$ is obtained with a load of 50 N. 
+
+\subsection{Melt flow index (MFI) measurement}
+
+Melt flow index (MFI) analysis has been carried out with the instrument Kayeness... According to ASTM standard, the typical test conditions for PP are temperature of $230 ^\circ$C and load of $2.16\  \text{kg}$. \\
+A first analysis has been conducted on PP–1 with 9 different configurations changing the temperature ($190 ^\circ$C, $210 ^\circ$C, $230 ^\circ$C) and changing the load ($2.16\ \text{kg}, 5.0\ \text{kg}, 7.06 \ \text{kg}$). \\
+A second analysis has been done on PP–2 at $230 ^\circ$C under loads of  $2.16\ \text{kg}$ and  $7.06\ \text{kg}$. \\
+A third analysis has been carried out on PP–3 at $230 ^\circ$C under $2.16\ \text{kg}$. \\
+For each configuration six samples have been produced. The first one has been used for the evaluation of die swelling according to Equation \ref{eq:die}:
+\begin{equation}
+\text{Die\ swell} = \bigg(\frac{D_\text{ex}}{D_\text{or}}\bigg)^2
+\label{eq:die}
+\end{equation}
+where $D_\text{ex}$ is the measured diameter of extrudate and $D_\text{or}$ is the diameter of the orefice defined by ASTM standard~\cite{MFI}. \\
+The MFI has been calculated by Equation \ref{eq:mfi}: 
+\begin{equation}
+\text{MFI} = \frac{m_\text{ex}}{t}
+\label{eq:mfi}
+\end{equation}
+where $m_\text{ex}$ is the weight of the extrudate and $t$ is the extrusion time. According to standard the unit of measure of MFI is $\text{g/10min}$ standard. For sake of semplicity, the measurements have been taken in lower times and then reported scaled to 10 minutes. 
+
+\subsubsection{Molecular weight calculation}
+From reference handbook~\cite{handbook} specific values of MFI in function of molecular weights have been used for built a curve that permits to estimate the molecular weight of each type of PP knowing the melt flow index. For this calculation MFI of ASTM standard~\cite{MFI} has been taken into account.
+
+\subsubsection{Activation energy calculation}
+From melt flow index values it can be evaluated the activation energy using Arrhenius model described by Equation \ref{eq:arr}
+\begin{equation}
+\text{MFI} = A e ^{-\frac{E_a}{RT}}
+\label{eq:arr}
+\end{equation}
+where $A$ is a constant, $E_a$ is activation energy, $T$ is the process temperature  (in K) and $R$ is the gas constant. This calculation has been done for each applied load. Linearizing the Equation \ref{eq:arr} through logaritm properties the activation energy can be expressed as the slope of the curve.
+
+\subsection{Shore hardness measurement}
+
+Shore hardness scales are used to compare the behaviour of different materials under load. The durometer ATS FAAR has been used.
+Two different scales have been employed:
+\begin{itemize}
+\item Shore A: presents a conical indentor and the weight applied is about 0.488 Kg. It is used for soft and flexible materials;
+\item Shore D: presents a sharp indentor and the weight applied is about 3.964 Kg. It is used for hard and semi-rigid materials.
+
+\end{itemize}
+
+Different polymeric specimens have been tested: for each, three mesurements has been carried out with a waiting time of three seconds. Analyzed polymers are reported in the following Table \ref{tab:polymers}.
+\subsection{Limit oxygen index (LOI) measurement}
+
+Analyzed polymers are PE, PP, PC and ABS, with instrument Ceast Oxygen Index. This test allows to predict the behaviour of polymers when they are exposed to the flame. Air is blowed in the working column and the amount of oxygen is carefully modulated (its value has been taken around 21\%). Specimens are exposed to the flame for three minutes, accordingly to standard procedure by ASTM~\cite{LOI}.
+
+\section{Results and discussion}
+
+\subsection{Vicat analysis (VST)}
+
+The results of the penetration test are reported in the following Figures \ref{fig:vicat} - a,b.
+
+\begin{figure}[htp]
+	\centering
+	\subfloat[][]
+	{\includegraphics[scale=0.36]{vicat10}}\qquad
+	\subfloat[][]
+	{\includegraphics[scale=0.36]{vicat50}}\qquad
+	\captionsetup{justification=centering}
+	\caption{Vicat curves for a) $10$ N, b) $50$ N.}
+	\label{fig:vicat}
+\end{figure}
+
+Analyzing the intersection between the curves and the penetration of 1 mm the following data in Table \ref{tab:vicatt} are obtained.
+
+\begin{table}[htp]
+	\centering
+	$
+	\begin{array}{ccc}
+	\toprule
+	\textbf{Sample} & \mathbf{T_{vicat}^\textbf{10}} & \mathbf{T_{vicat}^\textbf{50}} \\
+	\midrule
+	\text{PC} & 154.6 & 150.0\\
+	\text{ABS} & 107.8 & 98.0\\
+	\text{PP} & 148.6 & 99.2\\
+	\bottomrule
+	\end{array}
+	$
+	\caption{Vicat temperatures.}
+	\label{tab:vicatt}
+\end{table}
+
+Since PC and ABS are amorphous polymers, their Vicat temperatures don't change substantially with the load. This is due to the fact that the Vicat temperature corresponds to the glass transition temperature $T_{g}$ at which the polymer collapses under any load.
+PP instead is a semicrystalline polymer, so its Vicat temperature varies considerably with the load. This can be explained by the presence of a rubbery amorphous phase that can be easily penetrated by the indent. The higher the load, the faster is the penetration.
+
+\subsection{Melt flow index (MFI) measurement}
+
+In Figure \ref{fig:dieswell} die swell measurements for PP-1 sample in function of pressure and temperature are reported.
+\begin{figure}[h!]
+	\centering
+	{\includegraphics[scale=0.4]{dieswell}}
+	\captionsetup{justification=centering}
+	\caption{Die swelling for PP–1 sample.}
+	\label{fig:dieswell}
+\end{figure}\\
+From Figure \ref{fig:dieswell} it can be noticed that die swell increases with the applied load. This can be explained by the fact that higher loads means higher pressures and consequently, when the material exits from the die, it will present a higher relaxation of tensions thus a higher die swelling. Moreover it can be observed that die swell is not affected by the increment of temperature. \\
+In Figure \ref{fig:mfi} melt flow index chart in function of temperature and parametric with pressure for PP–1 sample is reported.
+\begin{figure}[h!]
+	\centering
+	{\includegraphics[scale=0.4]{mfi}}
+	\captionsetup{justification=centering}
+	\caption{Melt flow index for PP–1 sample.}
+	\label{fig:mfi}
+\end{figure}\\
+Figure \ref{fig:mfi} shows that MFI increases exponentially with temperature. This behaviour is due to the decrease of viscosity at higher temperature and thus a better flowability of the material.\\
+In Figure \ref{fig:mfi2} melt flow index chart in function of pressure and parametric with temperature for PP–1 sample is reported.
+\begin{figure}[h!]
+	\centering
+	{\includegraphics[scale=0.4]{mfi2}}
+	\captionsetup{justification=centering}
+	\caption{Melt flow index for PP–1 sample.}
+	\label{fig:mfi2}
+\end{figure}\\
+From Figure \ref{fig:mfi2} it can be noticed that increasing the applied load the melt flow index increases exponentially due to higher applied pressures.
+
+\subsubsection{Molecular weight calculation}
+
+In Figure \ref{fig:mw} the dependency of molecular weight in function of the MFI is reported.
+\begin{figure}[h!]
+	\centering
+	{\includegraphics[scale=0.4]{mw}}
+	\captionsetup{justification=centering}
+	\caption{Dependency of molecular weight and MFI for polypropylene.}
+	\label{fig:mw}
+\end{figure}\\
+The Figure \ref{fig:mw} shows that increasing MFI the molecular weight decreases exponentially.\\ In Table \ref{tab:mw} the values of MFI and molecular weight are reported for the three types of PP evaluted at $230 ^\circ$C under $2.16$ \text{kg}.
+\begin{table}[htp]
+\centering
+$
+\begin{array}{lccc}
+\toprule
+\text{} & \textbf{PP–1} & \textbf{PP–2} & \textbf{PP–3} \\
+\midrule
+\text{MFI (g/10min)} & 9.56 & 1.72 & 22.75  \\
+\text{MW (g/mol)}\cdot 10^{-5} & 1.74 & 2.36 & 1.42 \\
+\bottomrule
+\end{array}
+$
+\caption{MFI and MW values of the three types of PP.}
+\label{tab:mw}
+\end{table}
+\newpage
+The molecular weight influences also the die swell. In Table \ref{tab:dieswell} the die swell values of the three types of PP evaluted at $230 ^\circ$C under $2.16$ \text{kg} are reported.
+\begin{table}[htp]
+\centering
+$
+\begin{array}{cccc}
+\toprule
+\text{} & \textbf{PP-1} & \textbf{PP-2} & \textbf{PP-3} \\
+\midrule
+\text{Die swell} & 1.39 & 1.26 & 2.47  \\
+\bottomrule
+\end{array}
+$
+\caption{Die swell values of three types of PP.}
+\label{tab:dieswell}
+\end{table}\\
+It can be seen that the higher the molecular weight the lower die swell values. High molecular weight means longer chains and this leads to high possibility of orientation and consequently a less expansion of diameter at the die exit.
+
+\subsubsection{Activation energy calculation}
+
+In the following Figure \ref{fig:arrhenius} the chart of MFI measurements (Arrhenius plot) is reported, in function of temperature and applied pressure. 
+\begin{figure}[h!]
+	\centering
+	{\includegraphics[scale=0.4]{arrhenius}}
+	\captionsetup{justification=centering}
+	\caption{MFI chart (Arrhenius plot) for PP–1 sample.}
+	\label{fig:arrhenius}
+\end{figure}\\
+Figure \ref{fig:arrhenius} shows the relation between the MFI and the reciprocal of the temperature. In Table \ref{tab:energy} the values of activation energy are reported.
+\begin{table}[htp]
+\centering
+$
+\begin{array}{lc}
+\toprule
+\textbf{Loads} & \textbf{Activation energy} \, \text{(kJ/mol)}  \\
+\midrule
+\text{2.16 kg} & 41.56 \pm 20.64  \\
+\text{5 kg} & 53.41 \pm 8.32 \\
+\text{7.06 kg} & 56.81 \pm 2.66  \\
+\midrule
+\text{Average} & 50.60 \pm 6.53 \\
+\bottomrule
+\end{array}
+$
+\caption{Activation energy.}
+\label{tab:energy}
+\end{table}
+
+\newpage
+
+\subsection{Shore hardness measurement}
+
+The results of the experiment are reported in Figure \ref{fig:duro}:
+
+\begin{figure}[htp]
+	\centering
+	{\includegraphics[scale=0.3]{duro}}
+	\captionsetup{justification=centering}
+	\caption{Hardness values comparison}
+	\label{fig:duro}
+\end{figure}
+
+From the Figure \ref{fig:duro} it is possible to recognize the different families of polymers (thermoplastic, elastomer, thermoset). Thermoplastic polymers show the highest hardness and it is possible to verify that Shore-A is more suitable for soft materials, while Shore-D for hard ones. In fact, Shore-D shows a limited dispersion of results in respect of Shore-A for materials with lower hardness. The only thermoset polymer analized was polyurethane (PU): its particular characteristic is to have a wide range of hardness (Shore-A), from 50 to 95.
+
+\subsection{Limit oxygen index (LOI) measurement} 
+
+The following Table \ref{tab:loi} reports the main results obtained by this test.
+\begin{table}[htp]
+	\centering
+	$
+	\begin{array}{cclll}
+	\toprule
+	\textbf{Sample} & \textbf{Oxygen ($\%$)} & \textbf{Flame} & \textbf{Smoke} & \textbf{Behaviour} \\
+	\midrule
+	\textbf{PE} & 20 & \text{yellow} & \text{no} & \text{drips}\\
+	\textbf{PP} & 22 & \text{yellow} & \text{no} & \text{drips}\\
+	\textbf{PC} & 33 & \text{undefined} & \text{yes} & \text{burns}\\
+	\textbf{ABS} & 20 & \text{yellow, powerful} & \text{yes, with soot} & \text{burns}\\
+	\bottomrule
+	\end{array}
+	$
+	\caption{LOI results.}
+	\label{tab:loi}
+\end{table}
+
+PC sample reacts with a higher amount of blowed oxygen, meaning that this polymer is less flammable than the others.
+\newpage 
+\section{Conclusions}
+
+\newpage
+
+\thispagestyle{empty}
+
+\begin{thebibliography}{1}
+
+\bibitem{handbook} Polymer handbook, J. Brandrup, E.H. Immergut.
+\bibitem{MFI} ASTM D1238–10 "Melt flow rates of thermoplastics by extrusion". 
+\bibitem{LOI} ASTM D2863–06a "Standard test method for measuring the minimum oxygen concentration to support candle-like combustion of plastics".
+
+\end{thebibliography}
+
+\end{document}
