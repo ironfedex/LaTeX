@@ -235,7 +235,26 @@ The MFI has been calculated by Equation \ref{eq:mfi}:
 where $m_\text{ex}$ is the weight of the extrudate and $t$ is the extrusion time. According to standard the unit of measure of MFI is $\text{g/10min}$ standard. For sake of semplicity, the measurements have been taken in lower times and then reported scaled to 10 minutes. 
 
 \subsubsection{Molecular weight calculation}
-From reference handbook~\cite{handbook} specific values of MFI in function of molecular weights have been used for built a curve that permits to estimate the molecular weight of each type of PP knowing the melt flow index. For this calculation MFI of ASTM standard~\cite{MFI} has been taken into account.
+From reference handbook~\cite{handbook} specific values of MFI in function of molecular weight (reported in Table \ref{tab:mw}) have been used for built a curve that permits to estimate the molecular weight of each type of PP knowing the melt flow index. For this calculation MFI of ASTM standard~\cite{MFI} has been taken into account.
+\begin{table}[htp]
+	\centering
+	$
+	\begin{array}{cc}
+	\toprule
+	\textbf{Molecular Weight} \, \text{(g/mol)} & \textbf{Melt Flow Index} \, \text{(g/10min)} \\
+	\text{MW}\cdot 10^{-3} & (230^\circ \text{C, 2.16 kg}) \\
+	\midrule
+	 142 & 22.8 \\
+	 180 & 7.3 \\
+	 220 & 3.5 \\
+	 292 & 1.2 \\
+	 358 & 0.39 \\
+	\bottomrule
+	\end{array}
+	$
+	\caption{MFI in function of molecular weight of PP .}
+	\label{tab:mw}
+\end{table}
 
 \subsubsection{Activation energy calculation}
 From melt flow index values it can be evaluated the activation energy using Arrhenius model described by Equation \ref{eq:arr}
