@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.24)  17 APR 2019 17:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.24)  17 APR 2019 17:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1847,15 +1847,15 @@ File: dieswell2.pdf Graphic file (type pdf)
 <use dieswell2.pdf>
 Package pdftex.def Info: dieswell2.pdf  used on input line 330.
 (pdftex.def)             Requested size: 319.98984pt x 232.06288pt.
-<mfi.pdf, id=168, 519.67146pt x 409.58922pt>
+<mfi.pdf, id=171, 519.67146pt x 409.58922pt>
 File: mfi.pdf Graphic file (type pdf)
 <use mfi.pdf>
-Package pdftex.def Info: mfi.pdf  used on input line 339.
+Package pdftex.def Info: mfi.pdf  used on input line 342.
 (pdftex.def)             Requested size: 207.8649pt x 163.83278pt.
-<mfi2.pdf, id=171, 519.02808pt x 402.85005pt>
+<mfi2.pdf, id=174, 519.02808pt x 402.85005pt>
 File: mfi2.pdf Graphic file (type pdf)
 <use mfi2.pdf>
-Package pdftex.def Info: mfi2.pdf  used on input line 348.
+Package pdftex.def Info: mfi2.pdf  used on input line 351.
 (pdftex.def)             Requested size: 207.60754pt x 161.13716pt.
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1873,10 +1873,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<mw.pdf, id=183, 520.38617pt x 423.45201pt>
+<mw.pdf, id=186, 520.38617pt x 423.45201pt>
 File: mw.pdf Graphic file (type pdf)
 <use mw.pdf>
-Package pdftex.def Info: mw.pdf  used on input line 360.
+Package pdftex.def Info: mw.pdf  used on input line 363.
 (pdftex.def)             Requested size: 208.15077pt x 169.37779pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1888,10 +1888,10 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6 <./vicat10.pdf> <./vicat50.pdf>]
-<arrhenius.pdf, id=202, 525.62173pt x 415.53944pt>
+<arrhenius.pdf, id=206, 525.62173pt x 415.53944pt>
 File: arrhenius.pdf Graphic file (type pdf)
 <use arrhenius.pdf>
-Package pdftex.def Info: arrhenius.pdf  used on input line 404.
+Package pdftex.def Info: arrhenius.pdf  used on input line 407.
 (pdftex.def)             Requested size: 210.24496pt x 166.21283pt.
 
 
@@ -1919,13 +1919,13 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./mfi2.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
 > <./mw.pdf>]
-<duro.jpg, id=279, 845.559pt x 597.432pt>
+<duro.jpg, id=283, 845.559pt x 597.432pt>
 File: duro.jpg Graphic file (type jpg)
 <use duro.jpg>
-Package pdftex.def Info: duro.jpg  used on input line 437.
+Package pdftex.def Info: duro.jpg  used on input line 440.
 (pdftex.def)             Requested size: 253.66966pt x 179.23097pt.
 
-Overfull \hbox (3.48982pt too wide) in paragraph at lines 466--467
+Overfull \hbox (3.48982pt too wide) in paragraph at lines 469--470
 []\T1/mdbch/m/n/10.95 PC sam-ple re-acts with a higher amount of blowed oxy-gen
 , mean-ing that this poly-mer is less flammable
  []
@@ -1936,32 +1936,39 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9 <./arrhenius.pdf> <./duro.jpg>]
+[9 <./arrhenius.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10] [11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 489.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 489.
+[10 <./duro.jpg>]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11] [12]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 493.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 493.
  (./LAB 3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 489.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 489.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 493.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 493.
 Package rerunfilecheck Info: File `"LAB 3".out' has not changed.
 (rerunfilecheck)             Checksum: 6DF8CB90EB3F56B54F31F9CAF3C67B7F;1567.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 489.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 493.
  ) 
 Here is how much of TeX's memory you used:
- 33265 strings out of 492649
- 645302 string characters out of 6129622
- 799309 words of memory out of 5000000
- 36506 multiletter control sequences out of 15000+600000
+ 33268 strings out of 492649
+ 645330 string characters out of 6129622
+ 800339 words of memory out of 5000000
+ 36507 multiletter control sequences out of 15000+600000
  611720 words of font info for 151 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,15n,96p,10397b,794s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1978,10 +1985,10 @@ ve/2018/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7v.pfb></usr/local
 /local/texlive/2018/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfsx0900.pfb><
 /usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb>
-Output written on "LAB 3.pdf" (11 pages, 997628 bytes).
+Output written on "LAB 3.pdf" (12 pages, 999358 bytes).
 PDF statistics:
- 373 PDF objects out of 1000 (max. 8388607)
- 328 compressed objects within 4 object streams
- 66 named destinations out of 1000 (max. 500000)
+ 382 PDF objects out of 1000 (max. 8388607)
+ 336 compressed objects within 4 object streams
+ 68 named destinations out of 1000 (max. 500000)
  256 words of extra memory for PDF output out of 10000 (max. 10000000)
 
