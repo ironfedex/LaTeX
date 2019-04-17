@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.7)  17 APR 2019 16:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.3.7)  17 APR 2019 16:21
 entering extended mode
 **"./LAB 3.tex"
 ("LAB 3.tex"
@@ -1794,16 +1794,12 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 470.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 470.
 Package rerunfilecheck Info: File `"LAB 3".out' has not changed.
 (rerunfilecheck)             Checksum: B81A287E6697705DDA8F0755640C85A4;1588.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 470.
  ) 
 Here is how much of TeX's memory you used:
  34726 strings out of 492946
  668470 string characters out of 3135528
- 804442 words of memory out of 3000000
+ 804441 words of memory out of 3000000
  37965 multiletter control sequences out of 15000+200000
  613786 words of font info for 153 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1821,7 +1817,7 @@ fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/morij/AppData/Roaming/MiKTeX
 MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7v.pfb><C:/Users/morij/AppData/Ro
 aming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7y.pfb><C:/Users/morij/AppD
 ata/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr8t.pfb>
-Output written on "LAB 3.pdf" (12 pages, 1008155 bytes).
+Output written on "LAB 3.pdf" (12 pages, 1008200 bytes).
 PDF statistics:
  395 PDF objects out of 1000 (max. 8388607)
  66 named destinations out of 1000 (max. 500000)
