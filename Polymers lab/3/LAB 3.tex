@@ -134,7 +134,7 @@ Vicat analysis has been done on ready made samples of polycarbonate (PC), acrylo
 	\subfloat[][]
 	{\includegraphics[align=c,scale=0.07]{abs}} \quad 
 	\subfloat[][]
-	{\includegraphics[align=c,scale=0.9]{pc}} \quad
+	{\includegraphics[align=c,scale=0.9]{PC}} \quad
 	\subfloat[][]
 	{\includegraphics[align=c,scale=0.08]{pp}}  
 	\captionsetup{justification=centering}
@@ -280,6 +280,8 @@ Different polymeric specimens have been tested: for each, three mesurements has 
 
 Analyzed polymers are PE, PP, PC and ABS, with instrument Ceast Oxygen Index. This test allows to predict the behaviour of polymers when they are exposed to the flame. Air is blowed in the working column and the amount of oxygen is carefully modulated (its value has been taken around 21\%). Specimens are exposed to the flame for three minutes, accordingly to standard procedure by ASTM~\cite{LOI}.
 
+\newpage
+
 \section{Results and discussion}
 
 \subsection{Vicat analysis (VST)}
@@ -312,12 +314,14 @@ Analyzing the intersection between the curves and the penetration of 1 mm the fo
 	\bottomrule
 	\end{array}
 	$
-	\caption{Vicat temperatures ($\circ$C).}
+	\caption{Vicat temperatures ($^\circ$C).}
 	\label{tab:vicatt}
 \end{table}
 
 Since PC and ABS are amorphous polymers, their Vicat temperatures don't change substantially with the load. This is due to the fact that the Vicat temperature corresponds to the glass transition temperature $T_{g}$ at which the polymer collapses under any load.
 PP instead is a semicrystalline polymer, so its Vicat temperature varies considerably with the load. This can be explained by the presence of a rubbery amorphous phase that can be easily penetrated by the indent. The higher the load, the faster is the penetration.
+
+\newpage
 
 \subsection{Melt flow index (MFI) measurement}
 
@@ -325,32 +329,48 @@ In Figure \ref{fig:dieswell} die swell measurements for PP-1 sample in function 
 \begin{figure}[h!]
 	\centering
 	\subfloat[][]
-	{\includegraphics[scale=0.4]{dieswell}} \quad 
+	{\includegraphics[scale=0.29]{dieswell}} \quad 
 	\subfloat[][]
-	{\includegraphics[scale=0.4]{dieswell2}}
+	{\includegraphics[scale=0.13]{dieswell2}}
 	\captionsetup{justification=centering}
 	\caption{Die swelling for PP–1 sample.}
 	\label{fig:dieswell}
 \end{figure}\\
-From Figure \ref{fig:dieswell} it can be noticed that die swell increases with the applied load. This can be explained by the fact that higher loads means higher pressures and consequently, when the material exits from the die, it will present a higher relaxation of tensions thus a higher die swelling. Moreover it can be observed that die swell is not affected by the increment of temperature. \\
+From Figure \ref{fig:dieswell} it can be noticed that die swell increases with the applied load. This can be explained by the fact that higher loads means higher pressures and consequently, when the material exits from the die, it will present a higher relaxation of tensions thus a higher die swelling. Moreover it can be observed that die swell is not affected by the increment of temperature. The experimental data in figure \ref{fig:dieswell} follow a linear behaviour and the intercepts from the regression lines give us the value of the die swell without any load applied. These values can be related to the effect of temperature on swelling.
+In Table \ref{dieswell} the values of intercepts and slopes with their standard deviations are reported.
+\begin{table}[htp]
+	\centering
+	$
+	\begin{array}{ccc}
+	\toprule
+	\textbf{Temperature}\, (^\circ \text{C}) & \textbf{Intercept} & \textbf{Slope} \, (1/^\circ \text{C}) \\
+	\midrule
+	190 & 1.05 \pm 0.17 & 0.17 \pm 0.03 \\
+	210 & 0.97 \pm 0.39 & 0.15 \pm 0.08 \\
+	230 & 1.15 \pm 0.18 & 0.13 \pm 0.04 \\
+	\bottomrule
+	\end{array}
+	$
+	\caption{Die swelling, results of interpolation.}
+	\label{tab:dieswell}
+\end{table}\\
+It is known that a rise in temperature can increase the rate of stress relaxation, leading to a decrease in extrudate swell. Moreover, a reduction of viscosity caused by an increase in temperature contributes to a decrease in extrudate swell, because of a reduction in stress applied to polymer molecules.
+Therefore, there is a competition between these two effects; in fact, an increase in applied load decreases the die swell while increasing the temperature, the swell reduces.~\cite{swell}
+\newpage
 In Figure \ref{fig:mfi} melt flow index chart in function of temperature and parametric with pressure for PP–1 sample is reported.
 \begin{figure}[h!]
 	\centering
-	{\includegraphics[scale=0.4]{mfi}}
+	\subfloat[][]
+	{\includegraphics[scale=0.4]{mfi}} \quad
+	\subfloat[][]
+	{\includegraphics[scale=0.4]{mfi2}}
 	\captionsetup{justification=centering}
 	\caption{Melt flow index for PP–1 sample.}
 	\label{fig:mfi}
 \end{figure}\\
-Figure \ref{fig:mfi} shows that MFI increases exponentially with temperature. This behaviour is due to the decrease of viscosity at higher temperature and thus a better flowability of the material.\\
-In Figure \ref{fig:mfi2} melt flow index chart in function of pressure and parametric with temperature for PP–1 sample is reported.
-\begin{figure}[h!]
-	\centering
-	{\includegraphics[scale=0.4]{mfi2}}
-	\captionsetup{justification=centering}
-	\caption{Melt flow index for PP–1 sample.}
-	\label{fig:mfi2}
-\end{figure}\\
-From Figure \ref{fig:mfi2} it can be noticed that increasing the applied load the melt flow index increases exponentially due to higher applied pressures.
+Figure \ref{fig:mfi} shows that MFI increases exponentially with temperature. This behaviour is due to the decrease of viscosity at higher temperature and thus a better flowability of the material. It can be noticed that increasing the applied load the melt flow index increases exponentially due to higher applied pressures.
+
+\newpage
 
 \subsubsection{Molecular weight calculation}
 
@@ -362,6 +382,11 @@ In Figure \ref{fig:mw} the dependency of molecular weight in function of the MFI
 	\caption{Dependency of molecular weight and MFI for polypropylene.}
 	\label{fig:mw}
 \end{figure}\\
+The Figure \ref{fig:mw} shows that increasing MFI the molecular weight decreases exponentially. From interpolation the resulting expression is reported in Equation \ref{eq:mw}. 
+\begin{equation}
+\text{MFI} = 1091\cdot \exp({-2.729\cdot 10^{-05}\cdot\text{MW}})
+\label{eq:mw}
+\end{equation}
 The Figure \ref{fig:mw} shows that increasing MFI the molecular weight decreases exponentially.\\ In Table \ref{tab:mw} the values of MFI and molecular weight are reported for the three types of PP evaluted at $230 ^\circ$C under $2.16$ \text{kg}.
 \begin{table}[htp]
 \centering
@@ -377,8 +402,7 @@ $
 $
 \caption{MFI and MW values of the three types of PP.}
 \label{tab:mw}
-\end{table}
-\newpage
+\end{table}\\
 The molecular weight influences also the die swell. In Table \ref{tab:dieswell} the die swell values of the three types of PP evaluted at $230 ^\circ$C under $2.16$ \text{kg} are reported.
 \begin{table}[htp]
 \centering
@@ -395,6 +419,8 @@ $
 \label{tab:dieswell}
 \end{table}\\
 It can be seen that the higher the molecular weight the lower die swell values. High molecular weight means longer chains and this leads to high possibility of orientation and consequently a less expansion of diameter at the die exit.
+
+\newpage
 
 \subsubsection{Activation energy calculation}
 
@@ -425,8 +451,6 @@ $
 \caption{Activation energy.}
 \label{tab:energy}
 \end{table}
-
-\newpage
 
 \subsection{Shore hardness measurement}
 
@@ -464,7 +488,7 @@ The following Table \ref{tab:loi} reports the main results obtained by this test
 \end{table}
 
 PC sample reacts with a higher amount of blowed oxygen, meaning that this polymer is less flammable than the others.
-\newpage 
+ 
 \section{Conclusions}
 
 There are many different techniques useful to analyse different polymer properties. In this laboratory session Vicat test, MFI, Shore hardness and LOI were used to investigate thermal evolution of stiffness, hardness, flammability and some rheological properties of given polymers.
@@ -483,6 +507,7 @@ The LOI is the minimum oxygen percentage needed to ignite a polymer bar which wi
 \bibitem{MFI} ASTM D1238–10 "Melt flow rates of thermoplastics by extrusion". 
 \bibitem{LOI} ASTM D2863–06a "Standard test method for measuring the minimum oxygen concentration to support candle-like combustion of plastics".
 \bibitem{VICAT} ASTM D1525 "Standard test method for Vicat softening temperature of plastics"
+\bibitem{swell} A review of extrudate swell in polymers - C. Sirisinha – J.Sci.Soc.Thailand 23-259-280
 
 \end{thebibliography}
 
