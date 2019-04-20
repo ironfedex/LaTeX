@@ -10,8 +10,9 @@
 \usepackage[english]{babel}
 \DeclareUnicodeCharacter{00A0}{~}
 \usepackage{fullpage}
-\usepackage[cochineal]{newtxmath}
-\usepackage{crimson,verbatim}
+%\usepackage[cochineal]{newtxmath}
+%\usepackage{crimson,verbatim}
+\usepackage[charter]{mathdesign}
 \usepackage{textcomp}
 \usepackage{color,soul,hyperref,mwe}
 
@@ -58,7 +59,7 @@ width0pt\right\delimright_{\rlap{$\scriptstyle#3$}}$};}}
 
 \newenvironment{chapterabstract}{%
   \par\nobreak\noindent
-  \textbf{\textit{Abstract}\hrulefill}\par\nobreak
+  \textbf{\textit{Abstract}\hrulefill}\nobreak
   %\small
   \noindent\ignorespaces
 }{%
@@ -107,9 +108,10 @@ In the powder the following components are present:
 \begin{itemize}
 \item Polymethyl methacrylate (MMA): acts as prepolymer which aim is to limit the increase of temperature produced by polymerization process. Moreover it increase the viscosity of the solution which allow an easier manipulation and descrease the degree of toxicity in the work environment. Another advantage of prepolymer is control the volumetric shrinkage during solidification.
 \begin{figure}[h]
-\centering
-\chemfig{[:-30]-[@{left,.5}]-[:30](-[2](=[1]O)(-[3]O-[2]CH_3))(-[6,1.5]CH_3)-[@{right,0.75}:-30]} 
-\polymerdelim[delimiters = (), height = 15pt, indice = \!\!n]{left}{right}
+	\centering
+	{\includegraphics[scale=0.15]{pmma_chem}}
+	\captionsetup{justification=centering}
+	\label{fig:PE}
 \end{figure}
 \item Barium sulfate: is a radio opacifier because it allows the X-ray analysis.
 \item Benzoyl peroxide (BPO): is the initiator infact it presents a bond between two atoms of oxygen that can be easily broken, producing two radicals.
@@ -142,7 +144,7 @@ In the experiment polymerization mechanism is radical addition. The activator fo
 
 \subsection{Materials}
 
-A medical kit Cemex Isoplastic High Viscosity for bone implants (bone cement) has been provided by Tecres Spa, Verona (IT). It is composed by two parts, a powder and a liquid, whose mixing produces the polymerization of reactants contained. In Table \ref{tab:kit} the nominal composition of the kit is reported. 
+A medical kit Cemex Isoplastic High Viscosity for bone implants (bone cement) has been provided by Tecres Spa, Villafranca (IT). It is composed by two parts, a powder and a liquid, whose mixing produces the polymerization of reactants contained. In Table \ref{tab:kit} the nominal composition of the kit is reported. 
 \begin{table}[htp]
 \centering
 $
@@ -165,11 +167,11 @@ $
 \caption{Data-sheet of Cemex Isoplastic High Viscosity.}
 \label{tab:kit}
 \end{table}\\
-Additional methyl methacrylate monomer has been provided by University of Trento, together with hydroxyethyil methacrylate monomer. 
+Additional methyl methacrylate monomer has been provided by University of Trento, together with hydroxyethyl methacrylate monomer. 
 
 \subsection{Sample preparation}
 
-Parts contained in the medical kit has been weighted with instrument Mettler PM460. Both full and empty containers of the powder and the liquid has been weighted, in order to have a feedback of possible losses of material. Disposable bowls and rods in polyethilene (PE), provided along with the kit, have been weighted as well, and used for the preparation of samples. Reagents have been poured in the bowl, first putting the powder and then the liquid, and stirred vigorously with the rod, till the viscosity of the system was enough to allow for manipulation and formation of samples: a spherical one and a defined number of sticks, that have been pressed in a polytetrafluoroethylene (PTFE) mold. Prior to the beginning of the polymerization, the spheroid has been weighted for subsequent heat of polymerization measurments. A thermometer has been inserted inside the spheroid interposing an aluminum foil, to prevent the direct contact with the reacting polymer and avoiding sticking effects. The system including the thermometer has been put quickly in a chamber full of expanded polystyrene (EPS) and an aluminum foil has been wrapped around of it, to minimize heat losses and to get a more precise measurement of temperature variation. Measurements of temperature has been taken as polymerization process occured, until the achievement of maximum temperature. Moreover, a few further temperature measurements have been taken after the pick to highlight the shape of the temperature-time curve. Four sticks, once polymerized, have been cured at $90^\circ$C for 10 minutes and subsequently weighted in order to report for mass losses due to polymerization and evaporation of liquid monomer. All stick and spheroid samples have been soaked in water to study the water absorption of the material. 
+Parts contained in the medical kit has been weighted with instrument Mettler PM460. Both full and empty containers of the powder and the liquid has been weighted, in order to have a feedback of possible losses of material. Disposable bowls and rods in polyethylene (PE), provided along with the kit, have been weighted as well, and used for the preparation of samples. Reagents have been poured in the bowl, first putting the powder and then the liquid, and stirred vigorously with the rod, till the viscosity of the system was enough to allow for manipulation and formation of samples: a spherical one and a defined number of sticks, that have been pressed in a polytetrafluoroethylene (PTFE) mold. Prior to the beginning of the polymerization, the spheroid has been weighted for subsequent heat of polymerization measurments. A thermometer has been inserted inside the spheroid interposing an aluminum foil, to prevent the direct contact with the reacting polymer and avoiding sticking effects. The system including the thermometer has been put quickly in a chamber full of expanded polystyrene (EPS) and an aluminum foil has been wrapped around of it, to minimize heat losses and to get a more precise measurement of temperature variation. Measurements of temperature has been taken as polymerization process occured, until the achievement of maximum temperature. Moreover, a few further temperature measurements have been taken after the pick to highlight the shape of the temperature-time curve. Four sticks, once polymerized, have been cured at $90^\circ$C for 10 minutes and subsequently weighted in order to report for mass losses due to polymerization and evaporation of liquid monomer. All stick and spheroid samples have been soaked in water to study the water absorption of the material. 
 In Table \ref{tab:code} coding for samples is reported. 
 \begin{table}[htp]
 \centering
@@ -204,7 +206,7 @@ However part of mixture has been used for the preparation of spheroid and thus t
 Three polymerizations have been carried out: 
 \begin{enumerate}
 \item using the medical kit as provided;
-\item using the medical kit and adding $3 \text{ml}$ of MMA and $4 \text{ml}$ of HEMA;
+\item using the medical kit and adding about $3 \text{ml}$ of MMA and $4 \text{ml}$ of HEMA;
 \item using the medical kit as provided, like as in case 1, but producing more sticks and thus a smaller spheroid.
 \end{enumerate}
 
