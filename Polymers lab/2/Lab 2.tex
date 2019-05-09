@@ -105,7 +105,7 @@ In this work several plastic objects have been studied both thermically and micr
 
 \section{Introduction}
 
-The laboratory activity concerns the analysis of several polymer materials in PP, PE, PS, PET, PLA, PMMA and tire rubber. Endothermic and exothermic transition of samples has been studied and it was also possible to determinate their degree of crystallinity by considerations on specific enthalpy of melting. Density measurements have been carried out, comparing results with theoretical ones and comparing found degree of cristallinity with one of thermal analysis. In order to study directly the thermal behaviour of samples, different heat treatments have been done. Thermal analysis of PMMA and tire rubber has been done in order to study the composition of samples and their residual mass at high temperature. Sample has been treated with solvents of different concentration in order to study their resistance to chemicals.
+The laboratory activity concerns the analysis of several polymer materials in PP, PE, PS, PET, PLA, PMMA and tire rubber. PMMA is used referring to bone cement produced in report 1. Endothermic and exothermic transition of samples has been studied and it was also possible to determinate their degree of crystallinity by considerations on specific enthalpy of melting. Density measurements have been carried out, comparing results with theoretical ones and comparing found degree of cristallinity with one of thermal analysis. In order to study directly the thermal behaviour of samples, different heat treatments have been done. Thermal analysis of bone cement and tire rubber has been done in order to study the composition of samples and their residual mass at high temperature. Sample has been treated with solvents of different concentration in order to study their resistance to chemicals.
 The various samples used during the activity have been made by different processes. Cups have been produced by thermoforming, in which a plastic sheet is heated to a certain forming temperature, formed to a specific shape in a mold and cut to produce an usable product. 
 Coffee sticks and bottle cups have been obtained by injection molding: the polymer is melted in a specif chamber, injected in a mold and then cooled and solidified.
 PET bottles have been produced by injection blow molding, a process in which a cylindrical preform is heated and then blown in a mold.
@@ -292,6 +292,8 @@ $
 \label{tab:code}
 \end{table}\\
 
+Bone cement has been produced in previous laboratory activity from a polymerization reaction between reagents of a medical kit. This kit was constitued of a powder part and a liquid part.
+
 \section{Experimental activity}
 
 \subsection{Effect of heat treatments on samples}
@@ -324,10 +326,10 @@ Differential scanning calorimetry (DSC) has been carried out with instrument Met
 
 Degree of crystallinity ($\alpha_c$) of polymers can be evaluated accordingly to Equation \ref{eq:degreecryst}.
 \begin{equation}
-\alpha_c = \frac{\Delta H_m}{\Delta H_m^{\text{REF}}}
+\alpha_c = \frac{\Delta H_m - \Delta H_c}{\Delta H_m^{\text{REF}}}
 \label{eq:degreecryst}
 \end{equation}
-Where $\Delta H_m^{\text{REF}}$ is the reference value of specific melting enthalpy of a 100\% crystalline polymer.\\
+Where $\Delta H_c$ is the enthalpy of recrystallization during heating and $\Delta H_m^{\text{REF}}$ is the reference value of specific melting enthalpy of a 100\% crystalline polymer.\\
 Density (D) can be extimated knowing the crystallinity of polymers $\alpha_c$, accordingly to empirical Equation \ref{eq:densityemp}.
 \begin{equation}
 D = D_0+m\cdot \alpha_c
@@ -491,14 +493,14 @@ Reported values of melting enthalpy for PET, PLA, PE and PP are compared to refe
 $
 \begin{array}{lcccc}
 \toprule
-\textbf{Sample} & \bm{\Delta H_m^\text{REF}} (\si{J/g})  & \bm{\Delta H_m} (\si{J/g})  & \bm{\alpha_c} (\%) & \bm{D} (\si{kg/m^3}) \\
+\textbf{Sample} & \bm{\Delta H_m^\text{REF}} (\si{J/g})  & \bm{\Delta H_m} (\si{J/g})  & \bm{\alpha_c} (\%) & \bm{D} (\si{g/cm^3}) \\
 \midrule
-\text{PET} & 145 & 11.5 & 8 & 1349 \\
-\text{PET-T2} & 145 & 41.2 & 28 & 1385 \\
-\text{PLA} & 93.7 & 4.7 & 5 & 1252\\
-\text{PLA-T1} & 93.7 & 33.9 & 36 & 1264\\
-\text{PE} & 293 & 169.6 & 58 & 922\\
-\text{PP} & 207 & 83.0 & 40 & 887 \\
+\text{PET} & 145 & 11.5 & 8 & 1.35 \\
+\text{PET-T2} & 145 & 41.2 & 28 & 1.39 \\
+\text{PLA} & 93.6 & 4.7 & 5 & 1.25\\
+\text{PLA-T1} & 93.6 & 33.9 & 36 & 1.29\\
+\text{PE} & 293 & 169.6 & 58 & 0.92\\
+\text{PP} & 207 & 83.0 & 40 & 0.89 \\
 \bottomrule
 \end{array}
 $
@@ -596,7 +598,7 @@ In Figure \ref{fig:tga}a-b the TGA thermograms of PMMA and T samples are reporte
 \subfloat[][]
 {\includegraphics[scale=0.4]{tgaT}} \quad 
 \captionsetup{justification=centering}
-\caption{TGA thermograms for (a) PMMA and (b) T samples.}
+\caption{TGA thermograms for (a) Bone cement and (b) T samples.}
 \label{fig:tga}
 \end{figure}\\
 From Figure \ref{fig:tga}a it can be noticed that at $161.6^\circ C $ the $2.35 \%$ of the total mass is lost, probably due to presence of water. At $382.9^\circ$C, degradation of the polymer (PMMA) occurs and thus a loss of $87.70\%$ of the initial mass is registered. However a residue of $9.1\%$ is left at the end of the process because the barium solphate (\chemfig{BaSO_{4}}) decomposes at much higher temperatures. This percentage of remaining mass is comparable with the value of the amount of sulphate found in the previous laboratory activity that was equal to $9.6\%$ for the first polymerization. \\
