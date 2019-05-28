@@ -128,7 +128,7 @@ In the powder the following components are present:
 
 The liquid is composed by:
 \begin{itemize}
-\item Methyl methacrylate: is the monomer involved in polymerization process.
+\item Methyl methacrylate (MW = 104 g/mol): is the monomer involved in polymerization process. 
 \begin{figure}[h!]
 \centering
 \chemfig{=[-0.6]([6]-)-[0.6](=[-6]O)-[-0.6]O-[0.6]} 
@@ -136,7 +136,7 @@ The liquid is composed by:
 \item N-N dimethyl-p-toluidine: acts as activator by breaking the BPO bond.
 \item Hydroquinone: is a stabilizer to avoid the premature reaction of monomers.
 \end{itemize}
-Hydroxyethyl methacrylate (HEMA): monomer able to absorb water due the presence of empty volumes in its structure. 
+Hydroxyethyl methacrylate (HEMA, MW = 130 g/mol): monomer able to absorb water due the presence of empty volumes in its structure. 
 \begin{figure}[h]
 \centering
 \chemfig{=[-0.6]([6]-)-[0.6](=[-6]O)-[-0.6]O-[0.6]-[-0.6]-[0.6]OH} 
@@ -225,18 +225,18 @@ Heat of polymerization $\Delta H \,(\text{J})$ has been measured accordingly to 
 \Delta H = m \,c_p \Delta T
 \label{eq:heat} 
 \end{equation}
-Where $c_p$ ($\frac{\text{J}}{\text{g}^\circ\text{C}}$) is the specific thermal capacity of polymethyl methacrylate, $m$ is the reacting mass in the spheroid (the mass of monomers) and $\Delta T\,(^\circ\text{C})$ is the temperature variation measured during polymerization, taken as the difference between maximum reached and room one. Specific heat of polymerization $\Delta H_{sp}\,(\text{J}/\text{g} \,\, \text{and} \,\, \text{kJ}/\text{mol})$ has been calculated accordingly to the Equation \ref{eq:spheat}:
+Where $c_p$ ($\frac{\text{J}}{\text{g}^\circ\text{C}}$) is the specific thermal capacity of polymethyl methacrylate, $m$ is the reacting mass in the spheroid and $\Delta T\,(^\circ\text{C})$ is the temperature variation measured during polymerization, taken as the difference between maximum reached and room one. Specific heat of polymerization $\Delta H_{sp}\,(\text{J}/\text{g} \,\, \text{and} \,\, \text{kJ}/\text{mol})$ has been calculated accordingly to the Equation \ref{eq:spheat}:
 \begin{equation}
-\Delta H_{sp} = \frac{\Delta H}{m}
+\Delta H_{sp} = \frac{\Delta H}{m_{mon}}
 \label{eq:spheat} 
 \end{equation}
-Where $m$ is the the same mass considered in Equation \ref{eq:heat}. \\
+Where $m_{mon}$ is the mass of the monomers. \\
 In the case of copolymerization of MMA and HEMA, the specific heat has been calculated with Equation \ref{eq:copoly}:
 \begin{equation}
 \Delta H_{sp} = \Delta H_{sp}^\text{MMA} + \Delta H_{sp}^\text{HEMA}
 \label{eq:copoly} 
 \end{equation}
-Where $\Delta H_{sp}^\text{MMA}$ is the specific heat of polymerization of MMA and $\Delta H_{sp}^\text{HEMA}$ is the specific heat of polymerization of HEMA.
+Where $\Delta H_{sp}^\text{MMA}$ is the specific heat of polymerization of MMA and $\Delta H_{sp}^\text{HEMA}$ is the specific heat of polymerization of HEMA. In order to find the molecular weight of the reagents, to calculate the specific enthalpy in kJ/mol, the weighted average of the molecular weights of the two monomers has been used. 
 
 \subsection{Estimation of polymer molecular weight}
 
@@ -268,7 +268,7 @@ In both cases, for Flory principle, different chains have been supposed to have 
 
 \subsection{Effect of heat treatment after polymerization}
 
-Heat treatment has been done by curing samples at $90^\circ$C for 10 minutes. The percent mass loss has been calculated with Equation \ref{eq:htreat}.
+Heat treatment has been done by curing samples at $90^\circ$C for 10 minutes, using the instrument Mettler Thermobalance LP16. The percent mass loss has been calculated with Equation \ref{eq:htreat}.
 \begin{equation}
 \%\text{wt loss} = \frac{m_{cured}-m_0}{m_0}\cdot 100
 \label{eq:htreat} 
@@ -295,11 +295,11 @@ In Table \ref{tab:heat} heat of polymerization results are reported.
 $
 \begin{array}{ccccccc}
 \toprule
-\textbf{Sample} & \mathbf{\Delta T}\,(\text{K}) &  \mathbf{m}\,(\text{g}) & \mathbf{\Delta H}\,(\text{J}) & \mathbf{\Delta H_{sp}^{MMA}}\,(\text{J}/\text{g}) & \mathbf{\Delta H_{sp}^{MMA}}\,(\text{kJ}/\text{mol}) & \mathbf{\Delta H_{sp}^{HEMA}}\,(\text{J}/\text{g}) \\
+\textbf{Sample} & \mathbf{\Delta T}\,(\text{K}) &  \mathbf{m}\,(\text{g}) & \mathbf{\Delta H}\,(\text{J}) & \mathbf{\Delta H_{sp}}\,(\text{J}/\text{g}) & \mathbf{\Delta H_{sp}^{MMA}}\,(\text{kJ}/\text{mol}) & \mathbf{\Delta H_{sp}^{HEMA}}\,(\text{kJ}/\text{mol}) \\
 \midrule
-\text{S1} & 78 & 8.4 & 977 & 117 & 11.7 & -\\
-\text{S2} & 81 & 13.5 & 1636 & 117 & 11.7 & 5 \\
-\text{S3} & 62 & 3.6 & 330 & 93 & 9.3 & - \\
+\text{S1} & 78 & 32.9 & 3848 & 461 & 46.1 & -\\
+\text{S2} & 81 & 39.2 & 4767 & 290 &  &  \\
+\text{S3} & 62 & 13.9 & 1292 & 364 & 36.4 & - \\
 \bottomrule
 \end{array}
 $
@@ -316,7 +316,6 @@ In Figure \ref{fig:Tt} the charts reporting temperature ramp over time for three
 \caption{Time-temperature charts for S1 S2 and S3 samples.}
 \label{fig:Tt}
 \end{figure}\\
-A correlation between obtained experimental values of specific heat of polymerization of MMA and the theoretical one has been found~\cite{link0}. Theoretical value of $11.0 \,\text{kJ}/\text{mol}$ is in accordance with the experimental one of $11.7 \,\text{kJ}/\text{mol}$. 
 
 \newpage
 
@@ -430,6 +429,8 @@ $
 \caption{Water absorption measurements after 50 days from the soaking.}
 \label{tab:wabs}
 \end{table}\\
+
+\subsubsection{Drying of samples after water soaking}
 
 
 \section{Conclusions}
