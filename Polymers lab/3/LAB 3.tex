@@ -178,7 +178,7 @@ Different polymeric samples have been provided by University of Trento to get Vi
 	12 & \text{generic rubber} & \text{E}\\
 	13 & \text{PA 6} & \text{TP}\\
 	14,18,20,25,27 & \text{PU} & \text{TS}\\
-	15 & \text{Polysilicone} & \text{E}\\
+	15 & \text{Silicone} & \text{E}\\
 	16 & \text{ABS} & \text{TP}\\
 	17 & \text{PSA} & \text{TP}\\
 	19 & \text{PP} & \text{TP}\\
@@ -221,7 +221,7 @@ An amount of granules for melt flow index analysis has been used in order to man
 
 \section{Experimental activity}
 
-\subsection{Vicat analysis (VST)}
+\subsection{Vicat Softening Toughness analysis (VST)}
 
 The test has been carried out in two configurations, with instrument Vicat Tester MP/3 and according to the normative ASTM~\cite{VICAT}:
 
@@ -232,7 +232,7 @@ The test has been carried out in two configurations, with instrument Vicat Teste
 \item $120^\circ$C/h, 50 N.
 
 \end{itemize}
-Polymers analyzed are: PC, ABS and PP. Samples dimensions are $1\times1$ cm and the thickness has to be higher than the maximum penetration depth. Vicat temperarature is the temperature at which the penetration is about 1 mm: $T_\text{vicat}^\text{10}$ is obtained with a load of 10 N while $T_\text{vicat}^\text{50}$ is obtained with a load of 50 N. 
+Polymers analyzed are: PC, ABS and PP. Samples dimensions are $1\times1$ cm and the thickness is 3.2 mm which is higher than the maximum penetration depth. Vicat temperarature is the temperature at which the penetration is about 1 mm: $T_\text{vicat}^\text{10}$ is obtained with a load of 10 N while $T_\text{vicat}^\text{50}$ is obtained with a load of 50 N. 
 
 \subsection{Melt flow index (MFI) measurement}
 
@@ -297,7 +297,24 @@ Different polymeric specimens have been tested: for each, three mesurements has 
 
 \subsection{Limit oxygen index (LOI) measurement}
 
-Analyzed polymers are PE, PP, PC and ABS, with instrument Ceast Oxygen Index. This test allows to predict the behaviour of polymers when they are exposed to the flame. Air is blowed in the working column and the amount of oxygen is carefully modulated (its value has been taken around 21\%). Specimens are exposed to the flame for three minutes, accordingly to standard procedure by ASTM~\cite{LOI}.
+Analyzed polymers are PE, PP, PC and ABS, with instrument Ceast Oxygen Index. This test allows to predict the behaviour of polymers when they are exposed to the flame. Air is blowed in the working column and the amount of oxygen is carefully modulated (its value has been taken around 21\%). Specimens are exposed to the flame for three minutes, accordingly to standard procedure by ASTM~\cite{LOI}. In Table \ref{tab:oxygen} the percentage of oxygen used are reported
+\begin{table}[htp]
+	\centering
+	$
+	\begin{array}{cc}
+	\toprule
+	\textbf{Sample} & \textbf{Oxygen ($\%$)}\\
+	\midrule
+	\textbf{PE} & 20 \\
+	\textbf{PP} & 22\\
+	\textbf{PC} & 33 \\
+	\textbf{ABS} & 20\\
+	\bottomrule
+	\end{array}
+	$
+	\caption{Percentage of oxygen used in LOI measurements.}
+	\label{tab:oxygen}
+\end{table}
 
 \newpage
 
@@ -328,7 +345,7 @@ Analyzing the intersection between the curves and the penetration of 1 mm the fo
 	\textbf{Sample} & \mathbf{T_{m}} & \mathbf{T_{g}} & \mathbf{T_{vicat}^\textbf{10}} & \mathbf{T_{vicat}^\textbf{50}} \\
 	\midrule
 	\text{PC} & - & 149 & 154.6 & 150.0\\
-	\text{ABS} & 230 & 105 & 107.8 & 98.0\\
+	\text{ABS} & - & 105 & 107.8 & 98.0\\
 	\text{PP} & 165 & -10 & 148.6 & 99.2\\
 	\bottomrule
 	\end{array}
@@ -338,8 +355,7 @@ Analyzing the intersection between the curves and the penetration of 1 mm the fo
 \end{table}
 
 Since PC and ABS are amorphous polymers, their Vicat temperatures don't change substantially with the load. This is due to the fact that the Vicat temperature corresponds to the glass transition temperature $T_{g}$ at which the polymer collapses under any load.
-PP instead is a semicrystalline polymer, so its Vicat temperature varies considerably with the load. This can be explained by the presence of a rubbery amorphous phase that can be easily penetrated by the indent. The higher the load, the faster is the penetration.
-
+PP instead is a semicrystalline polymer, so its Vicat temperature varies considerably with the load. This can be explained by the presence of a rubbery amorphous phase that can be easily penetrated by the indent. The higher the load, the faster is the penetration and the lower the Vicat Temperature. 
 \newpage
 
 \subsection{Melt flow index (MFI) measurement}
@@ -376,7 +392,7 @@ In Table \ref{dieswell} the values of intercepts and slopes with their standard 
 It is known that a rise in temperature can increase the rate of stress relaxation, leading to a decrease in extrudate swell. Moreover, a reduction of viscosity caused by an increase in temperature contributes to a decrease in extrudate swell, because of a reduction in stress applied to polymer molecules.
 Therefore, there is a competition between these two effects; in fact, an increase in applied load decreases the die swell while increasing the temperature, the swell reduces.~\cite{swell}
 \newpage
-In Figure \ref{fig:mfi} melt flow index chart in function of temperature and parametric with pressure for PP–1 sample is reported.
+In Figure \ref{fig:mfi} melt flow index chart in function of temperature and parametric with pressure for PP–1 sample is reported. Standard deviations are not reported since they are too small (view Appendix A).
 \begin{figure}[h!]
 	\centering
 	\subfloat[][]
@@ -398,7 +414,7 @@ In Figure \ref{fig:mw} the dependency of molecular weight in function of the MFI
 	\centering
 	{\includegraphics[scale=0.4]{mw}}
 	\captionsetup{justification=centering}
-	\caption{Dependency of molecular weight and MFI for polypropylene.}
+	\caption{Dependency of molecular weight and MFI for polypropylene. For ref. data see Appendix B}
 	\label{fig:mw}
 \end{figure}\\
 The Figure \ref{fig:mw} shows that increasing MFI the molecular weight decreases exponentially. From interpolation the resulting expression is reported in Equation \ref{eq:mw}. 
@@ -419,7 +435,7 @@ $
 \bottomrule
 \end{array}
 $
-\caption{MFI and MW values of the three types of PP.}
+\caption{MFI and MW values of the three types of PP at 230°C and 2.16Kg}
 \label{tab:mw}
 \end{table}\\
 The molecular weight influences also the die swell. In Table \ref{tab:dieswell} the die swell values of the three types of PP evaluted at $230 ^\circ$C under $2.16$ \text{kg} are reported.
@@ -434,7 +450,7 @@ $
 \bottomrule
 \end{array}
 $
-\caption{Die swell values of three types of PP.}
+\caption{Die swell values of three types of PP. See data in Appendix C}
 \label{tab:dieswell}
 \end{table}\\
 It can be seen that the higher the molecular weight the lower die swell values. High molecular weight means longer chains and this leads to high possibility of orientation and consequently a less expansion of diameter at the die exit.
@@ -459,11 +475,11 @@ $
 \toprule
 \textbf{Loads} & \textbf{Activation energy} \, \text{(kJ/mol)}  \\
 \midrule
-\text{2.16 kg} & 41.56 \pm 20.64  \\
-\text{5 kg} & 53.41 \pm 8.32 \\
-\text{7.06 kg} & 56.81 \pm 2.66  \\
+\text{2.16 kg} & 41.5 \pm 20.6  \\
+\text{5 kg} & 53.4 \pm 8.3 \\
+\text{7.06 kg} & 56.8 \pm 2.6  \\
 \midrule
-\text{Average} & 50.60 \pm 6.53 \\
+\text{Average} & 50.6 \pm 6.5 \\
 \bottomrule
 \end{array}
 $
@@ -510,10 +526,10 @@ PC sample reacts with a higher amount of blowed oxygen, meaning that this polyme
  
 \section{Conclusions}
 
-There are many different techniques useful to analyse different polymer properties. In this laboratory session Vicat test, MFI, Shore hardness and LOI were used to investigate thermal evolution of stiffness, hardness, flammability and some rheological properties of given polymers.
+There are many different techniques useful to analyse different polymer properties. In this laboratory session Vicat test, Shore hardness, LOI and MFI were used to investigate thermal evolution of stiffness, hardness, flammability and some rheological properties of given polymers.
 Vicat temperature for amorphous polymers (like PC and ABS) corresponds to glass transition temperature at which the polymer collapses under any load; but, for semi crystalline polymers (like PP) the Vicat temperature varies with the load due to the rubbery amorphous phase which can be easily penetrated by the indent.
 The melt flow index is a parameter which defines polymers ability to flow under certain conditions of load and temperature, therefore, some rheological reckonings are possible by MFI measurements. Increasing the temperature and the applied load, the MFI increases exponentially due to a decrease of viscosity. Since the MFI follows an Arrhenius-like dependence with the temperature, it is also possible to estimate the activation energy of viscous flow. Molecular weight is related to MFI: for high values MFI, the MW decreases exponentially like Mark–Houwink–Sakurada equation predicts. Moreover, die swelling is a common phenomenon in MFI and experimental data show that it has been influenced by applied load, temperature and molecular weight.
-The Shore A and Shore D techniques are used to perform hardness tests on polymer samples: the first one is suitable for softer polymers while the second one is suitable for harder polymers.
+The Shore A and Shore D techniques are used to perform hardness tests on polymer samples: the first one is suitable for softer materials while the second one is suitable for the harder ones.
 The LOI is the minimum oxygen percentage needed to ignite a polymer bar which will have to maintain the flame for at least 3 minutes. This percentage is then used to compare polymer flammability.
 
 \newpage
@@ -523,9 +539,9 @@ The LOI is the minimum oxygen percentage needed to ignite a polymer bar which wi
 \begin{thebibliography}{1}
 
 \bibitem{handbook} Polymer handbook, J. Brandrup, E.H. Immergut, fourth edition, Wiley 2003.
-\bibitem{MFI} ASTM D1238–10 "Melt flow rates of thermoplastics by extrusion". 
-\bibitem{LOI} ASTM D2863–06a "Standard test method for measuring the minimum oxygen concentration to support candle-like combustion of plastics".
-\bibitem{VICAT} ASTM D1525 "Standard test method for Vicat softening temperature of plastics"
+\bibitem{MFI} ASTM D1238–10 “Melt flow rates of thermoplastics by extrusion”. 
+\bibitem{LOI} ASTM D2863–06a “Standard test method for measuring the minimum oxygen concentration to support candle-like combustion of plastics”.
+\bibitem{VICAT} ASTM D1525 “Standard test method for Vicat softening temperature of plastics”
 \bibitem{swell} A review of extrudate swell in polymers - C. Sirisinha – J.Sci.Soc.Thailand 23-259-280
 
 \end{thebibliography}
