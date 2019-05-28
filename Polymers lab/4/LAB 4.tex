@@ -1,0 +1,110 @@
+% !TEX encoding = UTF-8
+% !TEX program = pdflatex
+% !TEX spellcheck = it_IT
+
+\documentclass[a4paper, 11pt]{article}
+
+% sintassi
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\DeclareUnicodeCharacter{00A0}{~}
+\usepackage{fullpage}
+%\usepackage[cochineal]{newtxmath}
+%\usepackage{crimson,verbatim}
+\usepackage{textcomp}
+\usepackage{color,soul,hyperref,mwe}
+
+% matematica e chimica
+
+\usepackage{siunitx,amsmath,bm,chemfig}
+\newcommand{\ud}{\mathop{}\!\mathrm{d}}
+\sisetup{detect-all,math-rm = \ensuremath}
+%\usepackage{arev}
+\usepackage[charter]{mathdesign}
+
+
+\setatomsep{2em}
+
+\newcommand\setpolymerdelim[2]{\def\delimleft{#1}\def\delimright{#2}} 
+\def\makebraces[#1,#2]#3#4#5{% 
+\edef\delimhalfdim{\the\dimexpr(#1+#2)/2}% 
+\edef\delimvshift{\the\dimexpr(#1-#2)/2}% 
+\chemmove{% 
+\node[at=(#4),yshift=(\delimvshift)] {$\left\delimleft\vrule height\delimhalfdim depth\delimhalfdim 
+width0pt\right.$};% 
+\node[at=(#5),yshift=(\delimvshift)] 
+{$\left.\vrule height\delimhalfdim depth\delimhalfdim 
+width0pt\right\delimright_{\rlap{$\scriptstyle#3$}}$};}} 
+\setpolymerdelim()
+
+% tabelle e grafica
+\usepackage{booktabs,graphicx,graphbox,subfig,caption,pdfpages}
+\captionsetup{font=small,
+	format=hang,
+	justification=centering,
+	singlelinecheck=true,
+	labelfont={sf,bf}	
+}
+\usepackage{float}
+\floatstyle{plaintop}
+\restylefloat{table}
+\usepackage{multirow}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[LE,RO]{\textsl{\rightmark}}
+\fancyhead[LO,RE]{\nouppercase{\leftmark}}
+\fancyfoot[C]{\thepage}
+\usepackage[margin=1in,headsep=.3in]{geometry}
+\usepackage[suftesi]{frontespizio}
+\usepackage{xparse}
+\setlength\parindent{0pt}
+
+\newenvironment{chapterabstract}{%
+  \par\nobreak\noindent
+  \textbf{\textit{Abstract}\hrulefill}\nobreak
+  %\small
+  \noindent\ignorespaces
+}{%
+  \par\nobreak\normalsize
+  \vskip-\ht\strutbox\noindent
+  \textbf{\hrulefill}%
+}
+\makeatletter
+\NewDocumentCommand\headerspdf{ O {pages=-} m }{% [options for include pdf]{filename.pdf}
+  \includepdf[%
+    #1,
+    pagecommand={\thispagestyle{fancy}},
+    scale=1,
+    ]{#2}}
+\NewDocumentCommand\secpdf{somO{1}m}{% [short title]{section title}[page specification]{filename.pdf} --- possibly starred
+  \clearpage
+  \thispagestyle{fancy}%
+  \includepdf[%
+    pages=#4,
+    pagecommand={%
+      \IfBooleanTF{#1}{%
+        \section*{#3}}{%
+        \IfNoValueTF{#2}{%
+          \section{#3}}{%
+          \section[#2]{#3}}}},
+    scale=.65,
+    ]%
+    {#5}}
+\makeatother
+
+\begin{document}
+
+\includepdf[pages=-]{frontespizio4.pdf}
+
+\begin{chapterabstract}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at est non arcu dapibus eleifend. In facilisis, erat ullamcorper condimentum venenatis, magna mi consequat enim, ac faucibus velit libero ut sapien. Nam fringilla elit at magna imperdiet dapibus. Vestibulum malesuada fringilla placerat. Suspendisse potenti. Nam ac vehicula nibh, eget suscipit purus. Curabitur tempus erat id pulvinar consectetur. Etiam quis diam magna. Etiam feugiat vulputate consequat. Nulla libero ligula, tempor quis mollis in, placerat vitae nisi. Proin ornare ut eros ac rhoncus. Integer et metus non mi pharetra sagittis. Praesent dignissim erat vel magna efficitur, sed efficitur mi viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus non ipsum non purus feugiat interdum non vel odio.
+
+\end{chapterabstract} 
+
+\section{Introduction}
+
+
+
+\end{document}
