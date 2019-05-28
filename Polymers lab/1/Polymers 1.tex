@@ -203,6 +203,31 @@ $
 \label{tab:code}
 \end{table}\\
 
+In Table \ref{tab:compos} the compositions of spheroids used for the calculations are reported.
+\begin{table}[htp]
+\centering
+$
+\begin{array}{lccc}
+\toprule
+& \textbf{P1} & \textbf{P2} & \textbf{P3}  \\
+\midrule
+\mathbf{m_{PMMA}}\,(\text{g}) & 20.62 & 21.66 & 8.69 \\
+\mathbf{m_{BaSO_4}}\,(\text{g}) & 3.18 & 3.34 & 1.34 \\
+\mathbf{m_{BPO}}\,(\text{g}) & 0.66 & 0.70 & 0.28 \\
+\mathbf{m_{MMA}}\,(\text{g}) & 8.35 & 10.73 & 3.55 \\
+\mathbf{m_{HEMA}}\,(\text{g}) & - & 2.74 & - \\
+\mathbf{m_{activator}}\,(\text{g}) & 0.075 & 0.08 & 0.03 \\
+\mathbf{m_{stabilizer}}\,(\text{ppm}) & 46.88 & 49.3 & 19.76 \\
+\midrule
+\mathbf{m_{spheroid}}\,(\text{g}) & 32.89 & 39.23 & 13.90 \\
+\bottomrule
+\end{array}
+$
+\caption{Compositions of spheroids for each polymerization.}
+\label{tab:compos}
+\end{table}\\
+
+
 \subsubsection{Estimation of sticks number}
 
 The number of obtainable sticks has been calculated considering shape, dimensions 
@@ -226,7 +251,7 @@ Heat of polymerization $\Delta H \,(\text{J})$ has been measured accordingly to 
 \Delta H = m \,c_p \Delta T
 \label{eq:heat} 
 \end{equation}
-Where $c_p$ ($\frac{\text{J}}{\text{g}^\circ\text{C}}$) is the specific thermal capacity of polymethyl methacrylate, $m$ is the reacting mass in the spheroid and $\Delta T\,(^\circ\text{C})$ is the temperature variation measured during polymerization, taken as the difference between maximum reached and room one. Specific heat of polymerization $\Delta H_{sp}\,(\text{J}/\text{g} \,\, \text{and} \,\, \text{kJ}/\text{mol})$ has been calculated accordingly to the Equation \ref{eq:spheat}:
+Where $c_p$ ($\frac{\text{J}}{\text{g}^\circ\text{C}}$) is the specific thermal capacity of polymethyl methacrylate, $m$ is the mass of the spheroid and $\Delta T\,(^\circ\text{C})$ is the temperature variation measured during polymerization, taken as the difference between maximum reached and room one. Specific heat of polymerization $\Delta H_{sp}\,(\text{J}/\text{g} \,\, \text{and} \,\, \text{kJ}/\text{mol})$ has been calculated accordingly to the Equation \ref{eq:spheat}:
 \begin{equation}
 \Delta H_{sp} = \frac{\Delta H}{m_{mon}}
 \label{eq:spheat} 
@@ -237,7 +262,7 @@ In the case of copolymerization of MMA and HEMA, the specific heat has been calc
 \Delta H_{sp} = \Delta H_{sp}^\text{MMA} + \Delta H_{sp}^\text{HEMA}
 \label{eq:copoly} 
 \end{equation}
-Where $\Delta H_{sp}^\text{MMA}$ is the specific heat of polymerization of MMA and $\Delta H_{sp}^\text{HEMA}$ is the specific heat of polymerization of HEMA. In order to find the molecular weight of the reagents, to calculate the specific enthalpy in kJ/mol, the weighted average of the molecular weights of the two monomers has been used. 
+Where $\Delta H_{sp}^\text{MMA}$ is the specific heat of polymerization of MMA and $\Delta H_{sp}^\text{HEMA}$ is the specific heat of polymerization of HEMA. To calculate the specific enthalpy of reagents in kJ/mol, the weighted average of the molecular weights of the two monomers has been used.
 
 \subsection{Estimation of polymer molecular weight}
 
@@ -252,7 +277,7 @@ Where DP is the degree of polymerization and $m_{mon}\,(\text{g}/\text{mol})$ is
 \label{eq:dp} 
 \end{equation}
 
-\newpage
+
 The amount of radicals is equal to double the amount of BPO, due to the peroxide dissociation. Equation \ref{eq:dp} is suitable for the calculation of the degree of polymerization in case of disproportional termination. In case of combination, DP is the double. In a third case, the average of these two DP values has been also evaluated since it represents a more realistic case (MW 50\% - 50\%).\\
 In the second polymerization, it has been considered also the contribution of HEMA according to Equations \ref{eq:dp2} and \ref{eq:mw2}.
 \begin{equation}
@@ -299,7 +324,7 @@ $
 \textbf{Sample} & \mathbf{\Delta T}\,(\text{K}) &  \mathbf{m}\,(\text{g}) & \mathbf{\Delta H}\,(\text{J}) & \mathbf{\Delta H_{sp}}\,(\text{J}/\text{g}) & \mathbf{\Delta H_{sp}^{MMA}}\,(\text{kJ}/\text{mol}) & \mathbf{\Delta H_{sp}^{HEMA}}\,(\text{kJ}/\text{mol}) \\
 \midrule
 \text{S1} & 78 & 32.9 & 3848 & 461 & 46.1 & -\\
-\text{S2} & 81 & 39.2 & 4767 & 290 &  &  \\
+\text{S2} & 81 & 39.2 & 4767 & 354 & 46.1 & - 8.93 \\
 \text{S3} & 62 & 13.9 & 1292 & 364 & 36.4 & - \\
 \bottomrule
 \end{array}
@@ -308,7 +333,7 @@ $
 \label{tab:heat}
 \end{table}\\
 Specific thermal capacity of PMMA has been fixed at $1.5 \,\frac{\text{J}}{\text{g}^\circ\text{C}}$.
-The specific heat of MMA for the second polymerization has been taken equal to the first polymerization, in order to calculate the contribution in specific heat of the HEMA monomer. From Table \ref{tab:heat} it can be noticed how the heat of polymerization of the second case is way larger than the first, due to the added amount of MMA monomer. However, the calculated specific heat is close to the one of the first case ($122\,\text{J}/\text{g}$, found considering the total reagent mass, comprehending HEMA) and, by taking the same specific heat of MMA in the first polymerization, the one of HEMA has been found to be very low, almost negligible. Between the first and third case, the heat of polymerization is comparable, although smaller. This can be partially explained by the higher surface/volume ratio of the smaller spheroid in the third experiment: heat exchange with environment is greater and, together with a possible poorer insulation of the chamber, a lower measured temperature variation is produced ($85^\circ$C of pick where in the first case it was $101^\circ$C). \\
+The specific heat of MMA for the second polymerization has been taken equal to the first polymerization, in order to calculate the contribution in specific heat of the HEMA monomer. From Table \ref{tab:heat} it can be noticed how the heat of polymerization of the second case is way larger than the first, due to the added amount of MMA monomer. The specific heat of HEMA has been found to be negative and this is probably due to errors during measurements: the kinetic of second polymerization reaction was so fast that at the beginning it was not possible to avoid some heat losses. Between the first and third case, the heat of polymerization is comparable, although smaller. This can be partially explained by the higher surface/volume ratio of the smaller spheroid in the third experiment: heat exchange with environment is greater and, together with a possible poorer insulation of the chamber, a lower measured temperature variation is produced ($85^\circ$C of pick where in the first case it was $101^\circ$C). \\
 In Figure \ref{fig:Tt} the charts reporting temperature ramp over time for three polymerizations are reported. 
 \begin{figure}[htp]
 \centering
