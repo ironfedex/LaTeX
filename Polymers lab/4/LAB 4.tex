@@ -144,6 +144,36 @@ Different speciments of unknown polymeric materials have been analysed and ident
 Size of all speciments and the mold cavity have been measured through a caliper in order to evalaute the shrinkage after the process.
 ASTM samples (with sprue and bar) have been weighted through the balance METTLER PM ${4600}$ in order to compare the total weight and polymer density.
 
+\subsection{Filament analysis}
+
+Different fibers provided by University of Trento (polypropylene, see Materials and Methods) have been analyzed: in particular the diameter of six different filament samples have been measured in order to predict their mechanical properties in function of the draw ratio and the process parameters. 
+Diameters have been taken using micrometer \textbf{[modello]}. The filament linear density (titer, fineness) is calculated accordingly to the Equation \ref{eq:titer}. 
+\begin{equation}
+	t = \rho \cdot A
+	\label{eq:titer}
+\end{equation}
+where $t$ is the titer expressed in dtex, $\rho$ is the density and $A$ is the cross-section of the fiber, considered as circular. Titer in denier is found multiplying $t$ by a factor 0.9. The apparent draw ratio $DR$ is calculated using Equation \ref{eq:DR}. 
+\begin{equation}
+	DR = \Bigl(\frac{D_{max}}{D_{min}}\Bigr)^2
+	\label{eq:DR}
+\end{equation}
+where $D_{max}$ is the maximum diameter of the collected fibers while $D_{min}$ is the minimum diameter. The fiber strength $T_{as}$ (tenacity as spun) is measured in $\frac{\text{cN}}{\text{dtex}}$ and it's calculated accordingly to the Equation \ref{eq:tenacity}. 
+\begin{equation}
+	T_{as} = \frac{\sigma_Y}{100\cdot \rho}
+	\label{eq:tenacity}
+\end{equation}
+The tenacity after drawing $T_{DR}$ is given by Equation \ref{eq:tenacity2}. 
+\begin{equation}
+	T_{DR} = T_{as}\cdot DR
+	\label{eq:tenacity2}
+\end{equation}
+The tensile strength $\sigma_b$ of the fibers is calculated accordingly to Equation \ref{eq:sigma}.
+\begin{equation}
+	\sigma_{b} = T_{DR}\cdot \rho \cdot 100
+	\label{eq:sigma}
+\end{equation}
+where $\rho$ is expressed in g/cm$^3$. 
+
 \newpage
 
 \section{Results and discussion}
@@ -362,6 +392,51 @@ $
 
 For PE/PP blend it has been considered a blend constituted by PE/PP $50\%$. From Table \ref{tab:pesi} it can be noticed that, for the same volume, weights of samples are in accordance with values of densities taken from literature. 
 
+\subsection{Filament analysis}
 
+Diameter and titer measurements are reported in Table \ref{tab:titer}.
+\begin{table}[htp]
+\centering
+$
+\begin{array}{cccc}
+\toprule
+\textbf{Sample} & \textbf{Diameter} \, (\text{µm}) & \textbf{Fineness}\, (\text{dtex}) & \textbf{Fineness} \, (\text{denier}) \\
+\midrule
+\text{F1} & 34 & 8.2 & 7.4 \\
+\text{F2} & 87 & 53.7 & 48.3 \\ 
+\text{F3} & 212 & 319.5 & 287.6 \\
+\text{F4} & 248 & 437.0 & 393.3 \\
+\text{F5} & 147 & 153.5 & 138.2 \\
+\text{F6} & 41 & 11.9 & 10.7 \\
+\bottomrule
+\end{array}
+$
+\caption{Diameters and fineness measurements of collected fibers.}
+\label{tab:titer}
+\end{table}
+
+Tenacities before and after drawing are reported in Table \ref{tab:tenacity}.
+\begin{table}[htp]
+\centering
+$
+\begin{array}{ccccc}
+\toprule
+\textbf{Sample} & \mathbf{T_{as}} \, (\frac{\text{cN}}{\text{dtex}}) & \textbf{DR} & \mathbf{T_{DR}}\, (\frac{\text{cN}}{\text{dtex}}) & \mathbf{\sigma_b} \, (\text{MPa})\\
+\midrule
+\text{F1} & 0.304 & 53.2 & 16.2 & 1464\\
+\text{F2} & 0.304 & 8.1 & 2.5 & 223\\ 
+\text{F3} & 0.304 & 1.4 & 0.4 & 38\\
+\text{F4} & 0.304 & 1.0 & 0.3 & 28\\
+\text{F5} & 0.304 & 2.8 & 0.9 & 78\\
+\text{F6} & 0.304 & 36.6 & 11.1 & 1007\\
+\bottomrule
+\end{array}
+$
+\caption{Diameters and fineness measurements of collected fibers.}
+\label{tab:titer}
+\end{table}
+
+Accordingly to literature~\cite{encyclopedia} high strength PP fibers can reach values of 2.6 GPa and 3.5\% deformation at break. Since tensile strength and deformation at break follow a hyperbolic envelope, by fitting these data with the generic equation of the hyperbole (only parameter is a constant), the following can be found, expressed in Figure \ref{fig:hyperbole}.
+  
 
 \end{document}
