@@ -4,6 +4,10 @@
 
 \documentclass[a4paper, 11pt]{article}
 
+% appendix
+
+\usepackage[toc,page]{appendix}
+
 % sintassi
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -657,9 +661,9 @@ of different products contained in the blend added to the ABS rubber, such as oi
 
 \newpage
 
-\section{Appendix}
+\begin{appendices}
 
-\subsection{Density measuraments}
+\section{Density measuraments}
 
 \begin{table}[htp]
 \centering
@@ -709,12 +713,14 @@ $
 \label{tab:apmma}
 \end{table}
 
-\subsection	{DEG effect}
+\section{DEG effect}
 
 \begin{figure}[h!]
 \centering
 {\includegraphics[scale=0.4]{DEG}} \quad 
 \captionsetup{justification=centering}
 \end{figure}
+
+\end{appendices}
 
 \end{document}
