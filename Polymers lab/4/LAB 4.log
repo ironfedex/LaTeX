@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.24)  28 MAY 2019 15:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.24)  29 MAY 2019 15:26
 entering extended mode
 **"./LAB 4.tex"
 ("LAB 4.tex"
@@ -1393,8 +1393,7 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \front@out=\write4
 \openout4 = `"LAB 4-frn.tex"'.
 
-)
-No file "LAB 4".aux.
+) ("LAB 4.aux")
 \openout1 = `"LAB 4.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
@@ -1481,6 +1480,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 94.
 LaTeX Info: Redefining \pageref on input line 94.
 LaTeX Info: Redefining \nameref on input line 94.
+ ("LAB 4.out") ("LAB 4.out")
 \@outlinefile=\write5
 \openout5 = `"LAB 4.out"'.
 
@@ -1683,8 +1683,49 @@ File: ts1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for TS1/mdbch.
 )
 LaTeX Font Info:    Font shape `TS1/mdbch/m/n' will be
 (Font)              scaled to size 10.51207pt on input line 109.
+<POM.jpg, id=23, 623.32875pt x 578.16pt>
+File: POM.jpg Graphic file (type jpg)
+<use POM.jpg>
+Package pdftex.def Info: POM.jpg  used on input line 124.
+(pdftex.def)             Requested size: 132.14886pt x 122.57286pt.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 8.64006pt on input line 124.
+LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
+(Font)              scaled to size 9.35101pt on input line 124.
+LaTeX Font Info:    Font shape `T1/cmss/b/n' in size <9> not available
+(Font)              Font shape `T1/cmss/bx/n' tried instead on input line 124.
+LaTeX Font Info:    Font shape `T1/cmss/bx/n' will be
+(Font)              scaled to size 9.35101pt on input line 124.
+<PA11ISO.jpg, id=24, 816.04875pt x 575.14874pt>
+File: PA11ISO.jpg Graphic file (type jpg)
+<use PA11ISO.jpg>
+Package pdftex.def Info: PA11ISO.jpg  used on input line 126.
+(pdftex.def)             Requested size: 171.37529pt x 120.78479pt.
+<PPW.jpg, id=25, 245.41687pt x 573.64313pt>
+File: PPW.jpg Graphic file (type jpg)
+<use PPW.jpg>
+Package pdftex.def Info: PPW.jpg  used on input line 128.
+(pdftex.def)             Requested size: 61.35406pt x 143.41043pt.
+<PPB.jpg, id=26, 248.42813pt x 575.14874pt>
+File: PPB.jpg Graphic file (type jpg)
+<use PPB.jpg>
+Package pdftex.def Info: PPB.jpg  used on input line 130.
+(pdftex.def)             Requested size: 62.10687pt x 143.78683pt.
+<PA6GF.jpg, id=27, 254.45062pt x 577.40718pt>
+File: PA6GF.jpg Graphic file (type jpg)
+<use PA6GF.jpg>
+Package pdftex.def Info: PA6GF.jpg  used on input line 132.
+(pdftex.def)             Requested size: 63.61249pt x 144.35144pt.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 9.60007pt on input line 134.
+LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
+(Font)              scaled to size 10.39001pt on input line 134.
+LaTeX Font Info:    Font shape `T1/cmss/b/n' in size <10> not available
+(Font)              Font shape `T1/cmss/bx/n' tried instead on input line 134.
+LaTeX Font Info:    Font shape `T1/cmss/bx/n' will be
+(Font)              scaled to size 10.39001pt on input line 134.
 LaTeX Font Info:    Font shape `T1/mdbch/m/sl' will be
-(Font)              scaled to size 10.51207pt on input line 119.
+(Font)              scaled to size 10.51207pt on input line 137.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1694,40 +1735,110 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 
 [1{C:/Users/Alex96/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 119.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 119.
+ <./POM.jpg> <./PA11ISO.jpg> <./PPW.jpg> <./PPB.jpg> <./PA6GF.jpg>]
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 145.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 145.
+<ABS.jpg, id=48, 356.83313pt x 579.66562pt>
+File: ABS.jpg Graphic file (type jpg)
+<use ABS.jpg>
+Package pdftex.def Info: ABS.jpg  used on input line 186.
+(pdftex.def)             Requested size: 89.20805pt x 144.91605pt.
+<COC.jpg, id=49, 396.7322pt x 575.90157pt>
+File: COC.jpg Graphic file (type jpg)
+<use COC.jpg>
+Package pdftex.def Info: COC.jpg  used on input line 188.
+(pdftex.def)             Requested size: 99.1828pt x 143.97504pt.
+<PP.jpg, id=50, 364.36125pt x 570.63188pt>
+File: PP.jpg Graphic file (type jpg)
+<use PP.jpg>
+Package pdftex.def Info: PP.jpg  used on input line 190.
+(pdftex.def)             Requested size: 91.09009pt x 142.65762pt.
+<HDPE.jpg, id=51, 362.85562pt x 570.63188pt>
+File: HDPE.jpg Graphic file (type jpg)
+<use HDPE.jpg>
+Package pdftex.def Info: HDPE.jpg  used on input line 192.
+(pdftex.def)             Requested size: 90.71368pt x 142.65762pt.
+<PE-PP.jpg, id=52, 362.10281pt x 579.66562pt>
+File: PE-PP.jpg Graphic file (type jpg)
+<use PE-PP.jpg>
+Package pdftex.def Info: PE-PP.jpg  used on input line 194.
+(pdftex.def)             Requested size: 90.52547pt x 144.91605pt.
+<PA11ASTM.jpg, id=53, 418.56375pt x 573.64313pt>
+File: PA11ASTM.jpg Graphic file (type jpg)
+<use PA11ASTM.jpg>
+Package pdftex.def Info: PA11ASTM.jpg  used on input line 196.
+(pdftex.def)             Requested size: 104.64067pt x 143.41043pt.
+<TPU.jpg, id=54, 321.45094pt x 575.90157pt>
+File: TPU.jpg Graphic file (type jpg)
+<use TPU.jpg>
+Package pdftex.def Info: TPU.jpg  used on input line 198.
+(pdftex.def)             Requested size: 86.79291pt x 155.4955pt.
 
-("LAB 4.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 119.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
+Underfull \hbox (badness 10000) in paragraph at lines 204--226
+
+ []
 
 
-Package rerunfilecheck Warning: File `"LAB 4".out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-Package rerunfilecheck Info: Checksums for `"LAB 4".out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  9BF0CD5B9D9F3D583E31B7B962CA4176;287.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
+[2
+design size mismatch in local font md-chro8t in virtual font mdbchro8t.vf ignor
+ed.]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3 <./ABS.jpg> <./COC.jpg> <./PP.jpg> <./HDPE.jpg> <./PE-PP.jpg> <./PA11ASTM.jp
+g> <./TPU.jpg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 278.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 278.
+ ("LAB 4.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 278.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 278.
+Package rerunfilecheck Info: File `"LAB 4".out' has not changed.
+(rerunfilecheck)             Checksum: 9BF0CD5B9D9F3D583E31B7B962CA4176;287.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 278.
  ) 
 Here is how much of TeX's memory you used:
- 34237 strings out of 492946
- 666135 string characters out of 3125822
- 795079 words of memory out of 3000000
- 37610 multiletter control sequences out of 15000+200000
- 572598 words of font info for 84 fonts, out of 3000000 for 9000
+ 34388 strings out of 492946
+ 668047 string characters out of 3125822
+ 811733 words of memory out of 3000000
+ 37691 multiletter control sequences out of 15000+200000
+ 592129 words of font info for 106 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,96p,449b,742s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,12n,96p,449b,744s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/ly1/texnan
-si.enc}<C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea/
-charter/bchb8a.pfb><C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/bitstrea/charter/bchbi8a.pfb><C:/Users/Alex96/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/bitstrea/charter/bchr8a.pfb>
-Output written on "LAB 4.pdf" (1 page, 36913 bytes).
+si.enc} <C:\Users\Alex96\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/d
+pi623\ecsx1000.pk> <C:\Users\Alex96\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jk
+nappen/ec/dpi623\ecsx0900.pk><C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/Alex96/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchbi8a.pfb><C:/Users/Alex96/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/Ale
+x96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><
+C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea/charter/
+bchri8a.pfb><C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/math
+design/mdbch/md-chr7t.pfb><C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/mathdesign/mdbch/md-chr7y.pfb><C:/Users/Alex96/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr8t.pfb><C:/Users/Alex96/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chri7m.pfb>
+Output written on "LAB 4.pdf" (4 pages, 1139426 bytes).
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
- 6 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 159 PDF objects out of 1000 (max. 8388607)
+ 28 named destinations out of 1000 (max. 500000)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
