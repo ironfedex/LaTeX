@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.28)  28 MAY 2019 16:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.28)  29 MAY 2019 13:28
 entering extended mode
 **"./LAB 3.tex"
 ("LAB 3.tex"
@@ -1340,6 +1340,9 @@ LaTeX Warning: Label `tab:mw' multiply defined.
 
 LaTeX Warning: Label `tab:dieswell' multiply defined.
 
+
+LaTeX Warning: Label `tab:tmwpp' multiply defined.
+
 )
 \openout1 = `"LAB 3.aux"'.
 
@@ -1817,26 +1820,32 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
 (Font)              scaled to size 19.91054pt on input line 555.
  [14] [15] [16]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 669.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 669.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 693.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 693.
  ("LAB 3.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 669.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 669.
-Package rerunfilecheck Info: File `"LAB 3".out' has not changed.
-(rerunfilecheck)             Checksum: 6D7A476FF15827FE62D54EDE1AAA8AC5;1915.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 693.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 693.
 
+
+Package rerunfilecheck Warning: File `"LAB 3".out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"LAB 3".out':
+(rerunfilecheck)             Before: 6D7A476FF15827FE62D54EDE1AAA8AC5;1915
+(rerunfilecheck)             After:  E2E8A37B7C150327D85952CE65E7B2AF;1952.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 669.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 693.
  ) 
 Here is how much of TeX's memory you used:
- 34876 strings out of 492895
- 670632 string characters out of 3133479
- 822055 words of memory out of 3000000
+ 34878 strings out of 492895
+ 670652 string characters out of 3133479
+ 825096 words of memory out of 3000000
  38103 multiletter control sequences out of 15000+200000
  619735 words of font info for 160 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1850,15 +1859,14 @@ itstrea/charter/bchbi8a.pfb><C:/Users/morij/AppData/Roaming/MiKTeX/2.9/fonts/ty
 pe1/bitstrea/charter/bchr8a.pfb><C:/Users/morij/AppData/Roaming/MiKTeX/2.9/font
 s/type1/bitstrea/charter/bchr8a.pfb><C:/Users/morij/AppData/Roaming/MiKTeX/2.9/
 fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/morij/AppData/Roaming/MiKTeX
-/2.9/fonts/type1/mathdesign/mdbch/md-chb8t.pfb><C:/Users/morij/AppData/Roaming/
-MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7t.pfb><C:/Users/morij/AppData/Ro
-aming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7v.pfb><C:/Users/morij/AppD
-ata/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7y.pfb><C:/Users/mori
-j/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr8t.pfb><C:/User
-s/morij/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chri7m.pfb>
-Output written on "LAB 3.pdf" (16 pages, 1479769 bytes).
+/2.9/fonts/type1/mathdesign/mdbch/md-chr7t.pfb><C:/Users/morij/AppData/Roaming/
+MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7v.pfb><C:/Users/morij/AppData/Ro
+aming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7y.pfb><C:/Users/morij/AppD
+ata/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr8t.pfb><C:/Users/mori
+j/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chri7m.pfb>
+Output written on "LAB 3.pdf" (16 pages, 1478092 bytes).
 PDF statistics:
- 467 PDF objects out of 1000 (max. 8388607)
- 85 named destinations out of 1000 (max. 500000)
+ 465 PDF objects out of 1000 (max. 8388607)
+ 87 named destinations out of 1000 (max. 500000)
  316 words of extra memory for PDF output out of 10000 (max. 10000000)
 
