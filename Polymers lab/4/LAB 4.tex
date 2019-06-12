@@ -93,30 +93,36 @@ width0pt\right\delimright_{\rlap{$\scriptstyle#3$}}$};}}
 
 \begin{document}
 
-
+\includepdf{frontespizio4.pdf}
 
 \begin{chapterabstract}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla hendrerit, lorem feugiat dignissim congue, justo metus eleifend urna, a iaculis turpis purus vel ante. Maecenas vitae augue iaculis elit blandit lobortis et et neque. Fusce lacinia augue fringilla nisi consequat dapibus. Quisque molestie volutpat commodo. Suspendisse porta velit facilisis interdum tempus. Donec accumsan, justo a eleifend ullamcorper, leo nisi blandit nibh, eu scelerisque metus odio in tellus. Maecenas eget varius metus, at fermentum lectus. Maecenas eget condimentum mi. Nulla facilisi. Sed at sagittis lectus, sed pulvinar ligula.
+
+Two mixtures composed of 15\% by weight of flame-retardant PP (black) and 85\% of PPH-B-10-FB (white) were prepared. One mixture was subjected to compounding while the other was mixed manually before producing two samples with compression molding. the distribution of black PP in the white one is absolutely non-homogeneous,typical consequence of a manual mixing of pellets (without any homogenization mixing in between).
+Several samples produced by injection molding according to specific standards (ISO and ASTM) were analyzed and identified. This procedure was also useful for calculating the shrinkage to which some materials are subjected: it is clear that for reinforced materials, shrinkage is negligible due to the presence of glass fibers that give dimensional stability to the polymer; semi-crystalline polymers, on the other hand, exhibit higher shrinkage values than amorphous polymers. Lastly the diameter of six different filament samples have been measured in order to predict their mechanical properties in function of the draw ratio and the process parameters.
+
+
 
 \end{chapterabstract} 
 
 \section{Introduction}
 
+The aim of this laboratory activity was to use different polymer processing techniques together with the analysis of the properties of some samples produced by the listed techniques.
+
+\section{Materials and methods}
+
+Two types of Polypropylene (PP) have been poured together in order to obtain a mixture with higher properties with respect to the matrix. For our purpose 15\% in weight of flame retardant PP pellet has been added to isotactic PP (PPH-B-10-FB). In Figure \ref{fig:datasheet} is reported the technical datasheet of PPH-B-10-FB.
+For compression molding a stainless steel plates with a frame of $12\times 12\, \text{mm}^2$ has been filled with 34 g of the mixture composed by 27.22 g of isotactic PP and 6.68 g of flame retardant PP. 
+For injection compounding 40 g of the mixture have been weighed. In this case the misture was composed by 34.01 g of isotactic PP and 5.99 g of flame retardant PP.
+\begin{figure}[h!]
+	\centering
+	{\includegraphics[scale=0.6]{datasheetPP}}
+	\captionsetup{justification=centering}
+	\caption{Technical datasheet of PPH-B-10-FB}
+	\label{fig:datasheet}
+\end{figure}\\
+
 \section{Experimental activity}
-
-\subsection{Compounding (Internal Mixer)}
-
-The process has been carried out with the instrument Thermo Haake Rheomix 600.\\
-The processing parameters used are the following:
-
-\begin{itemize}
-\item Temperature T = $200^\circ$C
-\item time t = 10 min
-\item Rotation speed $\omega$ = 50 rpm
-\end{itemize}
-
-The sample used has the same composition as Plate 1 sample with a mass of $32.05$ g.
 
 \subsection{Compression molding}
 
@@ -130,26 +136,60 @@ Prepared amount of polypropylene mixture has been used for compression molding p
 \end{figure}\\
 The material to be pressed is put between two stainless steel plates, one having a frame of $12\times 12\, \text{mm}^2$ in order to produce a square plate of some mm of thickness. To avoid any adhesion with the plates, that are used to evenly distribute the pressure and to confine the melt (since the press is able to provide heat), two Mylar${^\text{\textregistered}}$ foils have been put in between the steel and the material. The press has been set to produce a pressure of 8 tons, equivalent to 5.45 MPa, in the frame. The material has undergone an heat treatment under this pressure of 200°C for 10 minutes. After this, the press has been cooled with water circulating in a refrigerating circuit inside of it and the molded piece extracted. Produced plate is then visually analyzed and weighted in order to estimate weight losses. \par 
 
+
+\subsubsection{Compounding (internal mixer)}
+
+The process has been carried out with the instrument Thermo Haake Rheomix 600, where the polypropylene mixture undergoes a thermal treatment of $200^\circ$C for 10 minutes. Rotation speed has been set at 40 rpm.
+\begin{figure}[htp]
+	\centering
+	\includegraphics[scale=0.3]
+	{PHOTO-2019-05-23-17-37-35.jpg}
+	\label{fig:rheo}
+	\caption{Rheomix 600 after usage. Remains of polypropylene mixture are visible.}
+\end{figure}\\
+The product obtained by this process has then been subjected to compression molding, using the same parameters as Plate 1. Tangential speed of the compounder is estimated to 0.082 m/s.
+
 \subsubsection{Production of dumbbell specimens}
 
 After the analysis of the plate, this has been cut to obtain ISO 527-1BA shaped specimens, that are used in another laboratory activity.     
 
 \subsection{Injection molding: sample evaluation}
-Different speciments of unknown polymeric materials have been analysed and identified. They have been produced by injection molding according to specific standards (ISO and ASTM):
+Different specimens of unknown polymeric materials have been analysed and identified. They have been produced by injection molding according to specific standards (ISO and ASTM):
 \begin{itemize}
 \item ISO 10.0 $\times$ 4.0 $\times$ 172 (mm);
 \item ASTM 12.7 $\times$ 3.3 $\times$ 165 (mm);
 \end{itemize}
 
-Size of all speciments and the mold cavity have been measured through a caliper in order to evaluate the shrinkage after the process according to Equation \ref{eq:shr}.
+In Table \ref{tab:materials} the types of samples are divided by standard (ASTM and ISO). 
+\begin{table}[htp]
+	\centering
+	$
+	\begin{array}{ll}
+	\toprule
+	\textbf{ASTM dumbbell} & \textbf{ISO dumbbell}  \\
+	\midrule
+	\text{ABS} & \text{POM bi-injected}\\
+        \text{COC} & \text{PA11 mono-injected}\\
+	\text{PP} & \text{PP-GF 30 (white) and PP-GF35 (black)}\\
+	\text{HDPE Eltex yellow} & \text{PA6-GF50}\\
+	\text{PE/PP blend} & \text{}\\
+	\text{PA11} & \text{}\\
+	\bottomrule
+	\end{array}
+	$
+	\caption{Materials used in sample evaluation}
+	\label{tab:materials}
+\end{table}
+
+Size of all specimens and the mold cavity have been measured through a caliper in order to evaluate the shrinkage after the process according to Equation \ref{eq:shr}.
 \begin{equation}
-Shrinkage = \frac{\Delta x}{x_0}
+\text{shrinkage} = \frac{\Delta x}{x_0}
 \label{eq:shr}
 \end{equation}
 
 Where $\Delta x$ is the difference between the initial and final dimension (lenght, width and thickness) and $x_0$ is the initial dimension (lenght, width and thickness). 
 
-ASTM samples (with sprue and bar) have been weighted through the balance METTLER PM ${4600}$ in order to compare the total weight and polymer density (taken from literature~\cite{handbook}).
+ASTM samples (with sprue and bar) have been weighted through the balance Mettler PM 4600 in order to compare the total weight and polymer density (taken from literature~\cite{handbook}).
 
 \subsection{Filament analysis}
 
@@ -227,21 +267,59 @@ The weights of the product before and after compression are reported in Table \r
 	\label{tab:weights_comparison}
 \end{table}
 
-\subsubsection{Production of dumbbell specimens}
+\subsubsection{Compounding (Internal Mixer)}
 
-In Figure \ref{fig:dumbbell} the dumbbell specimens produced are displayed. 
+A comparison between plates after compression molding si reported in Figure \ref{fig:plates}.
 \begin{figure}[htp]
 	\centering
-	\includegraphics[scale=0.3]
-	{PHOTO-2019-05-23-17-37-07.jpg}
-	\label{fig:dumbbell}
-	\caption{Produced specimens from compression molding plate.}
+	\includegraphics[scale=0.4]
+	{PIATTI.jpg}
+	\label{fig:plates}
+	\caption{Compressed plates: plate 1 (from pellets) at left and plate 2 (from compounding) at right.}
 \end{figure}\\
-As it can be seen, these specimens are characterized by low isotropy and homogeneity of the mixture. This will be a probable issue when mechanically testing and in resistance to flame propagation. Since the flame retardant is a weakener of strength (it introduces organics with poor adhesion and thus stress intensifiers), these specimens may have higher deformation at break than the more homogeneous ones produced in melt compounding. 
+It can be seen that subjecting the sample to compounding before compression molding, a better homogeneity can  be reached.
+The weights of the product before and after compression are reported in Table \ref{tab:weights_comparison}.
+
+\begin{table}[htp]
+	\centering
+	$
+	\begin{tabular}{cccc}
+	\toprule
+	\textbf{Sample} & \textbf{Mixture mass}\,\text{(g)} & \textbf{Plate mass}\,\text{(g)} & \textbf{Variation}\,\text{(\%)} \\
+	\midrule
+	1 & 34.00 & 32.50 & -4.41\\
+	2 & 32.05 & 30.50 & -4.84\\
+	\bottomrule
+	\end{tabular}
+	$
+	\caption{Mass of the samples before and after pressing.}
+	\label{tab:weights_comparison}
+\end{table}
+
+The table shows that the weight variation is slighty highier, that can be explained by the more difficult preparation of the sample before compression, due to its volume distribution.
+
+\newpage
+
+\subsubsection{Production of dumbbell specimens}
+
+In Figure \ref{fig:spec}-a the dumbbell specimens produced in compression molding without compounding are displayed. As it can be seen, these specimens are characterized by low isotropy and homogeneity of the mixture. This will be a probable issue when mechanically testing and in resistance to flame propagation. Since the flame retardant is a weakener of strength (it introduces organics with poor adhesion and thus stress intensifiers), these specimens may have higher deformation at break than the more homogeneous ones produced in melt compounding, showed in Figure \ref{fig:spec}-b.
+\begin{figure}[htp]
+	\centering
+	\subfloat[][]
+	{\includegraphics[scale=0.34]
+	{PHOTO-2019-05-23-17-37-11.jpg}} \qquad
+	\subfloat[][]
+	{\includegraphics[scale=0.4]
+	{PHOTO-2019-05-23-17-37-13.jpg}} 
+	\label{fig:spec}
+	\caption{Produced specimens from compression molding plate after compounding.}
+\end{figure}
+
+\newpage
 
 \subsection{Injection molding: sample evaluation}
 
-ISO speciments are reported in Figure \ref{fig:ISO}.
+ISO specimens are reported in Figure \ref{fig:ISO}.
 
 \begin{figure}[htp]
 \centering
@@ -250,22 +328,22 @@ ISO speciments are reported in Figure \ref{fig:ISO}.
 \subfloat[][]
 {\includegraphics[scale=0.2]{PA11ISO}} \\
 \subfloat[][]
-{\includegraphics[scale=0.2]{PPW}} \qquad
+{\includegraphics[scale=0.25]{PPW}} \qquad
 \subfloat[][]
-{\includegraphics[scale=0.2]{PPB}} \qquad
+{\includegraphics[scale=0.25]{PPB}} \qquad
 \subfloat[][]
-{\includegraphics[scale=0.2]{PA6GF}}
+{\includegraphics[scale=0.25]{PA6GF}}
 \captionsetup{justification=centering}
 \caption{ISO samples: a) POM; b) PA11; c) PP-GF30; d) PP-GF35; e) PA6-GF50. }
 \label{fig:ISO}
 \end{figure}
-\newpage
-In Table \ref{tab:ISO} different types of ISO speciments are classified with their sizes.
+
+In Table \ref{tab:ISO} different types of ISO specimens are classified with their sizes.
 
 \begin{table}[htp]
 \centering
 $
-\begin{array}{cccl}
+\begin{array}{llll}
 \toprule
 \textbf{Figure} & \textbf{Material} & \textbf{Size}\,(\text{mm}) & \textbf{Description} \\
 \midrule
@@ -277,13 +355,13 @@ $
 \bottomrule
 \end{array}
 $
-\caption{ISO speciments and characteristics.}
+\caption{ISO specimens and characteristics.}
 \label{tab:ISO}
 \end{table}
 
 In Table \ref{tab:shISO} the values of the shrinkage of ISO samples are reported.
 
-\begin{table}[htp]
+\begin{table}[h!]
 \centering
 $
 \begin{array}{cccc}
@@ -303,7 +381,7 @@ $
 
 From Table \ref{tab:shISO} it can be noticed that in reinforced polymers the shrinkage is very small, almost negligible. The presence of glass fibers gives to polymers better dimensional stability during cooling. 
 
-ASTM speciments are reported in Figure \ref{fig:ASTM}.
+ASTM specimens are reported in Figure \ref{fig:ASTM}.
 
 \begin{figure}[htp]
 \centering
@@ -316,7 +394,7 @@ ASTM speciments are reported in Figure \ref{fig:ASTM}.
 \subfloat[][]
 {\includegraphics[scale=0.25]{HDPE}} \qquad
 \subfloat[][]
-{\includegraphics[scale=0.25]{PE-PP}} \qquad
+{\includegraphics[scale=0.247]{PE-PP}} \qquad
 \subfloat[][]
 {\includegraphics[scale=0.25]{PA11ASTM}} \\
 \captionsetup{justification=centering}
@@ -324,11 +402,11 @@ ASTM speciments are reported in Figure \ref{fig:ASTM}.
 \label{fig:ASTM}
 \end{figure}
 
-In Table \ref{tab:ASTM} different types of ASTM speciments are classified with their sizes.
+In Table \ref{tab:ASTM} different types of ASTM specimens are classified with their sizes.
 \begin{table}[htp]
 \centering
 $
-\begin{array}{ccccl}
+\begin{array}{lllll}
 \toprule
 \textbf{Figure} & \textbf{Material} & \textbf{Weight}\,(\text{g}) & \textbf{Size}\,(\text{mm}) & \textbf{Description} \\
 \midrule
@@ -341,10 +419,12 @@ $
 \bottomrule
 \end{array}
 $
-\caption{ASTM speciments and characteristics.}
+\caption{ASTM specimens and characteristics.}
 \label{tab:ASTM}
 \end{table}
 \\
+
+\newpage
 
 In Table \ref{tab:shASTM} the values of the shrinkage of ASTM samples are reported.
 
@@ -384,7 +464,7 @@ $
 \text{COC} & 14.07 & 1.02 \\
 \text{PP} & 12.28 & 0.85-0.94 \\
 \text{HDPE} & 12.73 & 0.93-0.97 \\
-\text{PE/PP blend} & 13.3 & 0.86-0.95 \\
+\text{PE/PP blend} & 13.30 & 0.86-0.95 \\
 \text{PA11} & 14.00 & 1.04 \\
 \bottomrule
 \end{array}
@@ -393,7 +473,9 @@ $
 \label{tab:pesi}
 \end{table}
 
-For PE/PP blend it has been considered a blend constituted by PE/PP $50\%$. From Table \ref{tab:pesi} it can be noticed that, for the same volume, weights of samples are in accordance with values of densities taken from literature. 
+For PE/PP blend it has been considered a blend constituted by PE/PP $50\%$. From Table \ref{tab:pesi} it can be noticed that, for the same volume, weights of samples are in accordance with values of densities taken from literature~\cite{handbook}. 
+
+\newpage
 
 \subsection{Filament analysis}
 
@@ -448,45 +530,12 @@ Accordingly to literature~\cite{encyclopedia} high strength PP fibers can reach 
 	\caption{Stress-strain relation for PP fibers.}
 \end{figure}
 
-\section{Materials and methods}
-\subsection{Sample preparation for compression molding and injection compounding}
+\section{Conclusions}
 
-Two types of Polypropylene (PP) have been poured together in order to obtain a mixture with higher properties with respect to the matrix. For our purpose 15\% in weight of flame retardant PP pellet has been added to isotactic PP (PPH-B-10-FB). In Figure \ref{fig:datasheet} is reported the technical datasheet of PPH-B-10-FB.
-For compression molding a stainless steel plates with a frame of $12\times 12\, \text{mm}^2$ has been filled with 34 g of the mixture composed by 27.22 g of isotactic PP and 6.68 g of flame retardant PP. 
-For injection compounding 40 g of the mixture have been weighed. In this case the misture was composed by 34.01 g of isotactic PP and 5.99 g of flame retardant PP.
-\begin{figure}[h!]
-	\centering
-	{\includegraphics[scale=0.6]{datasheetPP}}
-	\captionsetup{justification=centering}
-	\caption{Technical datasheet of PPH-B-10-FB}
-	\label{fig:datasheet}
-\end{figure}\\
 
-\subsection {Injection molding: sample evaluation}
-
-Two groups of specimens have been analyzed to identify specific materials: ISO dumbbell specimens and ASTM dumbbell specimes. For each group several samples have been provided in order to recognize a specific polymer. In Table \ref{tab:materials} is reported the list of polymers recognized. 
-
-\begin{table}[htp]
-	\centering
-	$
-	\begin{array}{ll}
-	\toprule
-	\textbf{ASTM dumbbell} & \textbf{ISO dumbbell}  \\
-	\midrule
-	\text{ABS} & \text{POM bi-injected}\\
-        \text{COC} & \text{PA11 mono-injected}\\
-	\text{PP} & \text{PP-GF 30 (white) and PP-GF35 (black)}\\
-	\text{HDPE Eltex yellow} & \text{PA6-GF50}\\
-	\text{PE/PP blend} & \text{}\\
-	\text{PA11} & \text{}\\
-	\text{TPU} & \text{}\\
-	\bottomrule
-	\end{array}
-	$
-	\caption{Materials used in sample evaluation}
-	\label{tab:materials}
-\end{table}
-
+There are different polymer processing techniques. In this laboratory session compression molding and compouding techniques were used and samples produced by injection molding were analyzed.
+Several observations were made by examining the samples produced, in order to correlate the process parameters with the properties of the materials.
+We have seen that a sample will be more homogeneous if subjected to compounding before compression molding; from the evaluation of samples produced by injection molding, the presence or not of shrinkage will be an index of the dimensional stability of the polymer or if it is a crystalline rather than an amorphous one; finally, by measuring the diameter of a fiber it is possible to predict some mechanical properties of the fiber itself.
 
 \begin{thebibliography}{1}
 
