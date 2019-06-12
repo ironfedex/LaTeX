@@ -4,6 +4,10 @@
 
 \documentclass[a4paper, 11pt]{article}
 
+% appendix
+
+\usepackage[toc,page]{appendix}
+
 % sintassi
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -109,7 +113,7 @@ The aim of this laboratory activity was to use different polymer processing tech
 
 \section{Materials and methods}
 
-Two types of Polypropylene (PP) have been poured together in order to obtain a mixture with higher properties with respect to the matrix. For our purpose 15\% in weight of flame retardant PP pellet has been added to isotactic PP (PPH-B-10-FB). In Figure \ref{fig:datasheet} is reported the technical datasheet of PPH-B-10-FB.
+Two types of Polypropylene (PP) have been poured together in order to obtain a mixture with higher properties with respect to the matrix. For our purpose 15\% in weight of flame retardant PP (PP HiRONIen V15 BLACK) pellet has been added to isotactic PP (PPH-B-10-FB). In Figure \ref{fig:datasheet} is reported the technical datasheet of PPH-B-10-FB, while in Table \ref{tab:flame} (Appendix) technical datasheet of PP HiRONIen V15 BLACK is reported.
 For compression molding a stainless steel plates with a frame of $12\times 12\, \text{mm}^2$ has been filled with 34 g of the mixture composed by 27.22 g of isotactic PP and 6.68 g of flame retardant PP. 
 For injection compounding 40 g of the mixture have been weighed. In this case the misture was composed by 34.01 g of isotactic PP and 5.99 g of flame retardant PP.
 \begin{figure}[h!]
@@ -118,7 +122,7 @@ For injection compounding 40 g of the mixture have been weighed. In this case th
 	\captionsetup{justification=centering}
 	\caption{Technical datasheet of PPH-B-10-FB}
 	\label{fig:datasheet}
-\end{figure}\\
+\end{figure}
 
 \section{Experimental activity}
 
@@ -152,6 +156,25 @@ The product obtained (Figure \ref{fig:rheo}) by this process has then been subje
 After the analysis of the plate, this has been cut to obtain ISO 527-1BA shaped specimens, that are used in another laboratory activity.     
 
 \newpage
+
+In Table \ref{tab:summary} the main parameters used in the processes are reported.
+
+\begin{table}[htp]
+\centering
+$
+\begin{array}{lcccc}
+\toprule
+\textbf{Process} & \textbf{Time}\,\text{(min)}  & \textbf{Temperature}\,(^\circ\text{C}) & \textbf{Pressure}\,\text{(MPa)} & \textbf{Rotational speed}\,\text{(rpm)}\\
+\midrule
+\text{Compression molding 1} & 10 & 200 & 5.45 & -\\
+\text{Compounding} & 10 & 200 &  - & 40 \\
+\text{Compression molding 2} & 10 & 200 & 5.45 & -\\
+\bottomrule
+\end{array}
+$
+\caption{Summary of the main parameters used in the processes}
+\label{tab:summary}
+\end{table}
 
 \subsection{Injection molding: sample evaluation}
 Different specimens of unknown polymeric materials have been analysed and identified. They have been produced by injection molding according to specific standards (ISO and ASTM):
@@ -190,8 +213,6 @@ Size of all specimens and the mold cavity have been measured through a caliper i
 Where $\Delta x$ is the difference between the initial and final dimension (lenght, width and thickness) and $x_0$ is the initial dimension (lenght, width and thickness). 
 
 ASTM samples (with sprue and bar) have been weighted through the balance Mettler PM 4600 in order to compare the total weight and polymer density (taken from literature~\cite{handbook}).
-
-\newpage
 
 \subsection{Filament analysis}
 
@@ -266,7 +287,7 @@ The weights of the product before and after compression are reported in Table \r
 	\end{array}
 	$
 	\caption{Mass of the sample before and after pressing.}
-	\label{tab:weights_comparison}
+	\label{tab:weights_compression}
 \end{table}
 
 \subsubsection{Compounding (Internal Mixer)}
@@ -385,7 +406,7 @@ $
 
 From Table \ref{tab:shISO} it can be noticed that in reinforced polymers the shrinkage is very small, almost negligible. The presence of glass fibers gives to polymers better dimensional stability during cooling. 
 
-ASTM type specimens (containing dumbell, sprue and plate) are reported in Figure \ref{fig:ASTM}.
+ASTM type specimens (containing dumbbell, sprue and plate) are reported in Figure \ref{fig:ASTM}.
 
 \begin{figure}[htp]
 \centering
@@ -430,7 +451,7 @@ $
 
 \newpage
 
-In Table \ref{tab:shASTM} the values of the shrinkage of ASTM samples (containing dumbell, sprue and plate) are reported, following Equation \ref{eq:shr}.
+In Table \ref{tab:shASTM} the values of the shrinkage of ASTM samples (containing dumbbell, sprue and plate) are reported, following Equation \ref{eq:shr}.
 
 \begin{table}[htp]
 \centering
@@ -548,9 +569,39 @@ Accordingly to literature~\cite{handbook} high strength PP fibers can reach valu
 There are different polymer processing techniques. In this laboratory session compression molding and compouding techniques were used and samples produced by injection molding were analyzed.
 Several observations were made by examining the samples produced, in order to correlate the process parameters with the properties of the materials.
 It has been seen that a sample will be more homogeneous if subjected to compounding before compression molding; from the evaluation of samples produced by injection molding, the presence or not of shrinkage will be an index of the dimensional stability of the polymer or if it is a crystalline rather than an amorphous one; finally, by measuring the diameter of a fiber it is possible to predict some mechanical properties of the fiber itself.
+\newpage
 
+\begin{appendices}
+\section{Data sheet of PP HiRONIen V15 BLACK}
+
+
+\begin{table}[htp]
+\centering
+$
+\begin{array}{lcc}
+\toprule
+\textbf{Sample} & \textbf{Test method} & \textbf{Value}\\
+\midrule
+
+\text{MFI}\,\text{(g/10min)} & \text{ASTM D}{1238} & 25 \pm 3 \\
+\text{Density}\,\text{(g/cm}^3) & \text{ASTM D}{792}\, {(23^\circ\text{C})} & 0.950 \pm 0.005 \\
+\text{Water absorption}\, (\%) & \text{ASTM D}{570}\, (23^\circ \text{C} \times 24\text{h}) & 0.10 \pm 0.05 \\
+\text{Shrinkage}\, ({\%}) & \text{ASTM D}{955} & 1.0 \pm 0.5 \\
+\text{Izod with notch}\, \text{(J/m)} & \text{ASTM D}{256}\,(23^\circ \text{C}) & 40 \pm 10 \\
+\text{Elastic modulus}\, \text{(MPa)} & \text{ASTM D}{790}& 1400 \pm 150 \\
+\text{Behaviour to fire}\, (1.6 \text{mm}\,\text{thickness)} & \text{ASTM UL}{94} & V1 \\
+\bottomrule
+\end{array}
+$
+\caption{Technical datasheet of PP (HiRONlen V15 Black).}
+\label{tab:flame}
+\end{table}
+\end{appendices}
+
+\newpage
 \begin{thebibliography}{1}
 
 \bibitem{handbook} Polymer handbook, J. Brandrup, E.H. Immergut, third edition, New York, Wiley \& Sons 2003.
 \end{thebibliography}
+
 \end{document}
