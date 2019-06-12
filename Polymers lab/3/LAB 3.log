@@ -1,15 +1,13 @@
-<<<<<<<-modificheilaria
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.4.7)  28 MAY 2019 16:30
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.28)  29 MAY 2019 14:27
->>>>>>>+origin/master
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.4.7)  12 JUN 2019 17:15
 entering extended mode
-**"./LAB 3.tex"
-("LAB 3.tex"
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"LAB 3.tex"
+(./LAB 3.tex
 LaTeX2e <2018-12-01>
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
+(c:/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\size11.clo"
+(c:/texlive/2018/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -24,46 +22,39 @@ File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/appendix\appendix.sty
+(c:/texlive/2018/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@pps=\count88
 \c@@ppsavesec=\count89
 \c@@ppsaveapp=\count90
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\fontenc.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\t1enc.def"
+(c:/texlive/2018/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty"
-Package: babel 2019/05/04 3.31 The Babel package
+(c:/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/11/13 3.27 The Babel package
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\switch.def"
-File: switch.def 2019/05/04 3.31 Babel switching mechanism
+(c:/texlive/2018/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/11/13 3.27 Babel switching mechanism
 )
-*************************************
-* Local config file bblopts.cfg used
-*
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/babel-english\english.ldf"
+(c:/texlive/2018/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
-File: babel.def 2019/05/04 3.31 Babel common definitions
+(c:/texlive/2018/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/11/13 3.27 Babel common definitions
 \babel@savecnt=\count91
 \U@D=\dimen103
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
+(c:/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@dirlevel=\count92
 )
 \l@canadian = a dialect from \language\l@american 
@@ -72,11 +63,11 @@ File: babel.def 2019/05/04 3.31 Babel common definitions
 ))
    defining Unicode char U+00A0 (decimal 160)
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/preprint\fullpage.sty
+(c:/texlive/2018/texmf-dist/tex/latex/preprint/fullpage.sty
 Package: fullpage 1999/02/23 1.1 (PWD)
 \FP@margin=\skip43
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\textcomp.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -91,12 +82,12 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\ts1enc.def"
+(c:/texlive/2018/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\ts1enc.dfu"
+(c:/texlive/2018/texmf-dist/tex/latex/base/ts1enc.dfu
 File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -233,18 +224,18 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\color.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
+(c:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+(c:/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/soul\soul.sty
+(c:/texlive/2018/texmf-dist/tex/latex/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@word=\toks16
 \SOUL@lasttoken=\toks17
@@ -256,14 +247,14 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@uldp=\dimen105
 \SOUL@ulht=\dimen106
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hyperref.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\hobsub-hyperref.sty"
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\hobsub-generic.sty"
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -275,6 +266,10 @@ Package ifvtex Info: VTeX not detected.
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
@@ -299,31 +294,31 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks21
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.sty"
+(c:/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\auxhook.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen107
 \Hy@linkcounter=\count93
 \Hy@pagecounter=\count94
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def"
+(c:/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count95
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/00miktex\hyperref.cfg"
+(c:/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4519.
@@ -335,7 +330,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4772.
 \c@Hy@tempcnt=\count96
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/url\url.sty
+(c:/texlive/2018/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -359,31 +354,31 @@ LaTeX Info: Redefining \pageref on input line 6454.
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hpdftex.def"
+(c:/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
 \Fld@listcount=\count101
 \c@bookmark@seq@number=\count102
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\rerunfilecheck.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip45
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/mwe\mwe.sty
+(c:/texlive/2018/texmf-dist/tex/latex/mwe/mwe.sty
 Package: mwe 2018/03/30 v0.5 Package to support minimal working examples (MWE)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+(c:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
@@ -391,11 +386,11 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/lipsum\lipsum.sty
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/l3kernel\expl3.sty
+(c:/texlive/2018/texmf-dist/tex/latex/lipsum/lipsum.sty
+(c:/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2019-02-15 L3 programming layer (loader) 
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/l3kernel\expl3-code.tex
+(c:/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2019-02-15 L3 programming layer (code)
 \c_max_int=\count103
 \l_tmpa_int=\count104
@@ -545,12 +540,11 @@ Package: expl3 2019-02-15 L3 programming layer (code)
 \l__seq_internal_a_int=\count185
 \l__seq_internal_b_int=\count186
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/l3kernel\l3pdfmode.def
+(c:/texlive/2018/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2019-02-15 v L3 Experimental driver: PDF mode
 \l__driver_color_stack_int=\count187
 ))
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/l3packages/xparse\xparse.s
-ty
+(c:/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2018-10-17 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count188
 \g__xparse_grabber_int=\count189
@@ -559,12 +553,14 @@ Package: xparse 2018-10-17 L3 Experimental document command parser
 \l__xparse_v_nesting_int=\count192
 )
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
- (C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/lipsum\lipsum.ltd.tex
+
+(c:/texlive/2018/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
 File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
-)) (C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/blindtext\blindtext.sty
+))
+(c:/texlive/2018/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\xspace.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \c@blindtext=\count193
@@ -586,18 +582,18 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count275
 \c@blind@pangrammax=\count276
 ))
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/siunitx\siunitx.sty
+(c:/texlive/2018/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2018/05/17 v2.7s A comprehensive (SI) units package
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks22
 \ex@=\dimen145
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\array.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty
 Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \col@sep=\dimen146
 \ar@mcellbox=\box45
@@ -607,8 +603,7 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \backup@length=\skip53
 \ar@cellbox=\box46
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/l3packages/l3keys2e\l3keys
-2e.sty
+(c:/texlive/2018/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2018-10-17 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box47
@@ -652,18 +647,19 @@ Package: l3keys2e 2018-10-17 LaTeX2e option processing using LaTeX3 keys
 \l__siunitx_table_number_align_skip=\skip56
 \l__siunitx_table_text_align_skip=\skip57
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/translator\translator.sty
+(c:/texlive/2018/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
-)) ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
+))
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip58
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen160
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count294
@@ -704,7 +700,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\bm.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup4
 \symboldletters=\mathgroup5
@@ -712,46 +708,38 @@ Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 207.
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/chemfig\chemfig.sty
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/frontendlayer\tikz.sty
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/basiclayer\pgf.sty
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/utilities\pgfrcs.sty
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfutil-co
-mmon.tex
+(c:/texlive/2018/texmf-dist/tex/generic/chemfig/chemfig.sty
+(c:/texlive/2018/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(c:/texlive/2018/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(c:/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks28
 \pgfutil@tempdima=\dimen168
 \pgfutil@tempdimb=\dimen169
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfutil-co
-mmon-lists.tex))
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfutil-la
-tex.def
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)
+) (c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box56
- (C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/ms\everyshi.sty
+
+(c:/texlive/2018/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfrcs.cod
-e.tex
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf\pgf.revision.tex)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2019/02/02 v3.1.1 (3.1.1)
 ))
 Package: pgf 2019/02/02 v3.1.1 (3.1.1)
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/basiclayer\pgfcore.sty
-
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/systemlayer\pgfsys.sty
-
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsys.c
-ode.tex
+(c:/texlive/2018/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(c:/texlive/2018/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2019/02/02 v3.1.1 (3.1.1)
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfkeys.co
-de.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks29
 \pgfkeys@temptoks=\toks30
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfkeysfil
-tered.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks31
 ))
 \pgf@x=\dimen170
@@ -772,34 +760,28 @@ tered.code.tex
 \t@pgf@tokb=\toks33
 \t@pgf@tokc=\toks34
 \pgf@sys@id@count=\count310
-
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgf.cfg
+ (c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2019/02/02 v3.1.1 (3.1.1)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsys-p
-dftex.def
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2019/02/02 v3.1.1 (3.1.1)
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsys-c
-ommon-pdf.def
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2019/02/02 v3.1.1 (3.1.1)
 )))
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsysso
-ftpath.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfsyssoftpath@smallbuffer@items=\count311
 \pgfsyssoftpath@bigbuffer@items=\count312
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsyspr
-otocol.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2019/02/02 v3.1.1 (3.1.1)
-))
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/xcolor\xcolor.sty
+)) (c:/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
+(c:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -814,18 +796,13 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcore.c
-ode.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2019/02/02 v3.1.1 (3.1.1)
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmath.code.te
-x
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathcalc.cod
-e.tex
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathutil.cod
-e.tex)
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathparser.c
-ode.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen178
 \pgfmath@count=\count313
 \pgfmath@box=\box57
@@ -833,30 +810,27 @@ ode.tex
 \pgfmath@stack@operand=\toks36
 \pgfmath@stack@operation=\toks37
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunction
-s.code.tex
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunction
-s.basic.code.tex)
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunction
-s.trigonometric.code.tex)
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunction
-s.random.code.tex)
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunction
-s.comparison.code.tex)
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunction
-s.base.code.tex)
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunction
-s.round.code.tex)
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunction
-s.misc.code.tex)
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunction
-s.integerarithmetics.code.tex)))
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfloat.co
-de.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
+x)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
+.code.tex)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
+ex)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
+de.tex)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
+x)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
+etics.code.tex)))
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count314
 ))
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorepo
-ints.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@picminx=\dimen179
 \pgf@picmaxx=\dimen180
@@ -873,129 +847,110 @@ File: pgfcorepoints.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@zx=\dimen191
 \pgf@zy=\dimen192
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorepa
-thconstruct.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
+e.tex
 File: pgfcorepathconstruct.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@path@lastx=\dimen193
 \pgf@path@lasty=\dimen194
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorepa
-thusage.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
+x
 File: pgfcorepathusage.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@shorten@end@additional=\dimen195
 \pgf@shorten@start@additional=\dimen196
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoresc
-opes.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfpic=\box58
 \pgf@hbox=\box59
 \pgf@layerbox@main=\box60
 \pgf@picture@serial@count=\count315
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoregr
-aphicstate.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
+.tex
 File: pgfcoregraphicstate.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgflinewidth=\dimen197
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoretr
-ansformations.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
+ode.tex
 File: pgfcoretransformations.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@pt@x=\dimen198
 \pgf@pt@y=\dimen199
 \pgf@pt@temp=\dimen256
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorequ
-ick.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoreob
-jects.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorepa
-thprocessing.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
+de.tex
 File: pgfcorepathprocessing.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorear
-rows.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfarrowsep=\dimen257
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoresh
-ade.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@max=\dimen258
 \pgf@sys@shading@range@num=\count316
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoreim
-age.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2019/02/02 v3.1.1 (3.1.1)
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoreex
-ternal.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfexternal@startupbox=\box61
 ))
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorela
-yers.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoretr
-ansparency.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
+.tex
 File: pgfcoretransparency.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorepa
-tterns.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorerd
-f.code.tex
+) (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)))
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pgfmodulesha
-pes.code.tex
+))) (c:/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
+x
 File: pgfmoduleshapes.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfnodeparttextbox=\box62
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pgfmoduleplo
-t.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/compatibility\pgfcomp-
-version-0-65.sty
+(c:/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
+y
 Package: pgfcomp-version-0-65 2019/02/02 v3.1.1 (3.1.1)
 \pgf@nodesepstart=\dimen259
 \pgf@nodesepend=\dimen260
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/compatibility\pgfcomp-
-version-1-18.sty
+(c:/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y
 Package: pgfcomp-version-1-18 2019/02/02 v3.1.1 (3.1.1)
-))
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/utilities\pgffor.sty
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/utilities\pgfkeys.sty
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfkeys.co
-de.tex))
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/math\pgfmath.sty
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmath.code.te
-x))
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgffor.cod
-e.tex
+)) (c:/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(c:/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(c:/texlive/2018/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2019/02/02 v3.1.1 (3.1.1)
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmath.code.te
-x)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen261
 \pgffor@skip=\dimen262
 \pgffor@stack=\toks38
 \pgffor@toks=\toks39
 ))
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tikz\t
-ikz.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2019/02/02 v3.1.1 (3.1.1)
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries\pgflibrary
-plothandlers.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
+de.tex
 File: pgflibraryplothandlers.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@plot@mark@count=\count317
 \pgfplotmarksize=\dimen263
@@ -1015,8 +970,7 @@ File: pgflibraryplothandlers.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \tikznumberofcurrentchild=\count320
 \tikz@fig@count=\count321
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pgfmodulemat
-rix.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfmatrixcurrentrow=\count322
 \pgfmatrixcurrentcolumn=\count323
@@ -1024,14 +978,14 @@ File: pgfmodulematrix.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
 \tikz@expandcount=\count325
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tikz/l
-ibraries\tikzlibrarytopaths.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )))
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/chemfig\chemfig.tex
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/simplekv\simplekv.tex)
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries\pgflibrary
-arrows.meta.code.tex
+(c:/texlive/2018/texmf-dist/tex/generic/chemfig/chemfig.tex
+(c:/texlive/2018/texmf-dist/tex/generic/simplekv/simplekv.tex)
+(c:/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.cod
+e.tex
 File: pgflibraryarrows.meta.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfarrowinset=\dimen270
 \pgfarrowlength=\dimen271
@@ -1050,25 +1004,24 @@ File: pgflibraryarrows.meta.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \CF@stuff@box=\box69
 )
 Package: chemfig 2019/02/23 v1.34 Draw molecule with an easy syntax (CT)
-)
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/mathdesign\mathdesign.sty
+) (c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mathdesign.sty
 Package: mathdesign 2013/08/29 v2.31 Math Design Project
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/mathdesign/mdbch\mdbch.cfg
-)
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/mathdesign/mdbch\mdbch.sty
+(c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdbch/mdbch.cfg)
+(c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdbch/mdbch.sty
 Package: mdbch 2013/08/29 v2.31 bitstream bitstream charter + mdbch (Math Desig
 n Project)
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/mathdesign\mdfont.def
+
+(c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdfont.def
 File: mdfont.def 2013/08/29 v2.31 (Math Design Project)
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/mathdesign\mdsffont.def
+(c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdsffont.def
 File: mdsffont.def 2013/08/29 v2.31 (Math Design Project)
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/mathdesign\mdttfont.def
+(c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdttfont.def
 File: mdttfont.def 2013/08/29 v2.31 (Math Design Project)
 )
 \symmdcal=\mathgroup7
@@ -1122,11 +1075,11 @@ LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 145.
 LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `normal'
 (Font)                  OMS/mdbch/m/n --> OMS/mdbch/m/n on input line 167.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/xkeyval\xkeyval.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkvutils.tex"
+(c:/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(c:/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks40
 \XKV@tempa@toks=\toks41
 )
@@ -1136,8 +1089,7 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 LaTeX Font Info:    Try loading font information for T1+mdbch on input line 186
 .
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/mathdesign/mdbch\t1mdbch.f
-d
+(c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdbch/t1mdbch.fd
 File: t1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for T1/mdbch.
 )
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
@@ -1157,10 +1109,11 @@ LaTeX Font Info:    Overwriting symbol font `mathdesignB' in version `bold'
 LaTeX Font Info:    Redeclaring math accent \widetilde on input line 532.
 LaTeX Font Info:    Redeclaring math accent \widehat on input line 533.
 \rulethickness=\skip61
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/base\fontenc.sty"
+)
+(c:/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\t1enc.def"
+(c:/texlive/2018/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 )))
@@ -1168,8 +1121,8 @@ Package chemfig Warning: The macro \setatomsep is deprecated. Please, use \setc
 hemfig
 
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/booktabs\booktabs.sty
-Package: booktabs 2005/04/14 v1.61803 publication quality tables
+(c:/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \heavyrulewidth=\dimen276
 \lightrulewidth=\dimen277
 \cmidrulewidth=\dimen278
@@ -1188,7 +1141,7 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count335
 \@thisrulewidth=\dimen288
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/graphbox\graphbox.sty
+(c:/texlive/2018/texmf-dist/tex/latex/graphbox/graphbox.sty
 Package: graphbox 2018/01/17 v1.1 extension for graphicx to adjust containing b
 ox
 \Gin@box@box=\box70
@@ -1199,13 +1152,13 @@ ox
 \Gin@box@bwidth=\skip66
 \Gin@box@bheight=\skip67
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/subfig\subfig.sty
+(c:/texlive/2018/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption.sty
+(c:/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption3.sty
+(c:/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
 \captionmargin=\dimen289
@@ -1234,10 +1187,10 @@ Package caption Info: hyperref package is loaded.
 \sf@top=\skip71
 \sf@bottom=\skip72
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/pdfpages\pdfpages.sty
+(c:/texlive/2018/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\calc.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count345
 \calc@Bcount=\count346
@@ -1250,13 +1203,13 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count347
 \calc@Cskip=\skip75
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/eso-pic\eso-pic.sty
+(c:/texlive/2018/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 )
 \AM@pagewidth=\dimen299
 \AM@pageheight=\dimen300
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/pdfpages\pppdftex.def
+(c:/texlive/2018/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box71
@@ -1265,7 +1218,7 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count348
 \AM@templatesizebox=\box72
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/float\float.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count349
 \float@exts=\toks44
@@ -1275,14 +1228,14 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 \@float@every@table=\toks46
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/multirow\multirow.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
 \multirow@colwidth=\skip76
 \multirow@cntb=\count350
 \multirow@dima=\skip77
 \bigstrutjot=\dimen301
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/fancyhdr\fancyhdr.sty
+(c:/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip78
@@ -1303,7 +1256,7 @@ less on input line 59.
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 60.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/04/16 v5.8 Page Geometry
 \Gm@cnth=\count351
 \Gm@cntv=\count352
@@ -1317,27 +1270,26 @@ Package: geometry 2018/04/16 v5.8 Page Geometry
 \Gm@layouthoffset=\dimen308
 \Gm@layoutvoffset=\dimen309
 \Gm@dimlist=\toks47
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.cfg"))
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/frontespizio\frontespizio.
-sty
+)
+(c:/texlive/2018/texmf-dist/tex/latex/frontespizio/frontespizio.sty
 Package: frontespizio 2011/09/21 1.4a (Enrico Gregorio)
- ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\afterpage.sty"
+
+(c:/texlive/2018/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks48
 \AP@partial=\box75
 \AP@footins=\box76
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/environ\environ.sty
+(c:/texlive/2018/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/trimspaces\trimspaces.sty
+(c:/texlive/2018/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
 \front@out=\write4
 \openout4 = `"LAB 3-frn.tex"'.
 
-) ("LAB 3.aux"
+) (./LAB 3.aux
 
 LaTeX Warning: Label `tab:mw' multiply defined.
 
@@ -1368,7 +1320,7 @@ LaTeX Font Info:    ... okay on input line 100.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 100.
 
- ("C:\Program Files\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
+ (c:/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 100.
@@ -1378,7 +1330,7 @@ LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 100.
 LaTeX Font Info:    Try loading font information for MDA+cmr on input line 100.
 
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/mathdesign\mdacmr.fd
+(c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdacmr.fd
 File: mdacmr.fd 
 )
 LaTeX Font Info:    ... okay on input line 100.
@@ -1386,12 +1338,12 @@ LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 100.
 LaTeX Font Info:    Try loading font information for MDB+cmr on input line 100.
 
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/mathdesign\mdbcmr.fd
+(c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdbcmr.fd
 File: mdbcmr.fd 
 )
 LaTeX Font Info:    ... okay on input line 100.
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/context/base/mkii\supp-pdf.mkii
+(c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count354
 \scratchdimen=\dimen310
@@ -1404,10 +1356,10 @@ LaTeX Font Info:    ... okay on input line 100.
 \MPnumerator=\count358
 \makeMPintoPDFobject=\count359
 \everyMPtoPDFconversion=\toks50
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
+) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1416,14 +1368,18 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-)
+
+(c:/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 \AtBeginShipoutBox=\box78
 Package hyperref Info: Link coloring OFF on input line 100.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\gettitlestring.sty"
+(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count360
@@ -1432,28 +1388,28 @@ LaTeX Info: Redefining \ref on input line 100.
 LaTeX Info: Redefining \pageref on input line 100.
 LaTeX Info: Redefining \nameref on input line 100.
 
-("LAB 3.out") ("LAB 3.out")
+(./LAB 3.out) (./LAB 3.out)
 \@outlinefile=\write5
 \openout5 = `"LAB 3.out"'.
 
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/translator\translator-basi
-c-dictionary-English.dict
+(c:/texlive/2018/texmf-dist/tex/latex/translator/translator-basic-dictionary-En
+glish.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/siunitx\siunitx-abbreviati
-ons.cfg
+(c:/texlive/2018/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
-) ABD: EveryShipout initializing macros
+)
+ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\pdflscape.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\lscape.sty"
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
@@ -1494,9 +1450,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 
 LaTeX Font Info:    Try loading font information for OT1+mdbch on input line 10
 0.
-
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/mathdesign/mdbch\ot1mdbch.
-fd
+(c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdbch/ot1mdbch.fd
 File: ot1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdbch.
 )
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
@@ -1508,8 +1462,7 @@ LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
 LaTeX Font Info:    Try loading font information for OML+mdbch on input line 10
 0.
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/mathdesign/mdbch\omlmdbch.
-fd
+(c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdbch/omlmdbch.fd
 File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
@@ -1521,8 +1474,7 @@ LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
 LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 10
 0.
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/mathdesign/mdbch\omsmdbch.
-fd
+(c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdbch/omsmdbch.fd
 File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
 )
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
@@ -1534,8 +1486,7 @@ LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
 LaTeX Font Info:    Try loading font information for OMX+mdbch on input line 10
 0.
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/mathdesign/mdbch\omxmdbch.
-fd
+(c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdbch/omxmdbch.fd
 File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
 )
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
@@ -1553,8 +1504,7 @@ LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
 LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 10
 0.
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/mathdesign/mdbch\mdamdbch.
-fd
+(c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
@@ -1566,8 +1516,7 @@ LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
 LaTeX Font Info:    Try loading font information for MDB+mdbch on input line 10
 0.
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/mathdesign/mdbch\mdbmdbch.
-fd
+(c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdbch/mdbmdbch.fd
 File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
 )
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
@@ -1588,7 +1537,7 @@ LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
 (Font)              scaled to size 8.57605pt on input line 100.
 LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
 (Font)              scaled to size 6.43204pt on input line 100.
-<frontespizio3.pdf, id=110, 597.23125pt x 845.1575pt>
+<frontespizio3.pdf, id=111, 597.23125pt x 845.1575pt>
 File: frontespizio3.pdf Graphic file (type pdf)
 <use frontespizio3.pdf>
 Package pdftex.def Info: frontespizio3.pdf  used on input line 102.
@@ -1597,7 +1546,7 @@ File: frontespizio3.pdf Graphic file (type pdf)
 <use frontespizio3.pdf>
 Package pdftex.def Info: frontespizio3.pdf  used on input line 102.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<frontespizio3.pdf, id=113, page=1, 597.23125pt x 845.1575pt>
+<frontespizio3.pdf, id=114, page=1, 597.23125pt x 845.1575pt>
 File: frontespizio3.pdf Graphic file (type pdf)
 <use frontespizio3.pdf, page 1>
 Package pdftex.def Info: frontespizio3.pdf , page1 used on input line 102.
@@ -1633,7 +1582,7 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 11.52008pt on input line 118.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
 (Font)              scaled to size 11.52008pt on input line 118.
-<rubber.jpg, id=150, 1336.995pt x 647.41875pt>
+<rubber.jpg, id=151, 1336.995pt x 647.41875pt>
 File: rubber.jpg Graphic file (type jpg)
 <use rubber.jpg>
 Package pdftex.def Info: rubber.jpg  used on input line 123.
@@ -1655,14 +1604,14 @@ Make it at least 13.59999pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[2{C:/Users/morij/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./rubber.
-jpg>]
-<melt.jpg, id=163, 1336.995pt x 905.3825pt>
+[2{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./rubber.jpg>
+]
+<melt.jpg, id=164, 1336.995pt x 905.3825pt>
 File: melt.jpg Graphic file (type jpg)
 <use melt.jpg>
 Package pdftex.def Info: melt.jpg  used on input line 132.
 (pdftex.def)             Requested size: 267.39426pt x 181.07329pt.
-<abs.png, id=165, 1766.09813pt x 1065.22969pt>
+<abs.png, id=166, 1766.09813pt x 1065.22969pt>
 File: abs.png Graphic file (type png)
 <use abs.png>
 Package pdftex.def Info: abs.png  used on input line 141.
@@ -1675,17 +1624,17 @@ LaTeX Font Info:    Font shape `T1/cmss/b/n' in size <9> not available
 (Font)              Font shape `T1/cmss/bx/n' tried instead on input line 141.
 LaTeX Font Info:    Font shape `T1/cmss/bx/n' will be
 (Font)              scaled to size 9.35101pt on input line 141.
-<PC.png, id=166, 192.72pt x 53.60025pt>
+<PC.png, id=167, 192.72pt x 53.60025pt>
 File: PC.png Graphic file (type png)
 <use PC.png>
 Package pdftex.def Info: PC.png  used on input line 143.
 (pdftex.def)             Requested size: 173.44638pt x 48.23975pt.
-<pp.png, id=167, 803.0pt x 517.935pt>
+<pp.png, id=168, 803.0pt x 517.935pt>
 File: pp.png Graphic file (type png)
 <use pp.png>
 Package pdftex.def Info: pp.png  used on input line 145.
 (pdftex.def)             Requested size: 64.2413pt x 41.43564pt.
-<LOI.jpg, id=170, 981.6675pt x 881.2925pt>
+<LOI.jpg, id=171, 981.6675pt x 881.2925pt>
 File: LOI.jpg Graphic file (type jpg)
 <use LOI.jpg>
 Package pdftex.def Info: LOI.jpg  used on input line 153.
@@ -1701,111 +1650,27 @@ ed. <./melt.jpg> <./abs.png> <./PC.png> <./pp.png> <./LOI.jpg>]
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 7.68005pt on input line 170.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-<<<<<<<-modificheilaria
-(Font)              scaled to size 5.76004pt on input line 166.
-
-
-LaTeX Warning: Reference `tab:PP' on page 4 undefined on input line 195.
-
-[4]
-LaTeX Font Info:    Try loading font information for TS1+mdbch on input line 23
-0.
- (c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdbch/ts1mdbch.fd
-File: ts1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for TS1/mdbch.
-)
-LaTeX Font Info:    Font shape `TS1/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 230.
-
-[5] [6]
-
-pdfTeX warning: pdflatex.exe (file ./vicat10.pdf): PDF inclusion: found PDF ver
-sion <1.7>, but at most version <1.5> allowed
-<vicat10.pdf, id=208, 521.54149pt x 427.63463pt>
-File: vicat10.pdf Graphic file (type pdf)
-<use vicat10.pdf>
-Package pdftex.def Info: vicat10.pdf  used on input line 330.
-(pdftex.def)             Requested size: 187.75479pt x 153.94833pt.
-<vicat50.pdf, id=209, 525.23627pt x 419.10075pt>
-File: vicat50.pdf Graphic file (type pdf)
-<use vicat50.pdf>
-Package pdftex.def Info: vicat50.pdf  used on input line 332.
-(pdftex.def)             Requested size: 189.08492pt x 150.87614pt.
-LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 334.
-LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 334.
-LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 9.60007pt on input line 334.
-LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 6.72005pt on input line 334.
-LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 334.
-LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 334.
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 334.
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 334.
-LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
-(Font)              scaled to size 7.27301pt on input line 334.
-LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
-(Font)              scaled to size 10.72006pt on input line 334.
-LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
-(Font)              scaled to size 7.50404pt on input line 334.
-LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 334.
-LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 334.
-LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 334.
-LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 334.
-LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 334.
-LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 334.
-LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 9.60007pt on input line 353.
-LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 353.
-LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 4.80003pt on input line 353.
-[7 <./vicat10.pdf> <./vicat50.pdf>]
-<dieswell.jpg, id=225, 551.1792pt x 411.4572pt>
-File: dieswell.jpg Graphic file (type jpg)
-<use dieswell.jpg>
-Package pdftex.def Info: dieswell.jpg  used on input line 367.
-(pdftex.def)             Requested size: 159.83788pt x 119.31952pt.
-<dieswell2.jpg, id=226, 531.9072pt x 403.7484pt>
-File: dieswell2.jpg Graphic file (type jpg)
-<use dieswell2.jpg>
-Package pdftex.def Info: dieswell2.jpg  used on input line 369.
-(pdftex.def)             Requested size: 154.24913pt x 117.08403pt.
-
-
-LaTeX Warning: Reference `dieswell' on page 8 undefined on input line 375.
-=======
 (Font)              scaled to size 5.76004pt on input line 170.
  [4]
 LaTeX Font Info:    Try loading font information for TS1+mdbch on input line 23
 4.
 
-(C:\Users\morij\AppData\Roaming\MiKTeX\2.9\tex/latex/mathdesign/mdbch\ts1mdbch.
-fd
+(c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdbch/ts1mdbch.fd
 File: ts1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for TS1/mdbch.
 )
 LaTeX Font Info:    Font shape `TS1/mdbch/m/n' will be
 (Font)              scaled to size 10.51207pt on input line 234.
- [5] [6]
+ [5]
+[6]
 
-pdfTeX warning: pdflatex (file ./vicat10.pdf): PDF inclusion: found PDF version
- <1.7>, but at most version <1.5> allowed
-<vicat10.pdf, id=227, 521.54149pt x 427.63463pt>
+pdfTeX warning: pdflatex.exe (file ./vicat10.pdf): PDF inclusion: found PDF ver
+sion <1.7>, but at most version <1.5> allowed
+<vicat10.pdf, id=229, 521.54149pt x 427.63463pt>
 File: vicat10.pdf Graphic file (type pdf)
 <use vicat10.pdf>
 Package pdftex.def Info: vicat10.pdf  used on input line 334.
 (pdftex.def)             Requested size: 187.75479pt x 153.94833pt.
-<vicat50.pdf, id=228, 525.23627pt x 419.10075pt>
+<vicat50.pdf, id=230, 525.23627pt x 419.10075pt>
 File: vicat50.pdf Graphic file (type pdf)
 <use vicat50.pdf>
 Package pdftex.def Info: vicat50.pdf  used on input line 336.
@@ -1851,12 +1716,12 @@ LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
 (Font)              scaled to size 4.80003pt on input line 357.
 [7 <./vicat10.pdf> <./vicat50.pdf>]
-<dieswell.jpg, id=244, 551.1792pt x 411.4572pt>
+<dieswell.jpg, id=246, 551.1792pt x 411.4572pt>
 File: dieswell.jpg Graphic file (type jpg)
 <use dieswell.jpg>
 Package pdftex.def Info: dieswell.jpg  used on input line 371.
 (pdftex.def)             Requested size: 159.83788pt x 119.31952pt.
-<dieswell2.jpg, id=245, 531.9072pt x 403.7484pt>
+<dieswell2.jpg, id=247, 531.9072pt x 403.7484pt>
 File: dieswell2.jpg Graphic file (type jpg)
 <use dieswell2.jpg>
 Package pdftex.def Info: dieswell2.jpg  used on input line 373.
@@ -1864,89 +1729,44 @@ Package pdftex.def Info: dieswell2.jpg  used on input line 373.
 
 
 LaTeX Warning: Reference `dieswell' on page 8 undefined on input line 379.
->>>>>>>+origin/master
 
 [8 <./dieswell.jpg> <./dieswell2.jpg>]
-<mfi.pdf, id=260, 519.67146pt x 409.58922pt>
-File: mfi.pdf Graphic file (type pdf)
-<use mfi.pdf>
-<<<<<<<-modificheilaria
-Package pdftex.def Info: mfi.pdf  used on input line 399.
-=======
-Package pdftex.def Info: mfi.pdf  used on input line 403.
->>>>>>>+origin/master
-(pdftex.def)             Requested size: 207.8649pt x 163.83278pt.
-<mfi2.pdf, id=261, 519.02808pt x 402.85005pt>
+<mfimod.jpg, id=262, 697.4055pt x 578.16pt>
+File: mfimod.jpg Graphic file (type jpg)
+<use mfimod.jpg>
+Package pdftex.def Info: mfimod.jpg  used on input line 403.
+(pdftex.def)             Requested size: 209.22325pt x 173.44933pt.
+<mfi2.pdf, id=263, 519.02808pt x 402.85005pt>
 File: mfi2.pdf Graphic file (type pdf)
 <use mfi2.pdf>
-<<<<<<<-modificheilaria
-Package pdftex.def Info: mfi2.pdf  used on input line 401.
-=======
 Package pdftex.def Info: mfi2.pdf  used on input line 405.
->>>>>>>+origin/master
 (pdftex.def)             Requested size: 207.60754pt x 161.13716pt.
- [9 <./mfi.pdf> <./mfi2.pdf
-
-pdfTeX warning: pdflatex (file ./mfi2.pdf): PDF inclusion: multiple pdfs with p
-age group included in a single page
->]
-<mw.pdf, id=300, 520.38617pt x 423.45201pt>
+ [9 <./mfimod.jpg> <./mfi2.pdf>]
+<mw.pdf, id=288, 520.38617pt x 423.45201pt>
 File: mw.pdf Graphic file (type pdf)
 <use mw.pdf>
-<<<<<<<-modificheilaria
-Package pdftex.def Info: mw.pdf  used on input line 415.
-(pdftex.def)             Requested size: 208.15077pt x 169.37779pt.
-LaTeX Font Info:    Font shape `TS1/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 438.
- [10 <./mw.pdf>]
-<arrhenius.pdf, id=298, 525.62173pt x 415.53944pt>
-File: arrhenius.pdf Graphic file (type pdf)
-<use arrhenius.pdf>
-Package pdftex.def Info: arrhenius.pdf  used on input line 465.
-(pdftex.def)             Requested size: 210.24496pt x 166.21283pt.
-<duro.jpg, id=302, 845.559pt x 597.432pt>
-File: duro.jpg Graphic file (type jpg)
-<use duro.jpg>
-Package pdftex.def Info: duro.jpg  used on input line 496.
-(pdftex.def)             Requested size: 253.66966pt x 179.23097pt.
- [11 <./arrhenius.pdf> <./duro.jpg>]
-Overfull \hbox (3.48982pt too wide) in paragraph at lines 525--526
-=======
 Package pdftex.def Info: mw.pdf  used on input line 419.
 (pdftex.def)             Requested size: 208.15077pt x 169.37779pt.
 LaTeX Font Info:    Font shape `TS1/mdbch/m/n' will be
 (Font)              scaled to size 9.60007pt on input line 442.
  [10 <./mw.pdf>]
-<arrhenius.pdf, id=316, 525.62173pt x 415.53944pt>
+<arrhenius.pdf, id=305, 525.62173pt x 415.53944pt>
 File: arrhenius.pdf Graphic file (type pdf)
 <use arrhenius.pdf>
 Package pdftex.def Info: arrhenius.pdf  used on input line 469.
 (pdftex.def)             Requested size: 210.24496pt x 166.21283pt.
-<duro.jpg, id=320, 845.559pt x 597.432pt>
+<duro.jpg, id=309, 845.559pt x 597.432pt>
 File: duro.jpg Graphic file (type jpg)
 <use duro.jpg>
 Package pdftex.def Info: duro.jpg  used on input line 500.
 (pdftex.def)             Requested size: 253.66966pt x 179.23097pt.
  [11 <./arrhenius.pdf> <./duro.jpg>]
 Overfull \hbox (3.48982pt too wide) in paragraph at lines 529--530
->>>>>>>+origin/master
 []\T1/mdbch/m/n/10.95 PC sam-ple re-acts with a higher amount of blowed oxy-gen
 , mean-ing that this poly-mer is less flammable
  []
 
 [12] [13]
-<<<<<<<-modificheilaria
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 549.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 549.
- (./LAB 3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 549.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 549.
-
-
-Package rerunfilecheck Warning: File `"LAB 3".out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-=======
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 19.91054pt on input line 555.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
@@ -1954,31 +1774,26 @@ LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
  [14] [15] [16]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 708.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 708.
- ("LAB 3.aux")
+ (./LAB 3.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 708.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 708.
 Package rerunfilecheck Info: File `"LAB 3".out' has not changed.
-(rerunfilecheck)             Checksum: FFA8CF38604923C7061EDC24196C0A5D;1907.
->>>>>>>+origin/master
+(rerunfilecheck)             Checksum: F5217A06688D82AC2E62A9405697782F;1881.
 
-Package rerunfilecheck Info: Checksums for `"LAB 3".out':
-(rerunfilecheck)             Before: E204BF156D2776BEB73A80AAD7667CB8;1587
-(rerunfilecheck)             After:  423D3B3DB3F3E1A471DA184680D3015C;1599.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-<<<<<<<-modificheilaria
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 549.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 708.
  ) 
 Here is how much of TeX's memory you used:
- 34750 strings out of 492616
- 664112 string characters out of 6132769
- 805678 words of memory out of 5000000
- 37994 multiletter control sequences out of 15000+600000
- 614733 words of font info for 156 fonts, out of 8000000 for 9000
+ 34867 strings out of 492616
+ 665716 string characters out of 6132769
+ 826328 words of memory out of 5000000
+ 38092 multiletter control sequences out of 15000+600000
+ 619735 words of font info for 160 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,19n,96p,771b,906s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
@@ -1994,41 +1809,10 @@ xlive/2018/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb><c:/texl
 ive/2018/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chri7m.pfb><c:/texli
 ve/2018/texmf-dist/fonts/type1/public/cm-super/sfsx0900.pfb><c:/texlive/2018/te
 xmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb>
-Output written on "LAB 3.pdf" (13 pages, 1458335 bytes).
+Output written on "LAB 3.pdf" (16 pages, 2143626 bytes).
 PDF statistics:
- 405 PDF objects out of 1000 (max. 8388607)
- 345 compressed objects within 4 object streams
- 74 named destinations out of 1000 (max. 500000)
- 276 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 708.
- ) 
-Here is how much of TeX's memory you used:
- 34878 strings out of 492895
- 670648 string characters out of 3133479
- 827086 words of memory out of 3000000
- 38103 multiletter control sequences out of 15000+200000
- 619735 words of font info for 160 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 62i,19n,96p,773b,908s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\morij\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi623\
-ecsx0900.pk>{C:/Users/morij/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/ly1/texn
-ansi.enc} <C:\Users\morij\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/
-dpi623\ecsx1000.pk><C:/Users/morij/AppData/Roaming/MiKTeX/2.9/fonts/type1/bitst
-rea/charter/bchb8a.pfb><C:/Users/morij/AppData/Roaming/MiKTeX/2.9/fonts/type1/b
-itstrea/charter/bchbi8a.pfb><C:/Users/morij/AppData/Roaming/MiKTeX/2.9/fonts/ty
-pe1/bitstrea/charter/bchr8a.pfb><C:/Users/morij/AppData/Roaming/MiKTeX/2.9/font
-s/type1/bitstrea/charter/bchr8a.pfb><C:/Users/morij/AppData/Roaming/MiKTeX/2.9/
-fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/morij/AppData/Roaming/MiKTeX
-/2.9/fonts/type1/mathdesign/mdbch/md-chr7t.pfb><C:/Users/morij/AppData/Roaming/
-MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7v.pfb><C:/Users/morij/AppData/Ro
-aming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7y.pfb><C:/Users/morij/AppD
-ata/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr8t.pfb><C:/Users/mori
-j/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chri7m.pfb>
-Output written on "LAB 3.pdf" (16 pages, 1478457 bytes).
-PDF statistics:
- 465 PDF objects out of 1000 (max. 8388607)
+ 431 PDF objects out of 1000 (max. 8388607)
+ 368 compressed objects within 4 object streams
  87 named destinations out of 1000 (max. 500000)
  316 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>>+origin/master
 
