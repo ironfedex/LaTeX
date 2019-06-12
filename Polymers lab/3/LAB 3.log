@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.24)  10 JUN 2019 19:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.24)  12 JUN 2019 18:08
 entering extended mode
 **"./LAB 3.tex"
 ("LAB 3.tex"
@@ -1964,9 +1964,9 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 
 [12] [13]
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 19.91054pt on input line 557.
+(Font)              scaled to size 19.91054pt on input line 558.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 19.91054pt on input line 557.
+(Font)              scaled to size 19.91054pt on input line 558.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1989,24 +1989,24 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [16]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 710.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 710.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 711.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 711.
  ("LAB 3.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 710.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 710.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 711.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 711.
 Package rerunfilecheck Info: File `"LAB 3".out' has not changed.
 (rerunfilecheck)             Checksum: B1264395F6BF4800F882DCDD7697C3CB;1909.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 710.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 711.
  ) 
 Here is how much of TeX's memory you used:
- 34730 strings out of 492946
- 673066 string characters out of 3125822
- 825410 words of memory out of 3000000
- 37936 multiletter control sequences out of 15000+200000
+ 34732 strings out of 492946
+ 673083 string characters out of 3125822
+ 825419 words of memory out of 3000000
+ 37937 multiletter control sequences out of 15000+200000
  619735 words of font info for 160 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,19n,96p,773b,906s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2026,9 +2026,9 @@ nts/type1/mathdesign/mdbch/md-chr7v.pfb><C:/Users/Alex96/AppData/Local/Programs
 Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr8t.pfb><C:/Users/A
 lex96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chri7m.
 pfb>
-Output written on "LAB 3.pdf" (16 pages, 1180560 bytes).
+Output written on "LAB 3.pdf" (16 pages, 1180741 bytes).
 PDF statistics:
- 450 PDF objects out of 1000 (max. 8388607)
- 87 named destinations out of 1000 (max. 500000)
+ 451 PDF objects out of 1000 (max. 8388607)
+ 88 named destinations out of 1000 (max. 500000)
  316 words of extra memory for PDF output out of 10000 (max. 10000000)
 
