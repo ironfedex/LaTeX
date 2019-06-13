@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.4.7)  12 JUN 2019 18:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.4.7)  13 JUN 2019 16:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"LAB 4.tex"
-(./LAB 4.tex
+**"lab 4.tex"
+(./lab 4.tex
 LaTeX2e <2018-12-01>
 (c:/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -1272,17 +1272,14 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
 \front@out=\write4
-\openout4 = `"LAB 4-frn.tex"'.
+\openout4 = `"lab 4-frn.tex"'.
 
-) (./LAB 4.aux
+) (./lab 4.aux
 
 LaTeX Warning: Label `tab:weights_comparison' multiply defined.
 
-
-LaTeX Warning: Label `tab:titer' multiply defined.
-
 )
-\openout1 = `"LAB 4.aux"'.
+\openout1 = `"lab 4.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
@@ -1364,9 +1361,9 @@ LaTeX Info: Redefining \ref on input line 94.
 LaTeX Info: Redefining \pageref on input line 94.
 LaTeX Info: Redefining \nameref on input line 94.
 
-(./LAB 4.out) (./LAB 4.out)
+(./lab 4.out) (./lab 4.out)
 \@outlinefile=\write5
-\openout5 = `"LAB 4.out"'.
+\openout5 = `"lab 4.out"'.
 
 
 (c:/texlive/2018/texmf-dist/tex/latex/translator/translator-basic-dictionary-En
@@ -1537,53 +1534,37 @@ LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
 (Font)              scaled to size 8.57605pt on input line 94.
 LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
 (Font)              scaled to size 6.43204pt on input line 94.
-
-
-pdfTeX warning: pdflatex.exe (file ./frontespizio4.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
-<frontespizio4.pdf, id=67, 597.4822pt x 845.1575pt>
+<frontespizio4.pdf, id=67, 597.55246pt x 845.07718pt>
 File: frontespizio4.pdf Graphic file (type pdf)
 <use frontespizio4.pdf>
 Package pdftex.def Info: frontespizio4.pdf  used on input line 96.
-(pdftex.def)             Requested size: 597.48073pt x 845.15544pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./frontespizio4.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: frontespizio4.pdf Graphic file (type pdf)
 <use frontespizio4.pdf>
 Package pdftex.def Info: frontespizio4.pdf  used on input line 96.
-(pdftex.def)             Requested size: 597.48073pt x 845.15544pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./frontespizio4.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
-
-
-pdfTeX warning: pdflatex.exe (file ./frontespizio4.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
-<frontespizio4.pdf, id=70, page=1, 597.4822pt x 845.1575pt>
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+<frontespizio4.pdf, id=70, page=1, 597.55246pt x 845.07718pt>
 File: frontespizio4.pdf Graphic file (type pdf)
 <use frontespizio4.pdf, page 1>
 Package pdftex.def Info: frontespizio4.pdf , page1 used on input line 96.
-(pdftex.def)             Requested size: 597.48073pt x 845.15544pt.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: frontespizio4.pdf Graphic file (type pdf)
 <use frontespizio4.pdf, page 1>
 Package pdftex.def Info: frontespizio4.pdf , page1 used on input line 96.
-(pdftex.def)             Requested size: 597.50807pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: frontespizio4.pdf Graphic file (type pdf)
 <use frontespizio4.pdf, page 1>
 Package pdftex.def Info: frontespizio4.pdf , page1 used on input line 96.
-(pdftex.def)             Requested size: 597.50807pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: frontespizio4.pdf Graphic file (type pdf)
 <use frontespizio4.pdf, page 1>
 Package pdftex.def Info: frontespizio4.pdf , page1 used on input line 96.
-(pdftex.def)             Requested size: 597.50807pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: frontespizio4.pdf Graphic file (type pdf)
 <use frontespizio4.pdf, page 1>
 Package pdftex.def Info: frontespizio4.pdf , page1 used on input line 96.
-(pdftex.def)             Requested size: 597.50807pt x 845.19412pt.
-[1
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+ [1
 
  <./frontespizio4.pdf>]
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
@@ -1591,57 +1572,50 @@ LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
 LaTeX Font Info:    Font shape `T1/mdbch/b/it' will be
 (Font)              scaled to size 10.51207pt on input line 98.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 13.82408pt on input line 108.
+(Font)              scaled to size 13.82408pt on input line 106.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 13.82408pt on input line 108.
+(Font)              scaled to size 13.82408pt on input line 106.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 115.
+(Font)              scaled to size 7.68005pt on input line 113.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 115.
+(Font)              scaled to size 5.76004pt on input line 113.
 <datasheetPP.jpg, id=91, 477.58424pt x 412.54124pt>
 File: datasheetPP.jpg Graphic file (type jpg)
 <use datasheetPP.jpg>
-Package pdftex.def Info: datasheetPP.jpg  used on input line 119.
+Package pdftex.def Info: datasheetPP.jpg  used on input line 117.
 (pdftex.def)             Requested size: 286.55275pt x 247.52666pt.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 121.
+(Font)              scaled to size 9.60007pt on input line 119.
 LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
-(Font)              scaled to size 10.39001pt on input line 121.
+(Font)              scaled to size 10.39001pt on input line 119.
 LaTeX Font Info:    Font shape `T1/cmss/b/n' in size <10> not available
-(Font)              Font shape `T1/cmss/bx/n' tried instead on input line 121.
+(Font)              Font shape `T1/cmss/bx/n' tried instead on input line 119.
 LaTeX Font Info:    Font shape `T1/cmss/bx/n' will be
-(Font)              scaled to size 10.39001pt on input line 121.
+(Font)              scaled to size 10.39001pt on input line 119.
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--124
+Underfull \hbox (badness 10000) in paragraph at lines 112--122
 
  []
 
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 127.
+(Font)              scaled to size 11.52008pt on input line 125.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 11.52008pt on input line 127.
-
-Package caption Warning: \label without proper reference on input line 134.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:press' on page 2 undefined on input line 129.
-
+(Font)              scaled to size 11.52008pt on input line 125.
 <PHOTO-2019-05-23-17-38-03.jpg, id=93, 1606.0pt x 779.91376pt>
 File: PHOTO-2019-05-23-17-38-03.jpg Graphic file (type jpg)
 <use PHOTO-2019-05-23-17-38-03.jpg>
-Package pdftex.def Info: PHOTO-2019-05-23-17-38-03.jpg  used on input line 133.
+Package pdftex.def Info: PHOTO-2019-05-23-17-38-03.jpg  used on input line 131.
 
 (pdftex.def)             Requested size: 321.19432pt x 155.97998pt.
 LaTeX Font Info:    Try loading font information for TS1+mdbch on input line 13
-7.
+5.
 (c:/texlive/2018/texmf-dist/tex/latex/mathdesign/mdbch/ts1mdbch.fd
 File: ts1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for TS1/mdbch.
 )
 LaTeX Font Info:    Font shape `TS1/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 137.
+(Font)              scaled to size 10.51207pt on input line 135.
 LaTeX Font Info:    Font shape `T1/mdbch/m/sl' will be
-(Font)              scaled to size 10.51207pt on input line 137.
+(Font)              scaled to size 10.51207pt on input line 135.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1654,213 +1628,165 @@ This may cause the page layout to be inconsistent, however.
 <PHOTO-2019-05-23-17-37-35.jpg, id=104, 583.42969pt x 715.17188pt>
 File: PHOTO-2019-05-23-17-37-35.jpg Graphic file (type jpg)
 <use PHOTO-2019-05-23-17-37-35.jpg>
-Package pdftex.def Info: PHOTO-2019-05-23-17-37-35.jpg  used on input line 146.
+Package pdftex.def Info: PHOTO-2019-05-23-17-37-35.jpg  used on input line 144.
 
 (pdftex.def)             Requested size: 175.03024pt x 214.5532pt.
  [3 <./PHOTO-2019-05-23-17-38-03.jpg>] [4
 design size mismatch in local font md-chro8t in virtual font mdbchro8t.vf ignor
 ed. <./PHOTO-2019-05-23-17-37-35.jpg>] [5]
-
-Package caption Warning: \label without proper reference on input line 238.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:beforeafter' on page 6 undefined on input line 23
-0.
-
-<PHOTO-2019-05-23-17-38-02.jpg, id=144, 779.91376pt x 1039.885pt>
+<PHOTO-2019-05-23-17-38-02.jpg, id=145, 779.91376pt x 1039.885pt>
 File: PHOTO-2019-05-23-17-38-02.jpg Graphic file (type jpg)
 <use PHOTO-2019-05-23-17-38-02.jpg>
-Package pdftex.def Info: PHOTO-2019-05-23-17-38-02.jpg  used on input line 235.
+Package pdftex.def Info: PHOTO-2019-05-23-17-38-02.jpg  used on input line 237.
 
 (pdftex.def)             Requested size: 155.97998pt x 207.97331pt.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 8.64006pt on input line 235.
+(Font)              scaled to size 8.64006pt on input line 237.
 LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
-(Font)              scaled to size 9.35101pt on input line 235.
+(Font)              scaled to size 9.35101pt on input line 237.
 LaTeX Font Info:    Font shape `T1/cmss/b/n' in size <9> not available
-(Font)              Font shape `T1/cmss/bx/n' tried instead on input line 235.
+(Font)              Font shape `T1/cmss/bx/n' tried instead on input line 237.
 LaTeX Font Info:    Font shape `T1/cmss/bx/n' will be
-(Font)              scaled to size 9.35101pt on input line 235.
-<PHOTO-2019-05-23-17-38-6.jpg, id=145, 779.91376pt x 1039.885pt>
+(Font)              scaled to size 9.35101pt on input line 237.
+<PHOTO-2019-05-23-17-38-6.jpg, id=146, 779.91376pt x 1039.885pt>
 File: PHOTO-2019-05-23-17-38-6.jpg Graphic file (type jpg)
 <use PHOTO-2019-05-23-17-38-6.jpg>
-Package pdftex.def Info: PHOTO-2019-05-23-17-38-6.jpg  used on input line 237.
+Package pdftex.def Info: PHOTO-2019-05-23-17-38-6.jpg  used on input line 239.
 (pdftex.def)             Requested size: 155.97998pt x 207.97331pt.
-
-Package caption Warning: \label without proper reference on input line 248.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:plate1' on page 6 undefined on input line 242.
-
-<PHOTO-2019-05-23-17-38-7.jpg, id=147, 1039.885pt x 779.91376pt>
+<PHOTO-2019-05-23-17-38-7.jpg, id=148, 1039.885pt x 779.91376pt>
 File: PHOTO-2019-05-23-17-38-7.jpg Graphic file (type jpg)
 <use PHOTO-2019-05-23-17-38-7.jpg>
-Package pdftex.def Info: PHOTO-2019-05-23-17-38-7.jpg  used on input line 247.
+Package pdftex.def Info: PHOTO-2019-05-23-17-38-7.jpg  used on input line 249.
 (pdftex.def)             Requested size: 207.97331pt x 155.97998pt.
 
+
 LaTeX Warning: Reference `tab:weights_compression' on page 6 undefined on input
- line 253.
+ line 255.
 
-
-Package caption Warning: \label without proper reference on input line 277.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:plates' on page 6 undefined on input line 272.
-
-<PIATTI.jpg, id=149, 965.10562pt x 408.02437pt>
+<PIATTI.jpg, id=150, 965.10562pt x 408.02437pt>
 File: PIATTI.jpg Graphic file (type jpg)
 <use PIATTI.jpg>
-Package pdftex.def Info: PIATTI.jpg  used on input line 276.
+Package pdftex.def Info: PIATTI.jpg  used on input line 278.
 (pdftex.def)             Requested size: 386.03542pt x 163.20685pt.
 [6 <./PHOTO-2019-05-23-17-38-02.jpg> <./PHOTO-2019-05-23-17-38-6.jpg> <./PHOTO-
 2019-05-23-17-38-7.jpg>] [7 <./PIATTI.jpg>]
-
-Package caption Warning: \label without proper reference on input line 314.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:spec' on page 8 undefined on input line 305.
-
-
-Package caption Warning: \label without proper reference on input line 314.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:spec' on page 8 undefined on input line 305.
-
-<PHOTO-2019-05-23-17-37-11.jpg, id=171, 810.77907pt x 435.87843pt>
+<PHOTO-2019-05-23-17-37-11.jpg, id=172, 810.77907pt x 435.87843pt>
 File: PHOTO-2019-05-23-17-37-11.jpg Graphic file (type jpg)
 <use PHOTO-2019-05-23-17-37-11.jpg>
-Package pdftex.def Info: PHOTO-2019-05-23-17-37-11.jpg  used on input line 310.
+Package pdftex.def Info: PHOTO-2019-05-23-17-37-11.jpg  used on input line 312.
 
 (pdftex.def)             Requested size: 275.66124pt x 148.1967pt.
-<PHOTO-2019-05-23-17-37-13.jpg, id=172, 674.52pt x 405.01312pt>
+<PHOTO-2019-05-23-17-37-13.jpg, id=173, 674.52pt x 405.01312pt>
 File: PHOTO-2019-05-23-17-37-13.jpg Graphic file (type jpg)
 <use PHOTO-2019-05-23-17-37-13.jpg>
-Package pdftex.def Info: PHOTO-2019-05-23-17-37-13.jpg  used on input line 313.
+Package pdftex.def Info: PHOTO-2019-05-23-17-37-13.jpg  used on input line 315.
 
 (pdftex.def)             Requested size: 269.80322pt x 162.00237pt.
-[8 <./PHOTO-2019-05-23-17-37-11.jpg> <./PHOTO-2019-05-23-17-37-13.jpg>]
-<POM.jpg, id=181, 623.32875pt x 578.16pt>
+ [8 <./PHOTO-2019-05-23-17-37-11.jpg> <./PHOTO-2019-05-23-17-37-13.jpg>]
+<POM.jpg, id=182, 623.32875pt x 578.16pt>
 File: POM.jpg Graphic file (type jpg)
 <use POM.jpg>
-Package pdftex.def Info: POM.jpg  used on input line 327.
+Package pdftex.def Info: POM.jpg  used on input line 330.
 (pdftex.def)             Requested size: 124.66353pt x 115.62994pt.
-<PA11ISO.jpg, id=182, 815.29594pt x 458.46281pt>
+<PA11ISO.jpg, id=183, 815.29594pt x 458.46281pt>
 File: PA11ISO.jpg Graphic file (type jpg)
 <use PA11ISO.jpg>
-Package pdftex.def Info: PA11ISO.jpg  used on input line 329.
+Package pdftex.def Info: PA11ISO.jpg  used on input line 332.
 (pdftex.def)             Requested size: 163.05629pt x 91.69093pt.
-<PPW.jpg, id=183, 325.215pt x 578.16pt>
+<PPW.jpg, id=184, 325.215pt x 578.16pt>
 File: PPW.jpg Graphic file (type jpg)
 <use PPW.jpg>
-Package pdftex.def Info: PPW.jpg  used on input line 331.
+Package pdftex.def Info: PPW.jpg  used on input line 334.
 (pdftex.def)             Requested size: 81.30354pt x 144.53964pt.
-<PPB.jpg, id=184, 323.70938pt x 575.14874pt>
+<PPB.jpg, id=185, 323.70938pt x 575.14874pt>
 File: PPB.jpg Graphic file (type jpg)
 <use PPB.jpg>
-Package pdftex.def Info: PPB.jpg  used on input line 333.
+Package pdftex.def Info: PPB.jpg  used on input line 336.
 (pdftex.def)             Requested size: 80.92714pt x 143.78683pt.
-<PA6GF.jpg, id=185, 325.96782pt x 579.66562pt>
+<PA6GF.jpg, id=186, 325.96782pt x 579.66562pt>
 File: PA6GF.jpg Graphic file (type jpg)
 <use PA6GF.jpg>
-Package pdftex.def Info: PA6GF.jpg  used on input line 335.
+Package pdftex.def Info: PA6GF.jpg  used on input line 338.
 (pdftex.def)             Requested size: 81.49174pt x 144.91605pt.
-<ABS.jpg, id=190, 325.96782pt x 579.66562pt>
+ [9 <./POM.jpg> <./PA11ISO.jpg> <./PPW.jpg> <./PPB.jpg> <./PA6GF.jpg>]
+<ABS.jpg, id=204, 325.96782pt x 579.66562pt>
 File: ABS.jpg Graphic file (type jpg)
 <use ABS.jpg>
-Package pdftex.def Info: ABS.jpg  used on input line 389.
+Package pdftex.def Info: ABS.jpg  used on input line 393.
 (pdftex.def)             Requested size: 81.49174pt x 144.91605pt.
-<COC.jpg, id=191, 323.70938pt x 575.90157pt>
+<COC.jpg, id=205, 323.70938pt x 575.90157pt>
 File: COC.jpg Graphic file (type jpg)
 <use COC.jpg>
-Package pdftex.def Info: COC.jpg  used on input line 391.
+Package pdftex.def Info: COC.jpg  used on input line 395.
 (pdftex.def)             Requested size: 80.92714pt x 143.97504pt.
-<PP.jpg, id=192, 322.95656pt x 574.39594pt>
+<PP.jpg, id=206, 322.95656pt x 574.39594pt>
 File: PP.jpg Graphic file (type jpg)
 <use PP.jpg>
-Package pdftex.def Info: PP.jpg  used on input line 393.
+Package pdftex.def Info: PP.jpg  used on input line 397.
 (pdftex.def)             Requested size: 80.73894pt x 143.59862pt.
-<HDPE.jpg, id=193, 321.45094pt x 570.63188pt>
+<HDPE.jpg, id=207, 321.45094pt x 570.63188pt>
 File: HDPE.jpg Graphic file (type jpg)
 <use HDPE.jpg>
-Package pdftex.def Info: HDPE.jpg  used on input line 395.
+Package pdftex.def Info: HDPE.jpg  used on input line 399.
 (pdftex.def)             Requested size: 80.36253pt x 142.65762pt.
-<PE-PP.jpg, id=194, 325.96782pt x 579.66562pt>
+<PE-PP.jpg, id=208, 325.96782pt x 579.66562pt>
 File: PE-PP.jpg Graphic file (type jpg)
 <use PE-PP.jpg>
-Package pdftex.def Info: PE-PP.jpg  used on input line 397.
+Package pdftex.def Info: PE-PP.jpg  used on input line 401.
 (pdftex.def)             Requested size: 80.51189pt x 143.17358pt.
-<PA11ASTM.jpg, id=195, 322.95656pt x 573.64313pt>
+<PA11ASTM.jpg, id=209, 322.95656pt x 573.64313pt>
 File: PA11ASTM.jpg Graphic file (type jpg)
 <use PA11ASTM.jpg>
-Package pdftex.def Info: PA11ASTM.jpg  used on input line 399.
+Package pdftex.def Info: PA11ASTM.jpg  used on input line 403.
 (pdftex.def)             Requested size: 80.73894pt x 143.41043pt.
 
-[9 <./POM.jpg> <./PA11ISO.jpg> <./PPW.jpg> <./PPB.jpg> <./PA6GF.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 405--426
+Underfull \hbox (badness 10000) in paragraph at lines 409--430
 
  []
 
 [10 <./ABS.jpg> <./COC.jpg> <./PP.jpg> <./HDPE.jpg> <./PE-PP.jpg> <./PA11ASTM.j
 pg>]
 
-Package caption Warning: \label without proper reference on input line 480.
-See the caption package documentation for explanation.
+LaTeX Warning: Reference `fig:Graph1' on page 11 undefined on input line 458.
 
-
-LaTeX Warning: Reference `fig:Graph1' on page 11 undefined on input line 454.
-
-<Graph1.jpg, id=225, 799.3062pt x 579.6054pt>
+<Graph1.jpg, id=227, 799.3062pt x 579.6054pt>
 File: Graph1.jpg Graphic file (type jpg)
 <use Graph1.jpg>
-Package pdftex.def Info: Graph1.jpg  used on input line 479.
+Package pdftex.def Info: Graph1.jpg  used on input line 483.
 (pdftex.def)             Requested size: 239.7937pt x 173.88295pt.
 [11 <./Graph1.jpg>]
-
-LaTeX Warning: Reference `tab:tenacity' on page 12 undefined on input line 511.
-
-
-
-LaTeX Warning: Citation `encyclopedia' on page 12 undefined on input line 532.
-
-
-Package caption Warning: \label without proper reference on input line 537.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:hyperbole' on page 12 undefined on input line 532
-.
-
-<hyperbole.png, id=237, 2055.68pt x 1228.59pt>
+<hyperbole.png, id=246, 2055.68pt x 1228.59pt>
 File: hyperbole.png Graphic file (type png)
 <use hyperbole.png>
-Package pdftex.def Info: hyperbole.png  used on input line 536.
+Package pdftex.def Info: hyperbole.png  used on input line 540.
 (pdftex.def)             Requested size: 308.3387pt x 184.28055pt.
-[12 <./hyperbole.png>] [13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 552.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 552.
- (./LAB 4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 552.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 552.
-Package rerunfilecheck Info: File `"LAB 4".out' has not changed.
-(rerunfilecheck)             Checksum: 729E62F944C549EE464696E0C9C8D1B3;1066.
+ [12 <./hyperbole.png>] [13]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 556.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 556.
+ (./lab 4.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 556.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 556.
 
+
+Package rerunfilecheck Warning: File `"lab 4".out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"lab 4".out':
+(rerunfilecheck)             Before: A9DAC1A620D7A4906FAD338F8F10BEE0;1081
+(rerunfilecheck)             After:  729E62F944C549EE464696E0C9C8D1B3;1066.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 552.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 556.
  ) 
 Here is how much of TeX's memory you used:
  34680 strings out of 492616
- 663696 string characters out of 6132769
- 806060 words of memory out of 5000000
+ 663697 string characters out of 6132769
+ 805046 words of memory out of 5000000
  37935 multiletter control sequences out of 15000+600000
  595627 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1881,10 +1807,10 @@ e/2018/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8c.pfb><c:/texlive/
 18/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chri7m.pfb><c:/texlive/201
 8/texmf-dist/fonts/type1/public/cm-super/sfsx0900.pfb><c:/texlive/2018/texmf-di
 st/fonts/type1/public/cm-super/sfsx1000.pfb>
-Output written on "LAB 4.pdf" (13 pages, 4458604 bytes).
+Output written on "lab 4.pdf" (13 pages, 4476069 bytes).
 PDF statistics:
- 322 PDF objects out of 1000 (max. 8388607)
- 262 compressed objects within 3 object streams
+ 331 PDF objects out of 1000 (max. 8388607)
+ 271 compressed objects within 3 object streams
  73 named destinations out of 1000 (max. 500000)
  263 words of extra memory for PDF output out of 10000 (max. 10000000)
 
