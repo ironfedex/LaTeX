@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.24)  13 JUN 2019 12:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.24)  13 JUN 2019 19:02
 entering extended mode
 **"./G1- LAB 4 FINAL.tex"
 ("G1- LAB 4 FINAL.tex"
@@ -1790,7 +1790,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [5]
-<PHOTO-2019-05-23-17-38-02.jpg, id=164, 779.91376pt x 1039.885pt>
+<PHOTO-2019-05-23-17-38-02.jpg, id=163, 779.91376pt x 1039.885pt>
 File: PHOTO-2019-05-23-17-38-02.jpg Graphic file (type jpg)
 <use PHOTO-2019-05-23-17-38-02.jpg>
 Package pdftex.def Info: PHOTO-2019-05-23-17-38-02.jpg  used on input line 258.
@@ -1804,17 +1804,17 @@ LaTeX Font Info:    Font shape `T1/cmss/b/n' in size <9> not available
 (Font)              Font shape `T1/cmss/bx/n' tried instead on input line 258.
 LaTeX Font Info:    Font shape `T1/cmss/bx/n' will be
 (Font)              scaled to size 9.35101pt on input line 258.
-<PHOTO-2019-05-23-17-38-6.jpg, id=165, 779.91376pt x 1039.885pt>
+<PHOTO-2019-05-23-17-38-6.jpg, id=164, 779.91376pt x 1039.885pt>
 File: PHOTO-2019-05-23-17-38-6.jpg Graphic file (type jpg)
 <use PHOTO-2019-05-23-17-38-6.jpg>
 Package pdftex.def Info: PHOTO-2019-05-23-17-38-6.jpg  used on input line 260.
 (pdftex.def)             Requested size: 155.97998pt x 207.97331pt.
-<PHOTO-2019-05-23-17-38-7.jpg, id=167, 1039.885pt x 779.91376pt>
+<PHOTO-2019-05-23-17-38-7.jpg, id=166, 1039.885pt x 779.91376pt>
 File: PHOTO-2019-05-23-17-38-7.jpg Graphic file (type jpg)
 <use PHOTO-2019-05-23-17-38-7.jpg>
 Package pdftex.def Info: PHOTO-2019-05-23-17-38-7.jpg  used on input line 270.
 (pdftex.def)             Requested size: 207.97331pt x 155.97998pt.
-<PIATTI.jpg, id=170, 965.10562pt x 408.02437pt>
+<PIATTI.jpg, id=169, 965.10562pt x 408.02437pt>
 File: PIATTI.jpg Graphic file (type jpg)
 <use PIATTI.jpg>
 Package pdftex.def Info: PIATTI.jpg  used on input line 299.
@@ -1835,13 +1835,13 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [7 <./PIATTI.jpg>]
-<PHOTO-2019-05-23-17-37-11.jpg, id=191, 810.77907pt x 435.87843pt>
+<PHOTO-2019-05-23-17-37-11.jpg, id=190, 810.77907pt x 435.87843pt>
 File: PHOTO-2019-05-23-17-37-11.jpg Graphic file (type jpg)
 <use PHOTO-2019-05-23-17-37-11.jpg>
 Package pdftex.def Info: PHOTO-2019-05-23-17-37-11.jpg  used on input line 333.
 
 (pdftex.def)             Requested size: 275.66124pt x 148.1967pt.
-<PHOTO-2019-05-23-17-37-13.jpg, id=192, 674.52pt x 405.01312pt>
+<PHOTO-2019-05-23-17-37-13.jpg, id=191, 674.52pt x 405.01312pt>
 File: PHOTO-2019-05-23-17-37-13.jpg Graphic file (type jpg)
 <use PHOTO-2019-05-23-17-37-13.jpg>
 Package pdftex.def Info: PHOTO-2019-05-23-17-37-13.jpg  used on input line 336.
@@ -1855,27 +1855,27 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [8 <./PHOTO-2019-05-23-17-37-11.jpg> <./PHOTO-2019-05-23-17-37-13.jpg>]
-<POM.jpg, id=201, 623.32875pt x 578.16pt>
+<POM.jpg, id=200, 623.32875pt x 578.16pt>
 File: POM.jpg Graphic file (type jpg)
 <use POM.jpg>
 Package pdftex.def Info: POM.jpg  used on input line 351.
 (pdftex.def)             Requested size: 124.66353pt x 115.62994pt.
-<PA11ISO.jpg, id=202, 815.29594pt x 458.46281pt>
+<PA11ISO.jpg, id=201, 815.29594pt x 458.46281pt>
 File: PA11ISO.jpg Graphic file (type jpg)
 <use PA11ISO.jpg>
 Package pdftex.def Info: PA11ISO.jpg  used on input line 353.
 (pdftex.def)             Requested size: 163.05629pt x 91.69093pt.
-<PPW.jpg, id=203, 325.215pt x 578.16pt>
+<PPW.jpg, id=202, 325.215pt x 578.16pt>
 File: PPW.jpg Graphic file (type jpg)
 <use PPW.jpg>
 Package pdftex.def Info: PPW.jpg  used on input line 355.
 (pdftex.def)             Requested size: 81.30354pt x 144.53964pt.
-<PPB.jpg, id=204, 323.70938pt x 575.14874pt>
+<PPB.jpg, id=203, 323.70938pt x 575.14874pt>
 File: PPB.jpg Graphic file (type jpg)
 <use PPB.jpg>
 Package pdftex.def Info: PPB.jpg  used on input line 357.
 (pdftex.def)             Requested size: 80.92714pt x 143.78683pt.
-<PA6GF.jpg, id=205, 325.96782pt x 579.66562pt>
+<PA6GF.jpg, id=204, 325.96782pt x 579.66562pt>
 File: PA6GF.jpg Graphic file (type jpg)
 <use PA6GF.jpg>
 Package pdftex.def Info: PA6GF.jpg  used on input line 359.
@@ -1888,32 +1888,32 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [9 <./POM.jpg> <./PA11ISO.jpg> <./PPW.jpg> <./PPB.jpg> <./PA6GF.jpg>]
-<ABS.jpg, id=223, 325.96782pt x 579.66562pt>
+<ABS.jpg, id=222, 325.96782pt x 579.66562pt>
 File: ABS.jpg Graphic file (type jpg)
 <use ABS.jpg>
 Package pdftex.def Info: ABS.jpg  used on input line 414.
 (pdftex.def)             Requested size: 81.49174pt x 144.91605pt.
-<COC.jpg, id=224, 323.70938pt x 575.90157pt>
+<COC.jpg, id=223, 323.70938pt x 575.90157pt>
 File: COC.jpg Graphic file (type jpg)
 <use COC.jpg>
 Package pdftex.def Info: COC.jpg  used on input line 416.
 (pdftex.def)             Requested size: 80.92714pt x 143.97504pt.
-<PP.jpg, id=225, 322.95656pt x 574.39594pt>
+<PP.jpg, id=224, 322.95656pt x 574.39594pt>
 File: PP.jpg Graphic file (type jpg)
 <use PP.jpg>
 Package pdftex.def Info: PP.jpg  used on input line 418.
 (pdftex.def)             Requested size: 80.73894pt x 143.59862pt.
-<HDPE.jpg, id=226, 321.45094pt x 570.63188pt>
+<HDPE.jpg, id=225, 321.45094pt x 570.63188pt>
 File: HDPE.jpg Graphic file (type jpg)
 <use HDPE.jpg>
 Package pdftex.def Info: HDPE.jpg  used on input line 420.
 (pdftex.def)             Requested size: 80.36253pt x 142.65762pt.
-<PE-PP.jpg, id=227, 325.96782pt x 579.66562pt>
+<PE-PP.jpg, id=226, 325.96782pt x 579.66562pt>
 File: PE-PP.jpg Graphic file (type jpg)
 <use PE-PP.jpg>
 Package pdftex.def Info: PE-PP.jpg  used on input line 422.
 (pdftex.def)             Requested size: 80.51189pt x 143.17358pt.
-<PA11ASTM.jpg, id=228, 322.95656pt x 573.64313pt>
+<PA11ASTM.jpg, id=227, 322.95656pt x 573.64313pt>
 File: PA11ASTM.jpg Graphic file (type jpg)
 <use PA11ASTM.jpg>
 Package pdftex.def Info: PA11ASTM.jpg  used on input line 424.
@@ -1932,16 +1932,12 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 [10 <./ABS.jpg> <./COC.jpg> <./PP.jpg> <./HDPE.jpg> <./PE-PP.jpg> <./PA11ASTM.j
 pg>]
 
-Package caption Warning: \label without proper reference on input line 505.
-See the caption package documentation for explanation.
+LaTeX Warning: Reference `fig:wd' on page 11 undefined on input line 479.
 
-
-LaTeX Warning: Reference `fig:Graph1' on page 11 undefined on input line 479.
-
-<Graph1.jpg, id=247, 799.3062pt x 579.6054pt>
+<Graph1.jpg, id=245, 799.3062pt x 579.6054pt>
 File: Graph1.jpg Graphic file (type jpg)
 <use Graph1.jpg>
-Package pdftex.def Info: Graph1.jpg  used on input line 504.
+Package pdftex.def Info: Graph1.jpg  used on input line 503.
 (pdftex.def)             Requested size: 239.7937pt x 173.88295pt.
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1950,10 +1946,10 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [11 <./Graph1.jpg>]
-<hyperbole.png, id=266, 2055.68pt x 1228.59pt>
+<hyperbole.png, id=264, 2055.68pt x 1228.59pt>
 File: hyperbole.png Graphic file (type png)
 <use hyperbole.png>
-Package pdftex.def Info: hyperbole.png  used on input line 561.
+Package pdftex.def Info: hyperbole.png  used on input line 560.
 (pdftex.def)             Requested size: 308.3387pt x 184.28055pt.
 
 
@@ -1971,11 +1967,11 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 
 [13]
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 19.91054pt on input line 574.
+(Font)              scaled to size 19.91054pt on input line 573.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 19.91054pt on input line 574.
+(Font)              scaled to size 19.91054pt on input line 573.
 
-Overfull \hbox (18.56754pt too wide) in paragraph at lines 604--614
+Overfull \hbox (18.56754pt too wide) in paragraph at lines 603--613
  []$[]$ 
  []
 
@@ -1993,24 +1989,27 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 647.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 647.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 646.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 646.
  ("G1- LAB 4 FINAL.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 647.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 647.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 646.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 646.
 Package rerunfilecheck Info: File `"G1- LAB 4 FINAL".out' has not changed.
 (rerunfilecheck)             Checksum: 6AACE49E86068195D455D3C8363335A0;1329.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 647.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 646.
  ) 
 Here is how much of TeX's memory you used:
- 34656 strings out of 492946
- 672685 string characters out of 3125822
+ 34657 strings out of 492946
+ 672693 string characters out of 3125822
  805884 words of memory out of 3000000
- 37876 multiletter control sequences out of 15000+200000
+ 37877 multiletter control sequences out of 15000+200000
  600629 words of font info for 122 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,18n,96p,949b,905s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2024,18 +2023,17 @@ Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/Ale
 x96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><
 C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea/charter/
 bchri8a.pfb><C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/math
-design/mdbch/md-chb8t.pfb><C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/mathdesign/mdbch/md-chr7m.pfb><C:/Users/Alex96/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr7t.pfb><C:/Users/Alex96/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr7v.pfb><C:/Users/A
-lex96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr7y.p
+design/mdbch/md-chr7m.pfb><C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/mathdesign/mdbch/md-chr7t.pfb><C:/Users/Alex96/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr7v.pfb><C:/Users/Alex96/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr7y.pfb><C:/Users/A
+lex96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr8c.p
 fb><C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/md
-bch/md-chr8c.pfb><C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/mathdesign/mdbch/md-chr8t.pfb><C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/mathdesign/mdbch/md-chri7m.pfb>
-Output written on "G1- LAB 4 FINAL.pdf" (15 pages, 4475815 bytes).
+bch/md-chr8t.pfb><C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/mathdesign/mdbch/md-chri7m.pfb>
+Output written on "G1- LAB 4 FINAL.pdf" (15 pages, 4473183 bytes).
 PDF statistics:
- 388 PDF objects out of 1000 (max. 8388607)
+ 383 PDF objects out of 1000 (max. 8388607)
  83 named destinations out of 1000 (max. 500000)
  295 words of extra memory for PDF output out of 10000 (max. 10000000)
 
