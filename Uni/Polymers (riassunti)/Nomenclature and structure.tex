@@ -1,0 +1,306 @@
+% !TEX encoding = UTF-8
+% !TEX program = pdflatex
+% !TEX spellcheck = it_IT
+
+\documentclass[a4paper, 11pt]{article}
+
+% sintassi
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\DeclareUnicodeCharacter{00A0}{~}
+\usepackage{fullpage}
+%\usepackage[cochineal]{newtxmath}
+%\usepackage{crimson,verbatim}
+\usepackage{textcomp}
+\usepackage{color,soul,hyperref,mwe}
+
+% matematica e chimica
+
+\usepackage{siunitx,amsmath,bm,chemfig}
+\newcommand{\ud}{\mathop{}\!\mathrm{d}}
+\sisetup{detect-all,math-rm = \ensuremath}
+%\usepackage{arev}
+\usepackage[charter]{mathdesign}
+
+
+\setatomsep{2em}
+
+{%
+%\newcommand\setpolymerdelim[2]%{\def\delimleft{#1}\def\delimright{#2}} 
+%\def\makebraces[#1,#2]#3#4#5{% 
+%\edef\delimhalfdim{\the\dimexpr(#1+#2)/2}% 
+%\edef\delimvshift{\the\dimexpr(#1-#2)/2}% 
+%\chemmove{% 
+%\node[at=(#4),yshift=(\delimvshift)] {$%\left\delimleft\vrule height\delimhalfdim %depth\delimhalfdim 
+%width0pt\right.$};% 
+%\node[at=(#5),yshift=(\delimvshift)] 
+%{$\left.\vrule height\delimhalfdim depth\delimhalfdim 
+%width0pt\right\delimright_{\rlap{$\scriptstyle#3$}}$};}} 
+%\setpolymerdelim()
+
+
+
+% tabelle e grafica
+\usepackage{booktabs,graphicx,graphbox,subfig,caption,pdfpages,rotating,tabularx,lscape}
+\captionsetup{font=small,
+	format=hang,
+	justification=centering,
+	singlelinecheck=true,
+	labelfont={sf,bf}	
+}
+\usepackage{float}
+\floatstyle{plaintop}
+\restylefloat{table}
+\usepackage{multirow}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[LE,RO]{\textsl{\rightmark}}
+\fancyhead[LO,RE]{\nouppercase{\leftmark}}
+\fancyfoot[C]{\thepage}
+\usepackage[margin=1in,headsep=.3in]{geometry}
+\usepackage[suftesi]{frontespizio}
+\usepackage{xparse}
+\setlength\parindent{0pt}
+
+\newenvironment{chapterabstract}{%
+  \par\nobreak\noindent
+  \textbf{\textit{Abstract}\hrulefill}\nobreak
+  %\small
+  \noindent\ignorespaces
+}{%
+  \par\nobreak\normalsize
+  \vskip-\ht\strutbox\noindent
+  \textbf{\hrulefill}%
+}
+\makeatletter
+\NewDocumentCommand\headerspdf{ O {pages=-} m }{% [options for include pdf]{filename.pdf}
+  \includepdf[%
+    #1,
+    pagecommand={\thispagestyle{fancy}},
+    scale=1,
+    ]{#2}}
+\NewDocumentCommand\secpdf{somO{1}m}{% [short title]{section title}[page specification]{filename.pdf} --- possibly starred
+  \clearpage
+  \thispagestyle{fancy}%
+  \includepdf[%
+    pages=#4,
+    pagecommand={%
+      \IfBooleanTF{#1}{%
+        \section*{#3}}{%
+        \IfNoValueTF{#2}{%
+          \section{#3}}{%
+          \section[#2]{#3}}}},
+    scale=.65,
+    ]%
+    {#5}}
+\makeatother
+
+\begin{document}
+
+\begin{center}
+\chemname
+{\chemfig{-CH_2-CH(-[6]R)-}}
+{\textbf{Vinyl class}} 
+\end{center}
+\qquad
+\begin{center}
+\chemname
+{\chemfig{-CH_2-CH(-[6]H)-}}
+{PE}
+\qquad 
+\chemname
+{\chemfig{-CH_2-CH(-[6]CH_3)-}}
+{PP}
+\qquad
+\chemname
+{\chemfig{-CH_2-CH(-[6]*6(-=-=-=))-}}
+{PS}
+\qquad 
+\chemname
+{\chemfig{-CH_2-CH(-[6]Cl)-}}
+{PVC}
+\end{center}
+
+\qquad
+
+\begin{center}
+\chemname
+{\chemfig{-CH_2-C(-[2]H)(-[6]C(=[4]O)-O-R)-}}
+{\textbf{Acrylics class}} \qquad 
+\chemname
+{\chemfig{-CH_2-C(-[2]CH_3)(-[6]C(=[4]O)-O-R)-}}
+{\textbf{Methacrylics class}} \qquad 
+\end{center}
+\qquad 
+\begin{center}
+\chemname
+{\chemfig{-CH_2-C(-[2]H)(-[6]C~N)-}}
+{Polyacrylonitrile}
+\qquad
+\chemname
+{\chemfig{-CH_2-C(-[2]CH_3)(-[6]C(=[4]O)-O-CH_3)-}}
+{PMMA}
+\end{center}
+
+\qquad
+
+\begin{center}
+\chemname
+{\chemfig{-CH_2-C(-[6]R)=CH-CH_2}}
+{\textbf{Diene class}}
+\end{center}
+\qquad 
+\begin{center}
+\chemname
+{\chemfig{-CH_2-C(-[6]H)=CH-CH_2}}
+{{Polybutadiene}} \qquad 
+\chemname
+{\chemfig{-CH_2-C(-[6]CH_3)=CH-CH_2}}
+{{Polyisoprene}} \qquad 
+\chemname
+{\chemfig{-CH_2-C(-[6]Cl)=CH-CH_2}}
+{{Polychloroprene}} \qquad 
+\end{center}
+
+\newpage
+
+\begin{center}
+\chemname
+{\chemfig{-CX_2-CR_2-}}
+{\textbf{Vinylidenes class}}
+\end{center}
+\qquad 
+\begin{center}
+\chemname
+{\chemfig{-CF_2-CF_2-}}
+{{Polytetrafluoroethylene}} \qquad 
+\end{center}
+
+\newpage 
+\begin{landscape}
+\begin{table}[htp]
+\centering
+$
+\begin{array}{llc}
+\toprule
+\textbf{Class} & \textbf{Selected polymer} & \textbf{Structure} \\
+\midrule
+\textbf{Polyoxides (ethers)} & \text{Polydimethyl phenylene oxide (PPO)} & \tiny{\chemfig{-O-*6(=(-[5]CH_3)-=(-)-=(-[3]CH_3)-)}}  \\
+\text{} & \text{Polyoximethylene (POM)} & \tiny\chemfig{-O-CH_2-} \\
+\midrule
+\textbf{Polyesters} & \text{Polybutylene terephthalate (PBT)} & \tiny{\chemfig{-O-{(}CH_2{)_4}-[,1.5]O-C(=[2]O)-*6(-=-(-C(=[2]O)-)=-=)}} \\
+\text{} & \text{Polyethylene terephthalate (PET)} & \tiny{\chemfig{-O-{(}CH_2{)_2}-[,1.5]O-C(=[2]O)-*6(-=-(-C(=[2]O)-)=-=)}} \\
+\midrule
+\textbf{Polycarbonates} & \text{Polyisopropylidene diphenylene carbonate (PC)} & \tiny{\chemfig{-O-*6(-=-(-C(-[2]CH_3)(-[6]CH_3)-*6(-=-(-O-C(=[2]O)-)=-=))=-=)}}\\
+\midrule
+\textbf{Polyamides} & \text{Polyhexamethylene adipamide (PA 66)} & \tiny\chemfig{-NH-{(}CH_2{)_6}-[,1.5]NH-C(=[2]O)-{(}CH_2{)_4}-[,1.5]C(=[2]O)-}\\
+\midrule
+\textbf{Polysulfones} & \text{Polyether sulfone} & \tiny\chemfig{-O-*6(-=-(-C(-[2]CH_3)(-[6]CH_3)-*6(-=-(-O-*6(-=-(-S(=[2]O)(=[6]O)-*6(-=-(-)=-=))=-=))=-=))=-=)}\\
+ & \text{Polyphenylene sulfide} & \tiny\chemfig{-*6(-=-(-S-)=-=)} \\
+\midrule
+\textbf{Polyimides} & \text{Polyamide imide} & \tiny\chemfig{-*6(-=-(-NH-C(=[6]O)-[:30]*6(-=(-[:-30]C?(=[6]O))-(-[:30]C(=[2]O)-[:-30,2]N?-[8])=-=))=-=)} \\
+\midrule
+\textbf{Polyketones} & \text{Polyether etherketone (PEEK)} & \tiny\chemfig{-O-*6(-=-(-O-*6(-=-(-C(=[2]O)-*6(-=-(-)=-=))=-=))=-=-)} \\[3ex]
+\bottomrule 
+\end{array}
+$
+\end{table}
+\end{landscape}
+
+\newpage 
+
+\begin{table}[htp]
+\centering
+$
+\begin{array}{lcc}
+\toprule
+\textbf{Polymer} & \mathbf{T_m} \, (\text{°C}) & \mathbf{T_g} \, (\text{°C}) \\
+\midrule 
+\text{PVC} & - & 80 \\
+\text{a-PS} & - & 100 \\
+\text{PMMA} & - & 105 \\
+\text{PPO} & - & 210 \\
+\text{HDPE} & 140 & -110 \\
+\text{LDPE} & 110 & -110 \\
+\text{i-PP} & 165 & -10 \\
+\text{POM} & 180 & -85 \\
+\text{PBT} & 240 & 15 \\
+\text{PA 66} & 265 & 20-70 \\
+\text{PA 6} & 225 & 20-70 \\
+\text{PET} & 265 & 70 \\
+\text{PTFE} & 330 & -150 \\
+\text{PC} & - & 150 \\
+\text{polyphenylene sufide} & 285 & 85 \\
+\text{PEEK} & 330 & 140 \\
+\text{polyether sulfone} & - & 190 \\
+\text{amide-imide} & - & 290 \\
+\text{polyimide} & - & 400 \\
+\midrule
+\text{ABS (SAN/PAN)} & -70 & 110 \\
+\text{COC} & - & 70-180 \\
+\bottomrule 
+\end{array}
+$
+\end{table}
+
+\begin{equation}
+\chi = 1-e^{-kt^n}
+\end{equation}
+
+\begin{equation}
+	k = \frac{\nu^3 N \pi}{3}
+\end{equation}
+
+\begin{equation}
+	M_n = \frac{\sum_x N_x M_x}{\sum_x N_x} = \frac{\sum_x w_x}{\sum_x w_x/M_x}
+\end{equation}
+
+\begin{equation}
+	M_w = \frac{\sum_x N_x M_x^2}{\sum_x N_x M_x}=\frac{\sum_x w_x M_x}{\sum_x w_x}
+\end{equation}
+
+\begin{equation}
+	M_z = \frac{\sum_x N_x M_x^3}{\sum_x N_x M_x^2}=\frac{\sum_x w_x M_x^2}{\sum_x w_x M_x}
+\end{equation}
+
+\begin{equation}
+	M_v = \sqrt[\big{a}\,\,]{\frac{\sum_x N_x M_x^{1+a}}{\sum_x N_x M_x}}
+\end{equation}
+
+\begin{equation}
+	T_g = T_g^\infty - \frac{K}{M_n}
+\end{equation}
+
+\begin{equation}
+	\chi = \frac{\Delta H_m- \Delta H_c}{\Delta H_m^\text{ref}}\cdot 100
+\end{equation}
+
+\begin{equation}
+	t = A\cdot e^\frac{E_\text{iso}}{2.303 \cdot RT} \quad \rightarrow \quad  \log{t} = A + \frac{E_\text{iso}}{2.303 \cdot RT}
+\end{equation}
+
+\begin{equation}
+	\text{rate} = A\cdot e^\frac{-E_\text{dyn}}{2.303 \cdot RT} \quad \rightarrow \quad  \log{\text{rate}} = A -\frac{E_\text{iso}}{2.303 \cdot RT}
+\end{equation}
+
+\begin{equation}
+	p_\text{gel,C} = \frac{2}{\bar{f}} 
+\end{equation}
+
+\begin{equation}
+	p_\text{gel,FS} = \frac{1}{\bar{f}-1} 
+\end{equation}
+
+\begin{equation}
+	\bar{f} = \frac{f_\text{iso}\cdot \text{MW}_\text{eq,iso}+ f_\text{alcohol}\cdot \text{MW}_\text{eq,alc}}{\text{MW}_\text{eq,iso} +\text{MW}_\text{eq,alc}}
+\end{equation}
+
+\chemfig{Cl-Si(-[2]CH_3)(-[6]Cl)-[,1.4]Cl + 3H_2 O \qquad \rightarrow \qquad  HO-Si(-[2]CH_3)(-[6]OH)-OH}  
+
+
+\begin{equation}
+	\log{a_T} = \frac{\Delta H}{R} \cdot \Bigl(\frac{1}{T}-\frac{1}{T_0}\Bigl)
+\end{equation}
+
+\end{document}
