@@ -56,7 +56,7 @@ width0pt\right\delimright_{\rlap{$\scriptstyle#3$}}$};}}
 \usepackage{multirow}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-\fancyhead[LE,RO]{\textsl{\rightmark}}
+\fancyhead[LE,RO]{\nouppercase{\rightmark}}
 \fancyhead[LO,RE]{\nouppercase{\leftmark}}
 \fancyfoot[C]{\thepage}
 \usepackage[margin=1in,headsep=.3in]{geometry}
@@ -370,9 +370,9 @@ In Figure \ref{fig:dieswell} die swell measurements for PP-1 sample in function 
 \begin{figure}[h!]
 	\centering
 	\subfloat[][]
-	{\includegraphics[scale=0.29]{dieswell}} \quad 
+	{\includegraphics[scale=0.395]{dieswell}} \quad 
 	\subfloat[][]
-	{\includegraphics[scale=0.29]{dieswell2}}
+	{\includegraphics[scale=0.4]{dieswell2}}
 	\captionsetup{justification=centering}
 	\caption{Die swelling for PP–1 sample.}
 	\label{fig:dieswell}
