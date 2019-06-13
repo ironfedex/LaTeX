@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.24)  13 JUN 2019 10:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.24)  12 JUN 2019 22:21
 entering extended mode
-**"./Lab 2.tex"
-("Lab 2.tex"
+**"./LAB 3.tex"
+("LAB 3.tex"
 LaTeX2e <2018-12-01>
 ("C:\Users\Alex96\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -1244,6 +1244,18 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count335
 \@thisrulewidth=\dimen288
 )
+("C:\Users\Alex96\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphbox\graphbox
+.sty"
+Package: graphbox 2018/01/17 v1.1 extension for graphicx to adjust containing b
+ox
+\Gin@box@box=\box67
+\Gin@box@width=\skip62
+\Gin@box@height=\skip63
+\Gin@box@raise=\skip64
+\Gin@box@hspace=\skip65
+\Gin@box@bwidth=\skip66
+\Gin@box@bheight=\skip67
+)
 ("C:\Users\Alex96\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfig\subfig.sty
 "
 Package: subfig 2005/06/28 ver: 1.3 subfig package
@@ -1269,18 +1281,18 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 Package caption Info: hyperref package is loaded.
 )
 \c@KVtest=\count338
-\sf@farskip=\skip62
+\sf@farskip=\skip68
 \sf@captopadj=\dimen296
-\sf@capskip=\skip63
-\sf@nearskip=\skip64
+\sf@capskip=\skip69
+\sf@nearskip=\skip70
 \c@subfigure=\count339
 \c@subfigure@save=\count340
 \c@lofdepth=\count341
 \c@subtable=\count342
 \c@subtable@save=\count343
 \c@lotdepth=\count344
-\sf@top=\skip65
-\sf@bottom=\skip66
+\sf@top=\skip71
+\sf@bottom=\skip72
 )
 ("C:\Users\Alex96\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdfpages\pdfpages
 .sty"
@@ -1292,12 +1304,12 @@ Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count346
 \calc@Adimen=\dimen297
 \calc@Bdimen=\dimen298
-\calc@Askip=\skip67
-\calc@Bskip=\skip68
+\calc@Askip=\skip73
+\calc@Bskip=\skip74
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count347
-\calc@Cskip=\skip69
+\calc@Cskip=\skip75
 )
 ("C:\Users\Alex96\AppData\Local\Programs\MiKTeX 2.9\tex/latex/eso-pic\eso-pic.s
 ty"
@@ -1310,43 +1322,43 @@ Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 .def"
 File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 )
-\AM@pagebox=\box67
+\AM@pagebox=\box68
 \AM@global@opts=\toks42
 \AM@toc@title=\toks43
 \c@AM@survey=\count348
-\AM@templatesizebox=\box68
+\AM@templatesizebox=\box69
 )
 ("C:\Users\Alex96\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count349
 \float@exts=\toks44
-\float@box=\box69
+\float@box=\box70
 \@float@everytoks=\toks45
-\@floatcapt=\box70
+\@floatcapt=\box71
 )
 \@float@every@table=\toks46
 
 ("C:\Users\Alex96\AppData\Local\Programs\MiKTeX 2.9\tex/latex/multirow\multirow
 .sty"
 Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
-\multirow@colwidth=\skip70
+\multirow@colwidth=\skip76
 \multirow@cntb=\count350
-\multirow@dima=\skip71
+\multirow@dima=\skip77
 \bigstrutjot=\dimen301
 )
 ("C:\Users\Alex96\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr
 .sty"
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip72
-\f@nch@O@elh=\skip73
-\f@nch@O@erh=\skip74
-\f@nch@O@olh=\skip75
-\f@nch@O@orh=\skip76
-\f@nch@O@elf=\skip77
-\f@nch@O@erf=\skip78
-\f@nch@O@olf=\skip79
-\f@nch@O@orf=\skip80
+\f@nch@headwidth=\skip78
+\f@nch@O@elh=\skip79
+\f@nch@O@erh=\skip80
+\f@nch@O@olh=\skip81
+\f@nch@O@orh=\skip82
+\f@nch@O@elf=\skip83
+\f@nch@O@erf=\skip84
+\f@nch@O@olf=\skip85
+\f@nch@O@orf=\skip86
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
@@ -1383,8 +1395,8 @@ Package: frontespizio 2011/09/21 1.4a (Enrico Gregorio)
 ty"
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks48
-\AP@partial=\box71
-\AP@footins=\box72
+\AP@partial=\box72
+\AP@footins=\box73
 )
 ("C:\Users\Alex96\AppData\Local\Programs\MiKTeX 2.9\tex/latex/environ\environ.s
 ty"
@@ -1395,29 +1407,20 @@ aces.sty"
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
 \front@out=\write4
-\openout4 = `"Lab 2-frn.tex"'.
+\openout4 = `"LAB 3-frn.tex"'.
 
-) ("Lab 2.aux"
+) ("LAB 3.aux"
 
-LaTeX Warning: Label `fig:PE' multiply defined.
-
-
-LaTeX Warning: Label `fig:PE' multiply defined.
+LaTeX Warning: Label `tab:mw' multiply defined.
 
 
-LaTeX Warning: Label `fig:PE' multiply defined.
+LaTeX Warning: Label `tab:tmwpp' multiply defined.
 
 
-LaTeX Warning: Label `fig:PE' multiply defined.
-
-
-LaTeX Warning: Label `fig:PE' multiply defined.
-
-
-LaTeX Warning: Label `fig:PE' multiply defined.
+LaTeX Warning: Label `tab:tmwpp' multiply defined.
 
 )
-\openout1 = `"Lab 2.aux"'.
+\openout1 = `"LAB 3.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
 LaTeX Font Info:    ... okay on input line 100.
@@ -1464,7 +1467,7 @@ kii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count354
 \scratchdimen=\dimen310
-\scratchbox=\box73
+\scratchbox=\box74
 \nofMPsegments=\count355
 \nofMParguments=\count356
 \everyMPshowfont=\toks49
@@ -1489,7 +1492,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\AtBeginShipoutBox=\box74
+\AtBeginShipoutBox=\box75
 Package hyperref Info: Link coloring OFF on input line 100.
 
 ("C:\Users\Alex96\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.
@@ -1505,9 +1508,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 100.
 LaTeX Info: Redefining \pageref on input line 100.
 LaTeX Info: Redefining \nameref on input line 100.
- ("Lab 2.out") ("Lab 2.out")
+ ("LAB 3.out") ("LAB 3.out")
 \@outlinefile=\write5
-\openout5 = `"Lab 2.out"'.
+\openout5 = `"LAB 3.out"'.
 
 
 ("C:\Users\Alex96\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\transl
@@ -1663,71 +1666,66 @@ LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
 (Font)              scaled to size 8.57605pt on input line 100.
 LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
 (Font)              scaled to size 6.43204pt on input line 100.
-<frontespizio2.pdf, id=130, 597.55246pt x 845.07718pt>
-File: frontespizio2.pdf Graphic file (type pdf)
-<use frontespizio2.pdf>
-Package pdftex.def Info: frontespizio2.pdf  used on input line 102.
+<frontespizio3.pdf, id=110, 597.55246pt x 845.07718pt>
+File: frontespizio3.pdf Graphic file (type pdf)
+<use frontespizio3.pdf>
+Package pdftex.def Info: frontespizio3.pdf  used on input line 102.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: frontespizio2.pdf Graphic file (type pdf)
-<use frontespizio2.pdf>
-Package pdftex.def Info: frontespizio2.pdf  used on input line 102.
+File: frontespizio3.pdf Graphic file (type pdf)
+<use frontespizio3.pdf>
+Package pdftex.def Info: frontespizio3.pdf  used on input line 102.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-<frontespizio2.pdf, id=133, page=1, 597.55246pt x 845.07718pt>
-File: frontespizio2.pdf Graphic file (type pdf)
-<use frontespizio2.pdf, page 1>
-Package pdftex.def Info: frontespizio2.pdf , page1 used on input line 102.
+<frontespizio3.pdf, id=113, page=1, 597.55246pt x 845.07718pt>
+File: frontespizio3.pdf Graphic file (type pdf)
+<use frontespizio3.pdf, page 1>
+Package pdftex.def Info: frontespizio3.pdf , page1 used on input line 102.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: frontespizio2.pdf Graphic file (type pdf)
-<use frontespizio2.pdf, page 1>
-Package pdftex.def Info: frontespizio2.pdf , page1 used on input line 102.
+File: frontespizio3.pdf Graphic file (type pdf)
+<use frontespizio3.pdf, page 1>
+Package pdftex.def Info: frontespizio3.pdf , page1 used on input line 102.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: frontespizio2.pdf Graphic file (type pdf)
-<use frontespizio2.pdf, page 1>
-Package pdftex.def Info: frontespizio2.pdf , page1 used on input line 102.
+File: frontespizio3.pdf Graphic file (type pdf)
+<use frontespizio3.pdf, page 1>
+Package pdftex.def Info: frontespizio3.pdf , page1 used on input line 102.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: frontespizio2.pdf Graphic file (type pdf)
-<use frontespizio2.pdf, page 1>
-Package pdftex.def Info: frontespizio2.pdf , page1 used on input line 102.
+File: frontespizio3.pdf Graphic file (type pdf)
+<use frontespizio3.pdf, page 1>
+Package pdftex.def Info: frontespizio3.pdf , page1 used on input line 102.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: frontespizio2.pdf Graphic file (type pdf)
-<use frontespizio2.pdf, page 1>
-Package pdftex.def Info: frontespizio2.pdf , page1 used on input line 102.
+File: frontespizio3.pdf Graphic file (type pdf)
+<use frontespizio3.pdf, page 1>
+Package pdftex.def Info: frontespizio3.pdf , page1 used on input line 102.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
  [1
 
- <./frontespizio2.pdf>]
+ <./frontespizio3.pdf>]
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
 (Font)              scaled to size 10.51207pt on input line 104.
 LaTeX Font Info:    Font shape `T1/mdbch/b/it' will be
 (Font)              scaled to size 10.51207pt on input line 104.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 13.82408pt on input line 110.
+(Font)              scaled to size 13.82408pt on input line 114.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 13.82408pt on input line 110.
+(Font)              scaled to size 13.82408pt on input line 114.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 117.
+(Font)              scaled to size 11.52008pt on input line 118.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 11.52008pt on input line 117.
-<pe_chem.jpeg, id=153, 715.67375pt x 524.96124pt>
-File: pe_chem.jpeg Graphic file (type jpg)
-<use pe_chem.jpeg>
-Package pdftex.def Info: pe_chem.jpeg  used on input line 123.
-(pdftex.def)             Requested size: 85.87714pt x 62.99263pt.
-<PE.jpeg, id=154, 1286.8075pt x 849.1725pt>
-File: PE.jpeg Graphic file (type jpg)
-<use PE.jpeg>
-Package pdftex.def Info: PE.jpeg  used on input line 130.
-(pdftex.def)             Requested size: 193.01279pt x 127.37038pt.
+(Font)              scaled to size 11.52008pt on input line 118.
+<rubber.jpg, id=132, 1336.995pt x 647.41875pt>
+File: rubber.jpg Graphic file (type jpg)
+<use rubber.jpg>
+Package pdftex.def Info: rubber.jpg  used on input line 123.
+(pdftex.def)             Requested size: 401.1016pt x 194.22711pt.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 132.
+(Font)              scaled to size 9.60007pt on input line 125.
 LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
-(Font)              scaled to size 10.39001pt on input line 132.
+(Font)              scaled to size 10.39001pt on input line 125.
 LaTeX Font Info:    Font shape `T1/cmss/b/n' in size <10> not available
-(Font)              Font shape `T1/cmss/bx/n' tried instead on input line 132.
+(Font)              Font shape `T1/cmss/bx/n' tried instead on input line 125.
 LaTeX Font Info:    Font shape `T1/cmss/bx/n' will be
-(Font)              scaled to size 10.39001pt on input line 132.
+(Font)              scaled to size 10.39001pt on input line 125.
 LaTeX Font Info:    Font shape `T1/mdbch/m/sl' will be
-(Font)              scaled to size 10.51207pt on input line 136.
+(Font)              scaled to size 10.51207pt on input line 128.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1735,41 +1733,45 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2{C:/Users/Alex96/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./pe_che
-m.jpeg> <./PE.jpeg>]
-<ps_chem.jpeg, id=165, 615.29875pt x 594.22pt>
-File: ps_chem.jpeg Graphic file (type jpg)
-<use ps_chem.jpeg>
-Package pdftex.def Info: ps_chem.jpeg  used on input line 142.
-(pdftex.def)             Requested size: 98.4498pt x 95.07713pt.
-<PSspoon.jpg, id=166, 650.43pt x 362.35374pt>
-File: PSspoon.jpg Graphic file (type jpg)
-<use PSspoon.jpg>
-Package pdftex.def Info: PSspoon.jpg  used on input line 151.
-(pdftex.def)             Requested size: 130.0837pt x 72.46945pt.
+[2{C:/Users/Alex96/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./rubber
+.jpg>]
+<melt.jpg, id=145, 1336.995pt x 905.3825pt>
+File: melt.jpg Graphic file (type jpg)
+<use melt.jpg>
+Package pdftex.def Info: melt.jpg  used on input line 132.
+(pdftex.def)             Requested size: 267.39426pt x 181.07329pt.
+<abs.png, id=147, 1766.09813pt x 1065.22969pt>
+File: abs.png Graphic file (type png)
+<use abs.png>
+Package pdftex.def Info: abs.png  used on input line 141.
+(pdftex.def)             Requested size: 123.6395pt x 74.57368pt.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 8.64006pt on input line 151.
+(Font)              scaled to size 8.64006pt on input line 141.
 LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
-(Font)              scaled to size 9.35101pt on input line 151.
+(Font)              scaled to size 9.35101pt on input line 141.
 LaTeX Font Info:    Font shape `T1/cmss/b/n' in size <9> not available
-(Font)              Font shape `T1/cmss/bx/n' tried instead on input line 151.
+(Font)              Font shape `T1/cmss/bx/n' tried instead on input line 141.
 LaTeX Font Info:    Font shape `T1/cmss/bx/n' will be
-(Font)              scaled to size 9.35101pt on input line 151.
-<PS.png, id=167, 159.59625pt x 159.59625pt>
-File: PS.png Graphic file (type png)
-<use PS.png>
-Package pdftex.def Info: PS.png  used on input line 153.
-(pdftex.def)             Requested size: 63.83736pt x 63.83736pt.
-<pp_chem.jpeg, id=168, 516.93124pt x 364.36125pt>
-File: pp_chem.jpeg Graphic file (type jpg)
-<use pp_chem.jpeg>
-Package pdftex.def Info: pp_chem.jpeg  used on input line 163.
-(pdftex.def)             Requested size: 87.87714pt x 61.94058pt.
-<PP.jpg, id=169, 340.27126pt x 484.81125pt>
-File: PP.jpg Graphic file (type jpg)
-<use PP.jpg>
-Package pdftex.def Info: PP.jpg  used on input line 171.
-(pdftex.def)             Requested size: 61.24617pt x 87.26225pt.
+(Font)              scaled to size 9.35101pt on input line 141.
+<PC.png, id=148, 192.72pt x 53.60025pt>
+File: PC.png Graphic file (type png)
+<use PC.png>
+Package pdftex.def Info: PC.png  used on input line 143.
+(pdftex.def)             Requested size: 173.44638pt x 48.23975pt.
+<pp.png, id=149, 803.0pt x 517.935pt>
+File: pp.png Graphic file (type png)
+<use pp.png>
+Package pdftex.def Info: pp.png  used on input line 145.
+(pdftex.def)             Requested size: 64.2413pt x 41.43564pt.
+<LOI.jpg, id=152, 981.6675pt x 881.2925pt>
+File: LOI.jpg Graphic file (type jpg)
+<use LOI.jpg>
+Package pdftex.def Info: LOI.jpg  used on input line 153.
+(pdftex.def)             Requested size: 196.33002pt x 176.25537pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--158
+
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1779,32 +1781,11 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 
 [3
 design size mismatch in local font md-chro8t in virtual font mdbchro8t.vf ignor
-ed. <./ps_chem.jpeg> <./PSspoon.jpg> <./PS.png> <./pp_chem.jpeg> <./PP.jpg>]
-<pet_chem.jpeg, id=183, 751.80875pt x 209.78375pt>
-File: pet_chem.jpeg Graphic file (type jpg)
-<use pet_chem.jpeg>
-Package pdftex.def Info: pet_chem.jpeg  used on input line 183.
-(pdftex.def)             Requested size: 187.95172pt x 52.4458pt.
-<PET.png, id=184, 297.36093pt x 523.9575pt>
-File: PET.png Graphic file (type png)
-<use PET.png>
-Package pdftex.def Info: PET.png  used on input line 192.
-(pdftex.def)             Requested size: 44.6022pt x 78.59023pt.
-<pla_chem.jpeg, id=186, 407.5225pt x 230.8625pt>
-File: pla_chem.jpeg Graphic file (type jpg)
-<use pla_chem.jpeg>
-Package pdftex.def Info: pla_chem.jpeg  used on input line 202.
-(pdftex.def)             Requested size: 122.25769pt x 69.25928pt.
-<PLA.jpg, id=187, 234.8775pt x 308.15125pt>
-File: PLA.jpg Graphic file (type jpg)
-<use PLA.jpg>
-Package pdftex.def Info: PLA.jpg  used on input line 210.
-(pdftex.def)             Requested size: 42.27612pt x 55.46483pt.
-<pmma_chem.jpeg, id=188, 353.32pt x 346.29375pt>
-File: pmma_chem.jpeg Graphic file (type jpg)
-<use pmma_chem.jpeg>
-Package pdftex.def Info: pmma_chem.jpeg  used on input line 220.
-(pdftex.def)             Requested size: 88.32977pt x 86.57321pt.
+ed. <./melt.jpg> <./abs.png> <./PC.png> <./pp.png> <./LOI.jpg>]
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 170.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 170.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1812,70 +1793,16 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4 <./pet_chem.jpeg> <./PET.png> <./pla_chem.jpeg> <./PLA.jpg> <./pmma_chem.jpe
-g>]
-LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 238.
-LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 238.
-LaTeX Font Info:    Font shape `OT1/mdbch/b/n' will be
-(Font)              scaled to size 10.51207pt on input line 238.
-LaTeX Font Info:    Font shape `OT1/mdbch/b/n' will be
-(Font)              scaled to size 7.68005pt on input line 238.
-LaTeX Font Info:    Font shape `OT1/mdbch/b/n' will be
-(Font)              scaled to size 5.76004pt on input line 238.
-LaTeX Font Info:    Font shape `OML/mdbch/b/it' will be
-(Font)              scaled to size 10.51207pt on input line 238.
-LaTeX Font Info:    Font shape `OML/mdbch/b/it' will be
-(Font)              scaled to size 7.68005pt on input line 238.
-LaTeX Font Info:    Font shape `OML/mdbch/b/it' will be
-(Font)              scaled to size 5.76004pt on input line 238.
-LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
-(Font)              scaled to size 10.51207pt on input line 238.
-LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
-(Font)              scaled to size 7.68005pt on input line 238.
-LaTeX Font Info:    Font shape `OMS/mdbch/b/n' will be
-(Font)              scaled to size 5.76004pt on input line 238.
-LaTeX Font Info:    Font shape `OMX/mdbch/b/n' will be
-(Font)              scaled to size 10.51207pt on input line 238.
-LaTeX Font Info:    Font shape `OMX/mdbch/b/n' will be
-(Font)              scaled to size 7.68005pt on input line 238.
-LaTeX Font Info:    Font shape `OMX/mdbch/b/n' will be
-(Font)              scaled to size 5.76004pt on input line 238.
-LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
-(Font)              scaled to size 10.51207pt on input line 238.
-LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
-(Font)              scaled to size 7.68005pt on input line 238.
-LaTeX Font Info:    Font shape `OML/mdbch/b/n' will be
-(Font)              scaled to size 5.76004pt on input line 238.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 10.51207pt on input line 238.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 7.68005pt on input line 238.
-LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 5.76004pt on input line 238.
-LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
-(Font)              scaled to size 10.51207pt on input line 238.
-LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
-(Font)              scaled to size 7.68005pt on input line 238.
-LaTeX Font Info:    Font shape `MDB/mdbch/b/n' will be
-(Font)              scaled to size 5.76004pt on input line 238.
-LaTeX Font Info:    Try loading font information for TS1+mdbch on input line 26
-1.
+[4]
+LaTeX Font Info:    Try loading font information for TS1+mdbch on input line 23
+6.
 
 ("C:\Users\Alex96\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathdesign/mdbch\
 ts1mdbch.fd"
 File: ts1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for TS1/mdbch.
 )
 LaTeX Font Info:    Font shape `TS1/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 261.
-LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
-(Font)              scaled to size 10.51207pt on input line 263.
-
-Overfull \hbox (9.33708pt too wide) in paragraph at lines 264--265
-[]\T1/mdbch/m/n/10.95 mixed so-lu-tion of ace-tone, aqua, ben-zophe-none, phan-
-thenol, ethyl ac-etate, par-fum, D-limonene,
- []
+(Font)              scaled to size 10.51207pt on input line 236.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1884,15 +1811,6 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 272--296
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 309--326
-
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
@@ -1901,157 +1819,158 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 
 [6]
 
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[7]
-<HT1.jpg, id=247, 966.61125pt x 632.3625pt>
-File: HT1.jpg Graphic file (type jpg)
-<use HT1.jpg>
-Package pdftex.def Info: HT1.jpg  used on input line 390.
-(pdftex.def)             Requested size: 167.22734pt x 109.40106pt.
-<HT2.jpg, id=248, 731.73375pt x 590.205pt>
-File: HT2.jpg Graphic file (type jpg)
-<use HT2.jpg>
-Package pdftex.def Info: HT2.jpg  used on input line 392.
-(pdftex.def)             Requested size: 135.36862pt x 109.1862pt.
-<HT3.jpg, id=249, 368.37625pt x 436.63126pt>
-File: HT3.jpg Graphic file (type jpg)
-<use HT3.jpg>
-Package pdftex.def Info: HT3.jpg  used on input line 394.
-(pdftex.def)             Requested size: 121.56453pt x 144.08876pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[8]
-<dscPET.pdf, id=256, 694.33438pt x 502.27454pt>
-File: dscPET.pdf Graphic file (type pdf)
-<use dscPET.pdf>
-Package pdftex.def Info: dscPET.pdf  used on input line 407.
-(pdftex.def)             Requested size: 277.72884pt x 200.90625pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[9 <./HT1.jpg> <./HT2.jpg> <./HT3.jpg>]
-<dscPP.pdf, id=267, 653.42918pt x 491.43199pt>
-File: dscPP.pdf Graphic file (type pdf)
-<use dscPP.pdf>
-Package pdftex.def Info: dscPP.pdf  used on input line 419.
-(pdftex.def)             Requested size: 261.36703pt x 196.5693pt.
-<dscPLA.pdf, id=269, 654.30446pt x 485.23985pt>
-File: dscPLA.pdf Graphic file (type pdf)
-<use dscPLA.pdf>
-Package pdftex.def Info: dscPLA.pdf  used on input line 428.
-(pdftex.def)             Requested size: 261.71715pt x 194.0925pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[10 <./dscPET.pdf> <./dscPP.pdf>]
-LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 4.80003pt on input line 443.
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[11 <./dscPLA.pdf>]
-Overfull \hbox (1.07834pt too wide) in paragraph at lines 563--581
-[]\T1/mdbch/m/n/10.95 It can be ob-served that the amor-phus PET den-sity is di
-f-fer-ent from the one cal-cu-lated by Archimedean
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 563--581
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[12]
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[13]
-<tgaPMMA.pdf, id=328, 514.84042pt x 479.53151pt>
-File: tgaPMMA.pdf Graphic file (type pdf)
-<use tgaPMMA.pdf>
-Package pdftex.def Info: tgaPMMA.pdf  used on input line 607.
-(pdftex.def)             Requested size: 216.2315pt x 201.40186pt.
-<tgaT.pdf, id=329, 516.8831pt x 495.44598pt>
-File: tgaT.pdf Graphic file (type pdf)
-<use tgaT.pdf>
-Package pdftex.def Info: tgaT.pdf  used on input line 609.
-(pdftex.def)             Requested size: 217.08942pt x 208.08589pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[14 <./tgaPMMA.pdf> <./tgaT.pdf>]
+pdfTeX warning: miktex-pdftex.exe (file ./vicat10.pdf): PDF inclusion: found PD
+F version <1.7>, but at most version <1.5> allowed
+<vicat10.pdf, id=211, 521.54149pt x 427.63463pt>
+File: vicat10.pdf Graphic file (type pdf)
+<use vicat10.pdf>
+Package pdftex.def Info: vicat10.pdf  used on input line 336.
+(pdftex.def)             Requested size: 187.75479pt x 153.94833pt.
+<vicat50.pdf, id=212, 525.23627pt x 419.10075pt>
+File: vicat50.pdf Graphic file (type pdf)
+<use vicat50.pdf>
+Package pdftex.def Info: vicat50.pdf  used on input line 338.
+(pdftex.def)             Requested size: 189.08492pt x 150.87614pt.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 632.
+(Font)              scaled to size 9.60007pt on input line 340.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 632.
+(Font)              scaled to size 6.72005pt on input line 340.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 9.60007pt on input line 632.
+(Font)              scaled to size 9.60007pt on input line 340.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 6.72005pt on input line 632.
+(Font)              scaled to size 6.72005pt on input line 340.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 632.
+(Font)              scaled to size 9.60007pt on input line 340.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 632.
+(Font)              scaled to size 6.72005pt on input line 340.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 632.
+(Font)              scaled to size 9.60007pt on input line 340.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 632.
+(Font)              scaled to size 6.72005pt on input line 340.
 LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
-(Font)              scaled to size 7.27301pt on input line 632.
+(Font)              scaled to size 7.27301pt on input line 340.
 LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
-(Font)              scaled to size 10.72006pt on input line 632.
+(Font)              scaled to size 10.72006pt on input line 340.
 LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
-(Font)              scaled to size 7.50404pt on input line 632.
-LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 9.60007pt on input line 632.
-LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 632.
+(Font)              scaled to size 7.50404pt on input line 340.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 632.
+(Font)              scaled to size 9.60007pt on input line 340.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 632.
+(Font)              scaled to size 6.72005pt on input line 340.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 632.
+(Font)              scaled to size 9.60007pt on input line 340.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 632.
+(Font)              scaled to size 6.72005pt on input line 340.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 632.
+(Font)              scaled to size 9.60007pt on input line 340.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 632.
+(Font)              scaled to size 6.72005pt on input line 340.
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 9.60007pt on input line 359.
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 6.72005pt on input line 359.
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 4.80003pt on input line 359.
 
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7 <./vicat10.pdf> <./vicat50.pdf>]
+<dieswell.jpg, id=228, 551.1792pt x 411.4572pt>
+File: dieswell.jpg Graphic file (type jpg)
+<use dieswell.jpg>
+Package pdftex.def Info: dieswell.jpg  used on input line 373.
+(pdftex.def)             Requested size: 159.83788pt x 119.31952pt.
+<dieswell2.jpg, id=229, 531.9072pt x 403.7484pt>
+File: dieswell2.jpg Graphic file (type jpg)
+<use dieswell2.jpg>
+Package pdftex.def Info: dieswell2.jpg  used on input line 375.
+(pdftex.def)             Requested size: 154.24913pt x 117.08403pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8 <./dieswell.jpg> <./dieswell2.jpg>]
+<mfimod.jpg, id=245, 697.4055pt x 578.16pt>
+File: mfimod.jpg Graphic file (type jpg)
+<use mfimod.jpg>
+Package pdftex.def Info: mfimod.jpg  used on input line 405.
+(pdftex.def)             Requested size: 209.22325pt x 173.44933pt.
+<mfi2.pdf, id=246, 519.02808pt x 402.85005pt>
+File: mfi2.pdf Graphic file (type pdf)
+<use mfi2.pdf>
+Package pdftex.def Info: mfi2.pdf  used on input line 407.
+(pdftex.def)             Requested size: 207.60754pt x 161.13716pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9 <./mfimod.jpg> <./mfi2.pdf>]
+<mw.pdf, id=271, 520.38617pt x 423.45201pt>
+File: mw.pdf Graphic file (type pdf)
+<use mw.pdf>
+Package pdftex.def Info: mw.pdf  used on input line 421.
+(pdftex.def)             Requested size: 208.15077pt x 169.37779pt.
+LaTeX Font Info:    Font shape `TS1/mdbch/m/n' will be
+(Font)              scaled to size 9.60007pt on input line 444.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10 <./mw.pdf>]
+<arrhenius.pdf, id=287, 525.62173pt x 415.53944pt>
+File: arrhenius.pdf Graphic file (type pdf)
+<use arrhenius.pdf>
+Package pdftex.def Info: arrhenius.pdf  used on input line 471.
+(pdftex.def)             Requested size: 210.24496pt x 166.21283pt.
+<duro.jpg, id=291, 845.559pt x 597.432pt>
+File: duro.jpg Graphic file (type jpg)
+<use duro.jpg>
+Package pdftex.def Info: duro.jpg  used on input line 502.
+(pdftex.def)             Requested size: 253.66966pt x 179.23097pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11 <./arrhenius.pdf> <./duro.jpg>]
+Overfull \hbox (3.29012pt too wide) in paragraph at lines 531--532
+[]\T1/mdbch/m/n/10.95 PC sam-ple re-acts with a higher amount of flushed oxy-ge
+n, mean-ing that this poly-mer is less flammable
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12] [13]
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 19.91054pt on input line 558.
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 19.91054pt on input line 558.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14]
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
@@ -2065,78 +1984,47 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16] [17]
-LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 19.91054pt on input line 691.
-LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 19.91054pt on input line 691.
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[18]
-<DEG.jpeg, id=372, 669.50125pt x 501.875pt>
-File: DEG.jpeg Graphic file (type jpg)
-<use DEG.jpeg>
-Package pdftex.def Info: DEG.jpeg  used on input line 751.
-(pdftex.def)             Requested size: 267.79576pt x 200.74643pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[19 <./DEG.jpeg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 757.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 757.
- ("Lab 2.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 757.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 757.
-Package rerunfilecheck Info: File `"Lab 2".out' has not changed.
-(rerunfilecheck)             Checksum: 4CCA4F24A38942EDB3CA326C43819F01;2241.
+[16]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 711.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 711.
+ ("LAB 3.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 711.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 711.
+Package rerunfilecheck Info: File `"LAB 3".out' has not changed.
+(rerunfilecheck)             Checksum: B1264395F6BF4800F882DCDD7697C3CB;1909.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 757.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 711.
  ) 
 Here is how much of TeX's memory you used:
- 34832 strings out of 492946
- 674635 string characters out of 3125822
- 813177 words of memory out of 3000000
- 38001 multiletter control sequences out of 15000+200000
- 633917 words of font info for 186 fonts, out of 3000000 for 9000
+ 34733 strings out of 492946
+ 673088 string characters out of 3125822
+ 825446 words of memory out of 3000000
+ 37937 multiletter control sequences out of 15000+200000
+ 619735 words of font info for 160 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,20n,96p,1295b,990s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{cite.densit\340} has been referenced but does not
- exist, replaced by a fixed one
-
-{C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/ly1/texnansi
-.enc} <C:\Users\Alex96\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi
-623\ecsx0900.pk> <C:\Users\Alex96\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkna
-ppen/ec/dpi623\ecsx1000.pk><C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/Alex96/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/bitstrea/charter/bchbi8a.pfb><C:/Users/Alex96/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/Alex9
-6/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:
-/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea/charter/bc
-hri8a.pfb><C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmmib10.pfb><C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cmextra/cmmib8.pfb><C:/Users/Alex96/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chb7m.pfb><C:/Users/Alex96/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr7m.pfb><C:/Use
-rs/Alex96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr
-7t.pfb><C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/mathdesig
-n/mdbch/md-chr7y.pfb><C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/mathdesign/mdbch/md-chr8t.pfb><C:/Users/Alex96/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/mathdesign/mdbch/md-chri7m.pfb>
-Output written on "Lab 2.pdf" (19 pages, 1429160 bytes).
+ 62i,19n,96p,773b,906s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Alex96\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi623
+\ecsx0900.pk>{C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips
+/ly1/texnansi.enc} <C:\Users\Alex96\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jk
+nappen/ec/dpi623\ecsx1000.pk><C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/Alex96/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchbi8a.pfb><C:/Users/Alex96/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/Ale
+x96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><
+C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea/charter/
+bchri8a.pfb><C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/math
+design/mdbch/md-chr7t.pfb><C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/mathdesign/mdbch/md-chr7v.pfb><C:/Users/Alex96/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr7y.pfb><C:/Users/Alex96/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr8t.pfb><C:/Users/A
+lex96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chri7m.
+pfb>
+Output written on "LAB 3.pdf" (16 pages, 1859381 bytes).
 PDF statistics:
- 476 PDF objects out of 1000 (max. 8388607)
- 101 named destinations out of 1000 (max. 500000)
- 386 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 437 PDF objects out of 1000 (max. 8388607)
+ 88 named destinations out of 1000 (max. 500000)
+ 316 words of extra memory for PDF output out of 10000 (max. 10000000)
 
