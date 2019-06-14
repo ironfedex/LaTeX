@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.24)  13 JUN 2019 18:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.24)  14 JUN 2019 14:39
 entering extended mode
 **"./G1- LAB 3 FINAL.tex"
 ("G1- LAB 3 FINAL.tex"
@@ -1409,8 +1409,14 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \front@out=\write4
 \openout4 = `"G1- LAB 3 FINAL-frn.tex"'.
 
+) ("G1- LAB 3 FINAL.aux"
+
+LaTeX Warning: Label `tab:mw' multiply defined.
+
+
+LaTeX Warning: Label `tab:tmwpp' multiply defined.
+
 )
-No file "G1- LAB 3 FINAL".aux.
 \openout1 = `"G1- LAB 3 FINAL.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
@@ -1428,7 +1434,7 @@ LaTeX Font Info:    ... okay on input line 100.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 100.
 
-("C:\Users\Alex96\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
+ ("C:\Users\Alex96\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 100.
@@ -1499,6 +1505,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 100.
 LaTeX Info: Redefining \pageref on input line 100.
 LaTeX Info: Redefining \nameref on input line 100.
+ ("G1- LAB 3 FINAL.out") ("G1- LAB 3 FINAL.out")
 \@outlinefile=\write5
 \openout5 = `"G1- LAB 3 FINAL.out"'.
 
@@ -1656,7 +1663,7 @@ LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
 (Font)              scaled to size 8.57605pt on input line 100.
 LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
 (Font)              scaled to size 6.43204pt on input line 100.
-<frontespizio3.pdf, id=6, 597.55246pt x 845.07718pt>
+<frontespizio3.pdf, id=106, 597.55246pt x 845.07718pt>
 File: frontespizio3.pdf Graphic file (type pdf)
 <use frontespizio3.pdf>
 Package pdftex.def Info: frontespizio3.pdf  used on input line 102.
@@ -1665,7 +1672,7 @@ File: frontespizio3.pdf Graphic file (type pdf)
 <use frontespizio3.pdf>
 Package pdftex.def Info: frontespizio3.pdf  used on input line 102.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-<frontespizio3.pdf, id=9, page=1, 597.55246pt x 845.07718pt>
+<frontespizio3.pdf, id=109, page=1, 597.55246pt x 845.07718pt>
 File: frontespizio3.pdf Graphic file (type pdf)
 <use frontespizio3.pdf, page 1>
 Package pdftex.def Info: frontespizio3.pdf , page1 used on input line 102.
@@ -1701,11 +1708,7 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 11.52008pt on input line 118.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
 (Font)              scaled to size 11.52008pt on input line 118.
-
-
-LaTeX Warning: Reference `fig:rubber' on page 2 undefined on input line 120.
-
-<rubber.jpg, id=27, 1336.995pt x 647.41875pt>
+<rubber.jpg, id=128, 1336.995pt x 647.41875pt>
 File: rubber.jpg Graphic file (type jpg)
 <use rubber.jpg>
 Package pdftex.def Info: rubber.jpg  used on input line 123.
@@ -1718,8 +1721,7 @@ LaTeX Font Info:    Font shape `T1/cmss/b/n' in size <10> not available
 (Font)              Font shape `T1/cmss/bx/n' tried instead on input line 125.
 LaTeX Font Info:    Font shape `T1/cmss/bx/n' will be
 (Font)              scaled to size 10.39001pt on input line 125.
-LaTeX Font Info:    Font shape `T1/mdbch/m/sl' will be
-(Font)              scaled to size 10.51207pt on input line 128.
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
@@ -1728,18 +1730,12 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 
 [2{C:/Users/Alex96/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./rubber
 .jpg>]
-
-LaTeX Warning: Reference `fig:melt' on page 3 undefined on input line 129.
-
-<melt.jpg, id=41, 1336.995pt x 905.3825pt>
+<melt.jpg, id=141, 1336.995pt x 905.3825pt>
 File: melt.jpg Graphic file (type jpg)
 <use melt.jpg>
 Package pdftex.def Info: melt.jpg  used on input line 132.
 (pdftex.def)             Requested size: 267.39426pt x 181.07329pt.
-
-LaTeX Warning: Reference `fig:chem' on page 3 undefined on input line 137.
-
-<abs.png, id=42, 1766.09813pt x 1065.22969pt>
+<abs.png, id=143, 1766.09813pt x 1065.22969pt>
 File: abs.png Graphic file (type png)
 <use abs.png>
 Package pdftex.def Info: abs.png  used on input line 141.
@@ -1752,20 +1748,17 @@ LaTeX Font Info:    Font shape `T1/cmss/b/n' in size <9> not available
 (Font)              Font shape `T1/cmss/bx/n' tried instead on input line 141.
 LaTeX Font Info:    Font shape `T1/cmss/bx/n' will be
 (Font)              scaled to size 9.35101pt on input line 141.
-<PC.png, id=43, 192.72pt x 53.60025pt>
+<PC.png, id=144, 192.72pt x 53.60025pt>
 File: PC.png Graphic file (type png)
 <use PC.png>
 Package pdftex.def Info: PC.png  used on input line 143.
 (pdftex.def)             Requested size: 173.44638pt x 48.23975pt.
-<pp.png, id=44, 803.0pt x 517.935pt>
+<pp.png, id=145, 803.0pt x 517.935pt>
 File: pp.png Graphic file (type png)
 <use pp.png>
 Package pdftex.def Info: pp.png  used on input line 145.
 (pdftex.def)             Requested size: 64.2413pt x 41.43564pt.
-
-LaTeX Warning: Reference `fig:LOI' on page 3 undefined on input line 150.
-
-<LOI.jpg, id=46, 981.6675pt x 881.2925pt>
+<LOI.jpg, id=148, 981.6675pt x 881.2925pt>
 File: LOI.jpg Graphic file (type jpg)
 <use LOI.jpg>
 Package pdftex.def Info: LOI.jpg  used on input line 153.
@@ -1776,24 +1769,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--158
  []
 
 
-LaTeX Warning: Reference `tab:polymers' on page 3 undefined on input line 163.
-
-
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3
-design size mismatch in local font md-chro8t in virtual font mdbchro8t.vf ignor
-ed. <./melt.jpg> <./abs.png> <./PC.png> <./pp.png> <./LOI.jpg>]
+[3 <./melt.jpg> <./abs.png> <./PC.png> <./pp.png> <./LOI.jpg>]
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 7.68005pt on input line 170.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 5.76004pt on input line 170.
-
-
-LaTeX Warning: Reference `tab:PP' on page 4 undefined on input line 199.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1802,9 +1787,6 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [4]
-
-LaTeX Warning: Citation `VICAT' on page 5 undefined on input line 232.
-
 LaTeX Font Info:    Try loading font information for TS1+mdbch on input line 23
 6.
 
@@ -1816,53 +1798,12 @@ LaTeX Font Info:    Font shape `TS1/mdbch/m/n' will be
 (Font)              scaled to size 10.51207pt on input line 236.
 
 
-LaTeX Warning: Reference `eq:die' on page 5 undefined on input line 249.
-
-
-LaTeX Warning: Citation `MFI' on page 5 undefined on input line 254.
-
-
-LaTeX Warning: Reference `eq:mfi' on page 5 undefined on input line 255.
-
-
-LaTeX Warning: Citation `handbook' on page 5 undefined on input line 263.
-
-
-LaTeX Warning: Reference `tab:mw' on page 5 undefined on input line 263.
-
-
-LaTeX Warning: Citation `MFI' on page 5 undefined on input line 263.
-
-LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 9.60007pt on input line 280.
-
-LaTeX Warning: Citation `handbook' on page 5 undefined on input line 280.
-
-
-LaTeX Warning: Citation `handbook' on page 5 undefined on input line 280.
-
-
-LaTeX Warning: Reference `eq:arr' on page 5 undefined on input line 285.
-
-
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [5]
-
-LaTeX Warning: Reference `eq:arr' on page 6 undefined on input line 290.
-
-
-LaTeX Warning: Reference `tab:polymers' on page 6 undefined on input line 302.
-
-
-LaTeX Warning: Citation `LOI' on page 6 undefined on input line 306.
-
-
-LaTeX Warning: Reference `tab:oxygen' on page 6 undefined on input line 306.
-
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
@@ -1871,18 +1812,14 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 
 [6]
 
-LaTeX Warning: Reference `fig:vicat' on page 7 undefined on input line 331.
-
-
-
 pdfTeX warning: miktex-pdftex.exe (file ./vicat10.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<vicat10.pdf, id=94, 521.54149pt x 427.63463pt>
+<vicat10.pdf, id=206, 521.54149pt x 427.63463pt>
 File: vicat10.pdf Graphic file (type pdf)
 <use vicat10.pdf>
 Package pdftex.def Info: vicat10.pdf  used on input line 336.
 (pdftex.def)             Requested size: 187.75479pt x 153.94833pt.
-<vicat50.pdf, id=95, 525.23627pt x 419.10075pt>
+<vicat50.pdf, id=207, 525.23627pt x 419.10075pt>
 File: vicat50.pdf Graphic file (type pdf)
 <use vicat50.pdf>
 Package pdftex.def Info: vicat50.pdf  used on input line 338.
@@ -1921,9 +1858,8 @@ LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
 (Font)              scaled to size 9.60007pt on input line 340.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
 (Font)              scaled to size 6.72005pt on input line 340.
-
-LaTeX Warning: Reference `tab:vicatt' on page 7 undefined on input line 344.
-
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 9.60007pt on input line 359.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
 (Font)              scaled to size 6.72005pt on input line 359.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
@@ -1935,31 +1871,16 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [7 <./vicat10.pdf> <./vicat50.pdf>]
-
-LaTeX Warning: Reference `fig:dieswell' on page 8 undefined on input line 369.
-
-<dieswell.jpg, id=111, 551.1792pt x 411.4572pt>
+<dieswell.jpg, id=223, 551.1792pt x 411.4572pt>
 File: dieswell.jpg Graphic file (type jpg)
 <use dieswell.jpg>
 Package pdftex.def Info: dieswell.jpg  used on input line 373.
-(pdftex.def)             Requested size: 159.83788pt x 119.31952pt.
-<dieswell2.jpg, id=112, 531.9072pt x 403.7484pt>
+(pdftex.def)             Requested size: 217.7176pt x 162.52695pt.
+<dieswell2.jpg, id=224, 531.9072pt x 403.7484pt>
 File: dieswell2.jpg Graphic file (type jpg)
 <use dieswell2.jpg>
 Package pdftex.def Info: dieswell2.jpg  used on input line 375.
-(pdftex.def)             Requested size: 154.24913pt x 117.08403pt.
-
-LaTeX Warning: Reference `fig:dieswell' on page 8 undefined on input line 380.
-
-
-LaTeX Warning: Reference `fig:dieswell' on page 8 undefined on input line 380.
-
-
-LaTeX Warning: Reference `tab:dieswell1' on page 8 undefined on input line 381.
-
-
-
-LaTeX Warning: Citation `swell' on page 8 undefined on input line 399.
+(pdftex.def)             Requested size: 212.7591pt x 161.49649pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1968,21 +1889,16 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [8 <./dieswell.jpg> <./dieswell2.jpg>]
-
-LaTeX Warning: Reference `fig:mfi' on page 9 undefined on input line 401.
-
-<mfimod.jpg, id=123, 697.4055pt x 578.16pt>
+<mfimod.jpg, id=240, 697.4055pt x 578.16pt>
 File: mfimod.jpg Graphic file (type jpg)
 <use mfimod.jpg>
 Package pdftex.def Info: mfimod.jpg  used on input line 405.
 (pdftex.def)             Requested size: 209.22325pt x 173.44933pt.
-<mfi2.pdf, id=124, 519.02808pt x 402.85005pt>
+<mfi2.pdf, id=241, 519.02808pt x 402.85005pt>
 File: mfi2.pdf Graphic file (type pdf)
 <use mfi2.pdf>
 Package pdftex.def Info: mfi2.pdf  used on input line 407.
 (pdftex.def)             Requested size: 207.60754pt x 161.13716pt.
-
-LaTeX Warning: Reference `fig:mfi' on page 9 undefined on input line 412.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1991,28 +1907,13 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [9 <./mfimod.jpg> <./mfi2.pdf>]
-
-LaTeX Warning: Reference `fig:mw' on page 10 undefined on input line 418.
-
-<mw.pdf, id=147, 520.38617pt x 423.45201pt>
+<mw.pdf, id=266, 520.38617pt x 423.45201pt>
 File: mw.pdf Graphic file (type pdf)
 <use mw.pdf>
 Package pdftex.def Info: mw.pdf  used on input line 421.
 (pdftex.def)             Requested size: 208.15077pt x 169.37779pt.
-
-LaTeX Warning: Reference `fig:mw' on page 10 undefined on input line 426.
-
-
-LaTeX Warning: Reference `eq:mw' on page 10 undefined on input line 426.
-
-
-LaTeX Warning: Reference `tab:mw' on page 10 undefined on input line 431.
-
 LaTeX Font Info:    Font shape `TS1/mdbch/m/n' will be
 (Font)              scaled to size 9.60007pt on input line 444.
-
-LaTeX Warning: Reference `tab:dieswell' on page 10 undefined on input line 447.
-
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -2021,32 +1922,16 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [10 <./mw.pdf>]
-
-LaTeX Warning: Reference `fig:arrhenius' on page 11 undefined on input line 468
-.
-
-<arrhenius.pdf, id=159, 525.62173pt x 415.53944pt>
+<arrhenius.pdf, id=281, 525.62173pt x 415.53944pt>
 File: arrhenius.pdf Graphic file (type pdf)
 <use arrhenius.pdf>
 Package pdftex.def Info: arrhenius.pdf  used on input line 471.
 (pdftex.def)             Requested size: 210.24496pt x 166.21283pt.
-
-LaTeX Warning: Reference `fig:arrhenius' on page 11 undefined on input line 476
-.
-
-
-LaTeX Warning: Reference `tab:energy' on page 11 undefined on input line 476.
-
-
-LaTeX Warning: Reference `fig:duro' on page 11 undefined on input line 498.
-
-<duro.jpg, id=160, 845.559pt x 597.432pt>
+<duro.jpg, id=285, 845.559pt x 597.432pt>
 File: duro.jpg Graphic file (type jpg)
 <use duro.jpg>
 Package pdftex.def Info: duro.jpg  used on input line 502.
 (pdftex.def)             Requested size: 253.66966pt x 179.23097pt.
-
-LaTeX Warning: Reference `fig:duro' on page 11 undefined on input line 508.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -2055,10 +1940,6 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [11 <./arrhenius.pdf> <./duro.jpg>]
-
-LaTeX Warning: Reference `tab:loi' on page 12 undefined on input line 512.
-
-
 Overfull \hbox (3.29012pt too wide) in paragraph at lines 531--532
 []\T1/mdbch/m/n/10.95 PC sam-ple re-acts with a higher amount of flushed oxy-ge
 n, mean-ing that this poly-mer is less flammable
@@ -2116,50 +1997,39 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 754.
  ("G1- LAB 3 FINAL.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 754.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 754.
+Package rerunfilecheck Info: File `"G1- LAB 3 FINAL".out' has not changed.
+(rerunfilecheck)             Checksum: 02FF52158513C4AA2B1D35E0832CAC2E;1841.
 
 
-Package rerunfilecheck Warning: File `"G1- LAB 3 FINAL".out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"G1- LAB 3 FINAL".out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  02FF52158513C4AA2B1D35E0832CAC2E;1841.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 754.
  ) 
 Here is how much of TeX's memory you used:
- 34704 strings out of 492946
- 672584 string characters out of 3125822
- 816292 words of memory out of 3000000
- 37911 multiletter control sequences out of 15000+200000
- 620346 words of font info for 162 fonts, out of 3000000 for 9000
+ 34730 strings out of 492946
+ 673191 string characters out of 3125822
+ 818664 words of memory out of 3000000
+ 37936 multiletter control sequences out of 15000+200000
+ 617077 words of font info for 157 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,19n,96p,783b,906s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Alex96\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi623
-\ecsx0900.pk>{C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips
-/ly1/texnansi.enc} <C:\Users\Alex96\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jk
-nappen/ec/dpi623\ecsx1000.pk><C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9
+\ecsx0900.pk> <C:\Users\Alex96\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappe
+n/ec/dpi623\ecsx1000.pk>{C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/font
+s/enc/dvips/ly1/texnansi.enc}<C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9
 /fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/Alex96/AppData/Local/Program
 s/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchbi8a.pfb><C:/Users/Alex96/AppData/
 Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/Ale
-x96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><
-C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea/charter/
-bchri8a.pfb><C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/math
-design/mdbch/md-chr7t.pfb><C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/mathdesign/mdbch/md-chr7v.pfb><C:/Users/Alex96/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr7y.pfb><C:/Users/Alex96/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr8t.pfb><C:/Users/A
-lex96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chri7m.
-pfb>
-Output written on "G1- LAB 3 FINAL.pdf" (18 pages, 1847662 bytes).
+x96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchri8a.pfb>
+<C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch
+/md-chr7t.pfb><C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/ma
+thdesign/mdbch/md-chr7v.pfb><C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/mathdesign/mdbch/md-chr7y.pfb><C:/Users/Alex96/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr8t.pfb><C:/Users/Alex96/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chri7m.pfb>
+Output written on "G1- LAB 3 FINAL.pdf" (18 pages, 1846979 bytes).
 PDF statistics:
- 324 PDF objects out of 1000 (max. 8388607)
+ 436 PDF objects out of 1000 (max. 8388607)
  89 named destinations out of 1000 (max. 500000)
- 108 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 308 words of extra memory for PDF output out of 10000 (max. 10000000)
 
