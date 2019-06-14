@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.24)  13 JUN 2019 19:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.24)  14 JUN 2019 12:28
 entering extended mode
 **"./G1- LAB 4 FINAL.tex"
 ("G1- LAB 4 FINAL.tex"
@@ -1931,14 +1931,12 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 
 [10 <./ABS.jpg> <./COC.jpg> <./PP.jpg> <./HDPE.jpg> <./PE-PP.jpg> <./PA11ASTM.j
 pg>]
-
-LaTeX Warning: Reference `fig:wd' on page 11 undefined on input line 479.
-
-<Graph1.jpg, id=245, 799.3062pt x 579.6054pt>
+<Graph1.jpg, id=246, 799.3062pt x 579.6054pt>
 File: Graph1.jpg Graphic file (type jpg)
 <use Graph1.jpg>
 Package pdftex.def Info: Graph1.jpg  used on input line 503.
 (pdftex.def)             Requested size: 239.7937pt x 173.88295pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
@@ -1946,7 +1944,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [11 <./Graph1.jpg>]
-<hyperbole.png, id=264, 2055.68pt x 1228.59pt>
+<hyperbole.png, id=265, 2055.68pt x 1228.59pt>
 File: hyperbole.png Graphic file (type png)
 <use hyperbole.png>
 Package pdftex.def Info: hyperbole.png  used on input line 560.
@@ -1996,20 +1994,13 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 646.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 646.
 Package rerunfilecheck Info: File `"G1- LAB 4 FINAL".out' has not changed.
 (rerunfilecheck)             Checksum: 6AACE49E86068195D455D3C8363335A0;1329.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 646.
  ) 
 Here is how much of TeX's memory you used:
- 34657 strings out of 492946
- 672693 string characters out of 3125822
- 805884 words of memory out of 3000000
- 37877 multiletter control sequences out of 15000+200000
+ 34656 strings out of 492946
+ 672681 string characters out of 3125822
+ 805853 words of memory out of 3000000
+ 37876 multiletter control sequences out of 15000+200000
  600629 words of font info for 122 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,18n,96p,949b,905s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2031,9 +2022,9 @@ lex96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr8c.p
 fb><C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/md
 bch/md-chr8t.pfb><C:/Users/Alex96/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /mathdesign/mdbch/md-chri7m.pfb>
-Output written on "G1- LAB 4 FINAL.pdf" (15 pages, 4473183 bytes).
+Output written on "G1- LAB 4 FINAL.pdf" (15 pages, 4473210 bytes).
 PDF statistics:
- 383 PDF objects out of 1000 (max. 8388607)
+ 384 PDF objects out of 1000 (max. 8388607)
  83 named destinations out of 1000 (max. 500000)
  295 words of extra memory for PDF output out of 10000 (max. 10000000)
 
