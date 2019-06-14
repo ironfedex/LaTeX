@@ -54,7 +54,7 @@ width0pt\right\delimright_{\rlap{$\scriptstyle#3$}}$};}}
 \usepackage{multirow}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-\fancyhead[LE,RO]{\textsl{\rightmark}}
+\fancyhead[LE,RO]{\nouppercase{\rightmark}}
 \fancyhead[LO,RE]{\nouppercase{\leftmark}}
 \fancyfoot[C]{\thepage}
 \usepackage[margin=1in,headsep=.3in]{geometry}
@@ -203,6 +203,8 @@ In Table \ref{tab:materials} the types of samples are divided by standard (ASTM 
 	\caption{Materials used in sample evaluation}
 	\label{tab:materials}
 \end{table}
+
+\newpage
 
 Size of all specimens and the mold cavity have been measured through a caliper in order to evaluate the shrinkage after the process according to Equation \ref{eq:shr}.
 \begin{equation}
@@ -500,7 +502,7 @@ $
 
 \begin{figure}[htp]
 	\centering
-	\includegraphics[scale=0.3]{Graph1}
+	\includegraphics[scale=0.35]{Graph1}
 	\caption{Weight and density of ASTM samples.}
 	\label{fig:wd}
 \end{figure}
@@ -570,6 +572,13 @@ Several observations were made by examining the samples produced, in order to co
 It has been seen that a sample will be more homogeneous if subjected to compounding before compression molding; from the evaluation of samples produced by injection molding, the presence or not of shrinkage will be an index of the dimensional stability of the polymer or if it is a crystalline rather than an amorphous one; finally, by measuring the diameter of a fiber it is possible to predict some mechanical properties of the fiber itself.
 \newpage
 
+\begin{thebibliography}{1}
+
+\bibitem{handbook} Polymer handbook, J. Brandrup, E.H. Immergut, third edition, New York, Wiley \& Sons 2003.
+\end{thebibliography}
+
+\newpage
+
 \begin{appendices}
 \section{Data sheet of PP HiRONIen V15 BLACK}
 
@@ -637,10 +646,6 @@ $
 
 \end{appendices}
 
-\newpage
-\begin{thebibliography}{1}
 
-\bibitem{handbook} Polymer handbook, J. Brandrup, E.H. Immergut, third edition, New York, Wiley \& Sons 2003.
-\end{thebibliography}
 
 \end{document}

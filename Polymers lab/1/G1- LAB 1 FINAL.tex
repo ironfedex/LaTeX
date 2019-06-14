@@ -51,7 +51,7 @@ width0pt\right\delimright_{\rlap{$\scriptstyle#3$}}$};}}
 \usepackage{multirow}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-\fancyhead[LE,RO]{\textsl{\rightmark}}
+\fancyhead[LE,RO]{\nouppercase{\rightmark}}
 \fancyhead[LO,RE]{\nouppercase{\leftmark}}
 \fancyfoot[C]{\thepage}
 \usepackage[margin=1in,headsep=.3in]{geometry}
@@ -147,6 +147,8 @@ Hydroxyethyl methacrylate (HEMA, MW = 130 g/mol): monomer able to absorb water d
 
 In the experiment polymerization mechanism is radical addition. The activator for this reaction is N-N dimethyl-p-toluidine. The splitting of benzoyl peroxide, initiator of the reaction, provides two radicals and this leads to a subsequent addition of the monomers of methyl methacrylate. There are two different types of termination of the polymerization: combination and disproportional termination. In the first case two growing chains bind together, ending the polymerization, while in the second, through a reorganization of electrons, single polymeric chains end without any joint, producing multiple chains and less molecular weight.
 
+\newpage
+
 \section{Materials and methods}
 
 \subsection{Materials}
@@ -176,8 +178,6 @@ $
 \end{table}\\
 Additional methyl methacrylate monomer has been provided by University of Trento, together with hydroxyethyl methacrylate monomer. 
 
-\newpage
-
 \subsection{Sample preparation}
 
 Parts contained in the medical kit has been weighted with instrument Mettler PM460 (sens. $\pm 0.001\,\text{g}$). Both full and empty containers of the powder and the liquid has been weighted, in order to have a feedback of possible losses of material. Disposable bowls and rods in polyethylene (PE), provided along with the kit, have been weighted as well, and used for the preparation of samples. Reagents have been poured in the bowl, first putting the powder and then the liquid, and stirred vigorously with the rod, till the viscosity of the system was enough to allow for manipulation and formation of samples: a spherical one and a defined number of sticks, that have been pressed in a polytetrafluoroethylene (PTFE) mold. Prior to the beginning of the polymerization, the spheroid has been weighted for subsequent heat of polymerization measurments. A thermometer has been inserted inside the spheroid interposing an aluminum foil, to prevent the direct contact with the reacting polymer and avoiding sticking effects. The system including the thermometer has been put quickly in a chamber full of expanded polystyrene (EPS) and an aluminum foil has been wrapped around of it, to minimize heat losses and to get a more precise measurement of temperature variation. Measurements of temperature has been taken as polymerization process occured, until the achievement of maximum temperature. Moreover, a few further temperature measurements have been taken after the pick to highlight the shape of the temperature-time curve. Four sticks, once polymerized, have been cured at $90^\circ$C for 10 minutes and subsequently weighted in order to report for mass losses due to polymerization and evaporation of liquid monomer. All stick and spheroid samples have been soaked in water to study the water absorption of the material. 
@@ -201,7 +201,9 @@ S3 & spheroid, third polymerization, without heat treatment\\
 $
 \caption{Sample coding.}
 \label{tab:code}
-\end{table}\\
+\end{table}
+
+\newpage
 
 In Table \ref{tab:compos} the compositions of spheroids used for the calculations are reported. For each value, the percentage respect to spheroid mass is reported.
 \begin{table}[htp]
@@ -235,6 +237,8 @@ The number of obtainable sticks has been calculated considering shape, dimension
 of molds, density ($1.5\,\text{g/cm}^3$) and weigth of the whole kit.
 The ratio between the total volume of mixture and the volume of a mold gives the theoretical number of possible sticks that is equal to 8 with width of $10.15\,\text{mm}$, lenght $130.04\,\text{mm}$ and thickness $3.30\,\text{mm}$.
 However part of mixture has been used for the preparation of spheroid and thus the number of sticks produced is less.
+
+\newpage
 
 \section{Experimental activity}
 
@@ -488,10 +492,22 @@ $
 The mass loss is related to the loss of unreacted monomer still present in the bone cement after three months. Of course a certain percent of it is present due to the always lower kinetics of polymerization in time, resulting in a certain degree of unreacted monomer even after very long times. The water soaking had the effect of taking place of the monomer inside the sample and diluting it in the solvent. During the drying process, water has evaporated, resulting in a net mass loss of the samples, compared to the initial one just after polymerization. 
 The mass loss in heat treated sample not containing HEMA (P1HT) is significantly less than the others, a sign that the heat treatment have accelerated the polymerization reaction and the residual unreacted monomer is less. Instead, the heat treated sample containing HEMA is not very representative due to the too high standard deviation. Presence of HEMA in P2 sample is less than the P1 not containing HEMA. 
 
+\newpage
+
 \section{Conclusions}
 
 This laboratory activity has permitted to study the radical polymerization process, in order to achieve a better understanding of the theoretical concepts at the base of it.
 In the second polymerization the heat released during the reaction is higher than the two other cases due to the presence of a larger amount of monomer MMA. It has also been noticed that the presence of HEMA doesn't influence the heat production. Moreover, the value of heat calculated in the first polymerization is comparable with the theoretical one. The third polymerization highlights that, due to the high surface/volume ratio, the heat dissipation is more significant. About molecular weight, as expected, in the first and third case the resulting values are almost equal, while in the second one are higher and this can be explained by the additional quantity of MMA to the base kit in the second polymerization process. The addition of HEMA at the beginning has led to an higher water absorption due to its hydrophilicity. From the heat treatment analysis it has been noticed a very slightly decrease of water absorption. This is due to the partial evaporation of non-polymerized monomer and to the higher degree of polymerization induced by the higher temperature.
+
+\newpage
+
+\thispagestyle{empty}
+
+\begin{thebibliography}{11}
+
+\bibitem{link0} Sudipta Roy, Indian Institute of Technology-Bombay, Mumbai-400076, India. Calculation of heat of polymerisation: group-contribution method. Polymer Bulletin 42, 229–236 (1999).
+
+\end{thebibliography}
 
 \newpage
 
@@ -579,15 +595,5 @@ $
 \label{tab:water}
 \end{table}
 \end{appendices}
-
-\newpage
-
-\thispagestyle{empty}
-
-\begin{thebibliography}{11}
-
-\bibitem{link0} Sudipta Roy, Indian Institute of Technology-Bombay, Mumbai-400076, India. Calculation of heat of polymerisation: group-contribution method. Polymer Bulletin 42, 229–236 (1999).
-
-\end{thebibliography}
 
 \end{document}
